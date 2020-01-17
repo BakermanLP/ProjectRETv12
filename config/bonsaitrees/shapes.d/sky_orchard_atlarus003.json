@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:atlarus",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_atlarus",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_atlarus",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaa ",
+      "     "
+    ]
+  ]
+}

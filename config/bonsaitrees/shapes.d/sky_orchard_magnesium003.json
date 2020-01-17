@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:magnesium",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_magnesium",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_magnesium",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaa ",
+      "     "
+    ]
+  ]
+}

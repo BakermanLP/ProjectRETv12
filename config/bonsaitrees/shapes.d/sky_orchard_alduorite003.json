@@ -1,0 +1,51 @@
+{
+  "type": "sky_orchard:alduorite",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sky_orchards:leaves_alduorite",
+      "meta": 8
+    },
+    "b": {
+      "name": "sky_orchards:log_alduorite",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      " aaa ",
+      "     "
+    ]
+  ]
+}
