@@ -1,3 +1,5 @@
+![Image of PackLogo](https://github.com/BakermanLP/ProjectRETv12/raw/master/resources/projectretv12/projectretv12-logo.png)
+
 # ProjectRETv12 Modpack for Minecraft 1.12.2
 ## Informations
 Here you'll find everything necessary for the ProjectRETv12 Modpack for Minecraft 1.12.2
