@@ -4,7 +4,7 @@ VERSION=0.2.0
 
 mv mods/OptiFine* oldmods/
 ~/bin/twitch-export-builder_linux_amd64 -c .build.json -d . -o ~/Downloads -p $VERSION -n ProjectRETv12
-zip -r ~/Downloads/ProjectRETv12-Server-$VERSION \
+zip -r ~/Downloads/ProjectRETv12-Server-$VERSION.zip \
     config \
     forge-*installer.jar \
     Install.* \
@@ -14,6 +14,6 @@ zip -r ~/Downloads/ProjectRETv12-Server-$VERSION \
     server-icon.png \
     server.properties \
     ServerStart.* \
-    settings.* \
+    settings.*
 
 mv oldmods/OptiFine* mods/
