@@ -1,0 +1,130 @@
+[
+  {
+    "comment": [
+      "Coal is disabled by default because, frankly, it's kinda abundant anyway."
+    ],
+    "enabled": false,
+    "state": {
+      "name": "minecraft:coal_ore"
+    },
+    "weight": 0,
+    "widthMin": 5,
+    "widthMax": 7,
+    "countMin": 12,
+    "countMax": 20,
+    "yieldMin": 340,
+    "yieldMax": 425
+  },
+  {
+    "state": {
+      "name": "minecraft:iron_ore"
+    },
+    "weight": 250,
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 90,
+    "yieldMax": 110
+  },
+  {
+    "state": {
+      "name": "minecraft:gold_ore"
+    },
+    "weight": 100,
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 12,
+    "yieldMin": 9,
+    "yieldMax": 11
+  },
+  {
+    "state": {
+      "name": "minecraft:diamond_ore"
+    },
+    "weight": 50,
+    "widthMin": 2,
+    "widthMax": 4,
+    "countMin": 4,
+    "countMax": 8,
+    "yieldMin": 4,
+    "yieldMax": 5
+  },
+  {
+    "state": {
+      "name": "minecraft:redstone_ore"
+    },
+    "weight": 250,
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 10,
+    "yieldMin": 16,
+    "yieldMax": 40
+  },
+  {
+    "state": {
+      "name": "minecraft:lapis_ore"
+    },
+    "weight": 50,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 4,
+    "countMax": 6,
+    "yieldMin": 3,
+    "yieldMax": 4
+  },
+  {
+    "comment": [
+      "Usually emeralds only generate in hills biomes, and there any number",
+      "between 3 and 8 can pop up. Since we can anywhere, we lean towards the",
+      "lower end for our default."
+    ],
+    "state": {
+      "name": "minecraft:emerald_ore"
+    },
+    "biome": [
+      "extreme_hills",
+      "smaller_extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ],
+    "weight": 100,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 2,
+    "countMax": 4,
+    "yieldMin": 2,
+    "yieldMax": 3
+  },
+  {
+    "comment": [ "disabled" ],
+    "enabled": false,
+    "state": {
+      "name": "minecraft:quartz_ore"
+    },
+    "dimension": "nether",
+    "widthMin": 2,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 10,
+    "yieldMin": 224,
+    "yieldMax": 280
+  },
+  {
+    "comment": [ "disabled" ],
+    "enabled": false,
+    "state": {
+      "name": "minecraft:glowstone"
+    },
+    "dimension": "nether",
+    "widthMin": 5,
+    "widthMax": 8,
+    "countMin": 10,
+    "countMax": 14,
+    "yieldMin": 210,
+    "yieldMax": 262
+  }
+]

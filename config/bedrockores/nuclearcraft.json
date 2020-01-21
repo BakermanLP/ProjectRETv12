@@ -1,0 +1,58 @@
+[
+  {
+    "state": {
+      "name": "nuclearcraft:ore",
+      "properties": {
+        "type": "thorium"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 4,
+    "countMax": 7,
+    "yieldMin": 40,
+    "yieldMax": 55
+  },
+  {
+    "state": {
+      "name": "nuclearcraft:ore",
+      "properties": {
+        "type": "uranium"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 4,
+    "countMax": 7,
+    "yieldMin": 40,
+    "yieldMax": 55
+  },
+  {
+    "state": {
+      "name": "nuclearcraft:ore",
+      "properties": {
+        "type": "boron"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 4,
+    "countMax": 7,
+    "yieldMin": 40,
+    "yieldMax": 55
+  },
+  {
+    "state": {
+      "name": "nuclearcraft:ore",
+      "properties": {
+        "type": "lithium"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 4,
+    "countMax": 7,
+    "yieldMin": 40,
+    "yieldMax": 55
+  }
+]

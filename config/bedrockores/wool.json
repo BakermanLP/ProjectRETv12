@@ -1,0 +1,17 @@
+[
+  {
+    "comment": [ "Funny things" ],
+    "state": {
+      "name": "minecraft:wool:*"
+    },
+    "weight": 1,
+    "widthMin": 1,
+    "widthMax": 2,
+    "heightMin": 1,
+    "heightMax": 2,
+    "countMin": 1,
+    "countMax": 2,
+    "yieldMin": 1,
+    "yieldMax": 2
+  }
+]
