@@ -166,7 +166,7 @@
             "posY" : -50,
             "color" : -256,
             "alignment" : "center",
-            "texts" : "Karpador used SPLASH!"
+            "texts" : "file:projectretv12:texts/splash.txt"
         },
 
         "panorama":
