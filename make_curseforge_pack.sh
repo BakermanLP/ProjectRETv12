@@ -1,6 +1,5 @@
+#!/bin/bash
 VERSION=0.2.0
-
-
 
 mv mods/OptiFine* oldmods/
 ~/bin/twitch-export-builder_linux_amd64 -c .build.json -d . -o ~/Downloads -p $VERSION -n ProjectRETv12
