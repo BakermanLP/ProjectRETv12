@@ -5,6 +5,15 @@
 	"isSubBiome": false,
 	"isEnabled": true,
 	"blocks": {
+		"caveFloorBlock": {
+			"block": "netherex:lively_netherrack"
+		},
+		"fluidBlock": {
+			"block": "minecraft:lava"
+		},
+		"caveWallBlock": {
+			"block": "netherex:lively_netherrack"
+		},
 		"surfaceBlock": {
 			"block": "netherex:hyphae"
 		},
@@ -13,149 +22,140 @@
 		},
 		"caveCeilingBlock": {
 			"block": "netherex:lively_netherrack"
-		},
-		"caveWallBlock": {
-			"block": "netherex:lively_netherrack"
-		},
-		"caveFloorBlock": {
-			"block": "netherex:lively_netherrack"
-		},
-		"fluidBlock": {
-			"block": "minecraft:lava"
 		}
 	},
 	"entities": [
 		{
-			"entity": "netherex:mogus",
 			"spawnWeight": 100,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 6
+			"maximumGroupCount": 6,
+			"entity": "netherex:mogus"
 		}, 
 		{
-			"entity": "netherex:spore",
 			"spawnWeight": 25,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "netherex:spore"
 		}, 
 		{
-			"entity": "netherex:spore_creeper",
 			"spawnWeight": 50,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "netherex:spore_creeper"
 		}
 	],
 	"traits": [
 		{
-			"trait": "libraryex:cluster",
 			"generationAttempts": 10,
-			"randomizeGenerationAttempts": true,
+			"generationStage": "decoration",
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 4,
-			"maximumGenerationHeight": 124,
-			"direction": "down",
-			"blockToAttachTo": {
-				"block": "minecraft:netherrack"
-			},
 			"blockToSpawn": {
 				"block": "minecraft:glowstone"
 			},
-			"generationStage": "decoration"
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 124,
+			"blockToAttachTo": {
+				"block": "minecraft:netherrack"
+			},
+			"direction": "down"
 		}, 
 		{
-			"trait": "libraryex:cluster",
 			"generationAttempts": 10,
-			"randomizeGenerationAttempts": false,
+			"generationStage": "decoration",
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 1,
-			"maximumGenerationHeight": 128,
-			"direction": "down",
-			"blockToAttachTo": {
-				"block": "minecraft:netherrack"
-			},
 			"blockToSpawn": {
 				"block": "minecraft:glowstone"
 			},
-			"generationStage": "decoration"
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 128,
+			"blockToAttachTo": {
+				"block": "minecraft:netherrack"
+			},
+			"direction": "down"
 		}, 
 		{
-			"trait": "libraryex:big_mushroom",
 			"generationAttempts": 256,
-			"randomizeGenerationAttempts": false,
+			"generationStage": "decoration",
+			"shape": "flat",
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 32,
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:big_mushroom",
 			"maximumGenerationHeight": 108,
-			"shape": "flat",
 			"blockToPlaceOn": {
 				"block": "netherex:hyphae"
-			},
-			"mushroomStem": {
-				"block": "netherex:elder_mushroom_stem"
 			},
 			"mushroomCap": {
 				"block": "netherex:brown_elder_mushroom_cap"
 			},
-			"generationStage": "decoration"
-		}, 
-		{
-			"trait": "libraryex:big_mushroom",
-			"generationAttempts": 256,
-			"randomizeGenerationAttempts": false,
-			"generationProbability": 1.0,
-			"minimumGenerationHeight": 32,
-			"maximumGenerationHeight": 108,
-			"shape": "bulb",
-			"blockToPlaceOn": {
-				"block": "netherex:hyphae"
-			},
 			"mushroomStem": {
 				"block": "netherex:elder_mushroom_stem"
+			}
+		}, 
+		{
+			"generationAttempts": 256,
+			"generationStage": "decoration",
+			"shape": "bulb",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 32,
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:big_mushroom",
+			"maximumGenerationHeight": 108,
+			"blockToPlaceOn": {
+				"block": "netherex:hyphae"
 			},
 			"mushroomCap": {
 				"block": "netherex:red_elder_mushroom_cap"
 			},
-			"generationStage": "decoration"
+			"mushroomStem": {
+				"block": "netherex:elder_mushroom_stem"
+			}
 		}, 
 		{
-			"trait": "netherex:enoki",
 			"generationAttempts": 32,
-			"randomizeGenerationAttempts": false,
+			"generationStage": "decoration",
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 48,
-			"maximumGenerationHeight": 118,
-			"generationStage": "decoration"
+			"randomizeGenerationAttempts": false,
+			"trait": "netherex:enoki",
+			"maximumGenerationHeight": 118
 		}, 
 		{
-			"trait": "libraryex:ore",
 			"generationAttempts": 16,
-			"randomizeGenerationAttempts": false,
+			"generationStage": "ore",
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 10,
-			"maximumGenerationHeight": 108,
 			"veinSize": 14,
-			"blockToReplace": {
-				"block": "minecraft:netherrack"
-			},
 			"blockToSpawn": {
 				"block": "netherex:quartz_ore"
 			},
-			"generationStage": "ore"
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "minecraft:netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
 		}, 
 		{
-			"trait": "libraryex:structure",
 			"generationAttempts": 1,
-			"randomizeGenerationAttempts": false,
+			"generationStage": "structure",
 			"generationProbability": 0.0125,
+			"structureType": "air",
 			"minimumGenerationHeight": 32,
-			"maximumGenerationHeight": 118,
+			"clearancePercentage": 1.0,
+			"randomizeGenerationAttempts": false,
 			"structures": [
 				"netherex:ghast_queen_shrine"
 			],
-			"structureType": "air",
+			"trait": "libraryex:structure",
+			"maximumGenerationHeight": 118,
 			"ignoredBlock": {
 				"block": "minecraft:structure_void"
-			},
-			"clearancePercentage": 1.0,
-			"generationStage": "structure"
+			}
 		}
 	],
 	"subBiomes": []
