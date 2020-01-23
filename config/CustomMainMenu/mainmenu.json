@@ -169,13 +169,20 @@
             "texts" : "file:projectretv12:texts/splash.txt"
         },
 
-        "panorama":
+        "background":
         {
-            "images" : "projectretv12:panorama/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                    "projectretv12:panorama/panorama_0.png",
+                    "projectretv12:panorama/panorama_1.png",
+                    "projectretv12:panorama/panorama_2.png",
+                    "projectretv12:panorama/panorama_3.png"
+                ],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
         }
     }
 
