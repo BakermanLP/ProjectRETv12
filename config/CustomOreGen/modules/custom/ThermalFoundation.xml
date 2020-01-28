@@ -1,0 +1,429 @@
+<!-- =================================================================
+     Custom Ore Generation "Thermal Foundation" Module: This
+     configuration covers copper, tin, mountain tin, silver, mountain
+     silver, lead, mountain lead, ferrous, mountain ferrous, shiny,
+     and mountain shiny.
+     ================================================================= -->
+
+
+<!-- Thermal Foundation is the basis upon which "Thermal Expansion"
+     depends.  Included in this foundation are the six ores that are
+     heavily used by all associated mods. Configuration by Reteo. -->
+
+
+
+
+<!-- Is the "Thermal Foundation" mod on the system?  Let's find out! -->
+<IfModInstalled name="thermalfoundation">
+
+  <!-- Starting Configuration for Custom Ore Generation. -->
+  <ConfigSection>
+
+      <!-- Overworld Setup Beginning -->
+
+        <!-- Adding blocks -->
+
+        <!-- Begin Copper Generation -->
+
+        <!-- Starting LayeredVeins Preset for Copper. -->
+        <ConfigSection>
+            <Veins name='thfoCopperVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60FF8E2B' drawBoundBox='false' boundBoxColor='0x60FF8E2B'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.583 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.080 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 68 ' range=':= 28 ' type='uniform' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.258 * _default_ ' range=':= 1.258 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.122 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Copper is complete. -->
+
+        <!-- End Copper Generation -->
+
+
+        <!-- Begin Tin Generation -->
+
+        <!-- Starting LayeredVeins Preset for Tin. -->
+        <ConfigSection>
+            <Veins name='thfoTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.416 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.060 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 38 ' range=':= 17 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.091 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Tin is complete. -->
+
+        <!-- End Tin Generation -->
+
+
+        <!-- Begin Mountain Tin Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain Tin. -->
+        <ConfigSection>
+            <Veins name='thfoMountainTinVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60E8E8E8' drawBoundBox='false' boundBoxColor='0x60E8E8E8'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.416 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.060 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 178 ' range=':= 51 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.091 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Tin is complete. -->
+
+        <!-- End Mountain Tin Generation -->
+
+
+        <!-- Begin Silver Generation -->
+
+        <!-- Starting LayeredVeins Preset for Silver. -->
+        <ConfigSection>
+            <Veins name='thfoSilverVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60E3F2F7' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.226 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.035 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 17.5 ' range=':= 12.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.107 * _default_ ' range=':= 1.107 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.052 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Silver is complete. -->
+
+        <!-- End Silver Generation -->
+
+
+        <!-- Begin Mountain Silver Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain Silver. -->
+        <ConfigSection>
+            <Veins name='thfoMountainSilverVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60E3F2F7' drawBoundBox='false' boundBoxColor='0x60E3F2F7'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.226 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.035 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 116.5 ' range=':= 37.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.107 * _default_ ' range=':= 1.107 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.052 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Silver is  complete. -->
+
+        <!-- End Mountain Silver Generation -->
+
+
+        <!-- Begin Lead Generation -->
+
+        <!-- Starting LayeredVeins Preset for Lead. -->
+        <ConfigSection>
+            <Veins name='thfoLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60818EBE' drawBoundBox='false' boundBoxColor='0x60818EBE'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:3' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.416 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.060 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 23 ' range=':= 12 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.091 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Lead is complete. -->
+
+        <!-- End Lead Generation -->
+
+
+        <!-- Begin Mountain Lead Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain Lead. -->
+        <ConfigSection>
+            <Veins name='thfoMountainLeadVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60818EBE' drawBoundBox='false' boundBoxColor='0x60818EBE'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:3' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.416 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.060 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 133 ' range=':= 36 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.190 * _default_ ' range=':= 1.190 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.091 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Lead is  complete. -->
+
+        <!-- End Mountain Lead Generation -->
+
+
+        <!-- Begin Ferrous Generation -->
+
+        <!-- Starting LayeredVeins Preset for Ferrous. -->
+        <ConfigSection>
+            <Veins name='thfoFerrousVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60BCBDAB' drawBoundBox='false' boundBoxColor='0x60BCBDAB'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:4' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.613 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.922 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 12.5 ' range=':= 7.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.885 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Ferrous is complete. -->
+
+        <!-- End Ferrous Generation -->
+
+
+        <!-- Begin Mountain Ferrous Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain  Ferrous. -->
+        <ConfigSection>
+            <Veins name='thfoMountainFerrousVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60BCBDAB' drawBoundBox='false' boundBoxColor='0x60BCBDAB'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:4' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.613 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.922 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 101.5 ' range=':= 22.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.885 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Ferrous is  complete. -->
+
+        <!-- End Mountain Ferrous Generation -->
+
+
+        <!-- Begin Shiny Generation -->
+
+        <!-- Starting LayeredVeins Preset for Shiny. -->
+        <ConfigSection>
+            <Veins name='thfoShinyVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x606FE5F3' drawBoundBox='false' boundBoxColor='0x606FE5F3'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:5' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.306 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.821 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 17.5 ' range=':= 12.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.554 * _default_ ' range=':= 0.554 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.744 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Shiny is complete. -->
+
+        <!-- End Shiny Generation -->
+
+
+        <!-- Begin Mountain Shiny Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain Shiny. -->
+        <ConfigSection>
+            <Veins name='thfoMountainShinyVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x606FE5F3' drawBoundBox='false' boundBoxColor='0x606FE5F3'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='thermalfoundation:ore:5' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.306 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.821 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 116.5 ' range=':= 37.5 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.554 * _default_ ' range=':= 0.554 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.744 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Shiny is  complete. -->
+
+        <!-- End Mountain Shiny Generation -->
+
+        <!-- Finished adding blocks -->
+
+  </ConfigSection>
+  <!-- Configuration for Custom Ore Generation Complete! -->
+
+</IfModInstalled>
+<!-- The "Thermal Foundation" mod is now configured. -->
+
+
+
+
+
+<!-- =================================================================
+     This file was made using the Sprocket Advanced Configuration
+     Generator.  If you wish to make your own configurations for a mod
+     not currently supported by Custom Ore Generation, and you don't
+     want the hassle of writing XML, you can find the generator script
+     at its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->
+        

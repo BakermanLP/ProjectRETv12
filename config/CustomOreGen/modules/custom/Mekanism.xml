@@ -1,0 +1,101 @@
+<!-- =================================================================
+     Custom Ore Generation "Mekanism" Module: This configuration
+     covers osmium, mountain osmium, copper, mountain copper, tin, and
+     mountain tin.
+     ================================================================= -->
+
+
+<!-- Configuration by Reteo. -->
+
+  <!-- Starting Configuration for Custom Ore Generation. -->
+  <ConfigSection>
+
+        <!-- Original "Overworld" Block Removal Complete -->
+
+        <!-- Adding blocks -->
+
+        <!-- Begin Osmium Generation -->
+
+        <!-- Starting LayeredVeins Preset for Osmium. -->
+        <ConfigSection>
+            <Veins name='mknsOsmiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x607CB3EE' drawBoundBox='false' boundBoxColor='0x607CB3EE'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='Mekanism:OreBlock' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.734 * _default_ * 1 ' range=':= 1.734 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.096 * _default_ * 1 ' range=':= 1.096 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 33 ' range=':= 27 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.317 * _default_ ' range=':= 1.317 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1 ' range=':= _default_ * 1 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.147 * _default_ * 1 ' range=':= 1.147 * _default_ * 1 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Osmium is complete. -->
+
+        <!-- End Osmium Generation -->
+
+
+        <!-- Begin Mountain Osmium Generation -->
+
+        <!-- Starting LayeredVeins Preset for Mountain Osmium. -->
+        <ConfigSection>
+            <Veins name='mknsMountainOsmiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x607CB3EE' drawBoundBox='false' boundBoxColor='0x607CB3EE'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='Mekanism:OreBlock' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain'  />
+              <Setting name='MotherlodeFrequency' avg=':= 1.734 * _default_ * 1 ' range=':= 1.734 * _default_ * 1 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.096 * _default_ * 1 ' range=':= 1.096 * _default_ * 1 ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 163 ' range=':= 81 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.317 * _default_ ' range=':= 1.317 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * 1.2 ' range=':= _default_ * 1.2 ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.147 * _default_ * 1.2 ' range=':= 1.147 * _default_ * 1.2 ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Osmium is  complete. -->
+
+        <!-- End Mountain Osmium Generation -->
+
+  </ConfigSection>
+  <!-- Configuration for Custom Ore Generation Complete! -->
+
+<!-- The "Mekanism" mod is now configured. -->
+
+
+
+
+
+<!-- =================================================================
+     This file was made using the Sprocket Advanced Configuration
+     Generator.  If you wish to make your own configurations for a mod
+     not currently supported by Custom Ore Generation, and you don't
+     want the hassle of writing XML, you can find the generator script
+     at its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->

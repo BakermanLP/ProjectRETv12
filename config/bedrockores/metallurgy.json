@@ -14,20 +14,6 @@
   },
   {
     "state": {
-      "name": "metallurgy:alduorite_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "alduorite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
       "name": "metallurgy:astral_silver_ore"
     },
     "widthMin": 4,
@@ -67,33 +53,6 @@
   },
   {
     "state": {
-      "name": "metallurgy:ceruclase_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "ceruclase",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:deep_iron_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "deep_iron",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
       "name": "metallurgy:eximite_ore"
     },
     "widthMin": 4,
@@ -103,33 +62,6 @@
     "yieldMin": 64,
     "yieldMax": 128,
     "group": "eximite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:ignatius_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "ignatius",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:infuscolium_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "infuscolium",
     "groupOrder": "metallurgy"
   },
   {
@@ -148,20 +80,6 @@
   },
   {
     "state": {
-      "name": "metallurgy:lemurite_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "lemurite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
       "name": "metallurgy:lutetium_ore"
     },
     "widthMin": 4,
@@ -175,19 +93,6 @@
   },
   {
     "state": {
-      "name": "metallurgy:manganese_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "manganese",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
       "name": "metallurgy:meutoite_ore"
     },
     "widthMin": 4,
@@ -197,20 +102,6 @@
     "yieldMin": 64,
     "yieldMax": 128,
     "group": "meutoite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:midasium_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "midasium",
     "groupOrder": "metallurgy"
   },
   {
@@ -237,58 +128,6 @@
     "yieldMin": 64,
     "yieldMax": 128,
     "group": "orichalcum",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:oureclase_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "oureclase",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:phosphorite_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "phosphorite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:potash_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "potash",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:prometheum_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "prometheum",
     "groupOrder": "metallurgy"
   },
   {
@@ -320,33 +159,6 @@
   },
   {
     "state": {
-      "name": "metallurgy:shadow_iron_ore"
-    },
-    "dimension": "nether",
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "shadow_iron",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:sulfur_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "sulfur",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
       "name": "metallurgy:vulcanite_ore"
     },
     "dimension": "nether",
@@ -357,32 +169,6 @@
     "yieldMin": 64,
     "yieldMax": 128,
     "group": "vulcanite",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:vyroxeres_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "vyroxeres",
-    "groupOrder": "metallurgy"
-  },
-  {
-    "state": {
-      "name": "metallurgy:zinc_ore"
-    },
-    "widthMin": 4,
-    "widthMax": 6,
-    "countMin": 6,
-    "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 128,
-    "group": "zinc",
     "groupOrder": "metallurgy"
   }
 ]
