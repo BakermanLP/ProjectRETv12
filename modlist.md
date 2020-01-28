@@ -5,10 +5,9 @@
 | [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) | The Book of Books. Store every documentation book in one. | Vazkii |
 | [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | Adds some useful information about food/hunger to the HUD | squeek502 |
 | [AutoRegLib](https://www.curseforge.com/minecraft/mc-mods/autoreglib) | A library to ease menial tasks in mod development. | Vazkii |
-| [Avaritia 1.1x](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-10) | A parody mod to end all mods | brandon3055, Morpheus11011, TheRealp455w0rd, covers1624 |
+| [Avaritia 1.1x](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-10) | A parody mod to end all mods | brandon3055, Morpheus11011, covers1624, TheRealp455w0rd |
 | [Barrels, Drums, Storage & More](https://www.curseforge.com/minecraft/mc-mods/barrels-drums-storage-more) | Upgradeable storage options from early game to industrial sized factories | Funwayguy, darkosto |
 | [Bedrock Ores](https://www.curseforge.com/minecraft/mc-mods/bedrockores) | Adds ore embedded in bedrock, each block yielding a large number of ore, and a machine to harvest them automatically. | Sangar_ |
-| [Better Builder's Wands](https://www.curseforge.com/minecraft/mc-mods/better-builders-wands) | An attempt to make a nicer-to-use builder's wand | Portablejim |
 | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | Bookcases, armor stands, shelves and so much more! | Nuchaz |
 | [Bloodmoon](https://www.curseforge.com/minecraft/mc-mods/bloodmoon) | Adds the Bloodmoon event from Terraria to Minecraft | Lumien231 |
 | [ConnectedTexturesMod](https://www.curseforge.com/minecraft/mc-mods/ctm) | A resource pack extension library | tterrag1098 |
@@ -21,12 +20,15 @@
 | [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | Adds a search bar to the Key-Bindings menu | Jaredlll08 |
 | [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker) | A continuation of MineTweaker originally by StanH | Jaredlll08 |
 | [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu) | Allows you to modify the main menu using a simple json file | Lumien231 |
+| [CustomOreGen](https://www.curseforge.com/minecraft/mc-mods/customoregen) | Custom ore generation via XML configuration | lawremi |
+| [Custom Starter Gear](https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear) | Gives you full control over what items players start the game with.  | brandon3055 |
 | [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) | Library mod for EvilCraft, Integrated Dynamics and others. | kroeser |
 | [Decocraft](https://www.curseforge.com/minecraft/mc-mods/decocraft) | Decorate your minecraft world with epic models, choose from over 3.000 objects! More are added every week! | RazzleberryFox |
+| [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. Also allows local options from any mod .cfg file. | BlayTheNinth |
 | [OpenBlocks Elevator](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator) | Port of OpenBlocks Elevator. | vsngarcia |
 | [EnderCore](https://www.curseforge.com/minecraft/mc-mods/endercore) | Library mod for Ender* projects and others | tterrag1098, CrazyPants_MC, HenryLoenwind |
 | [Ender IO Base](https://www.curseforge.com/minecraft/mc-mods/ender-io-base) | Base module for a modular Ender IO installation | HenryLoenwind, EpicSquid319, tterrag1098, CrazyPants_MC |
-| [Ender IO Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-conduits) | Conduit module for a modular Ender IO installation | HenryLoenwind, CrazyPants_MC, tterrag1098, EpicSquid319 |
+| [Ender IO Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-conduits) | Conduit module for a modular Ender IO installation | HenryLoenwind, tterrag1098, CrazyPants_MC, EpicSquid319 |
 | [Ender IO OC Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-oc-conduits) | Open Computers integration module for a modular Ender IO installation | HenryLoenwind, CrazyPants_MC, tterrag1098, EpicSquid319 |
 | [Ender IO RS Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-rs-conduits) | Refined Storage integration module for a modular Ender IO installation | HenryLoenwind, tterrag1098, CrazyPants_MC, EpicSquid319 |
 | [Ender IO Endergy](https://www.curseforge.com/minecraft/mc-mods/ender-io-endergy) | Balanced because it takes effort to install | tterrag1098, EpicSquid319, CrazyPants_MC, HenryLoenwind |
@@ -38,6 +40,7 @@
 | [Forge MultiPart CBE](https://www.curseforge.com/minecraft/mc-mods/forge-multipart-cbe) | An opensource library for having multiple things in the one block space | covers1624, MrTJP |
 | [Shadowfacts' Forgelin](https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin) | My fork of Emberwalker's Forgelin, with some sprinkles on top. | ShadowfactsDev |
 | [Gas Conduits](https://www.curseforge.com/minecraft/mc-mods/gas-conduits) | EnderIO Conduits for Mekanism Gases | pupnewfster |
+| [In-Game Wiki Mod](https://www.curseforge.com/minecraft/mc-mods/in-game-wiki-mod) | A utility mod that allows for other mods to easily include in-game documentation | minemaarten2 |
 | [Integration Foregoing](https://www.curseforge.com/minecraft/mc-mods/integration-foregoing) | The official addon for Industrial Foregoing that adds mods compatibility! | Jackyy, Buuz135 |
 | [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks) | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. | JimeoWan, Kobata |
 | [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca) | Just A Ore Processing Compatibility Attempt | TheLMiffy1111 |
@@ -116,17 +119,22 @@
 | [Iron Furnaces](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) | A mod based on cpw's Iron Chests that adds new furnaces to the game. | XenoMustache |
 | [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) | View Items and Recipes | mezz |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | Real-time mapping in-game or your browser as you explore. | techbrew, Mysticdrew |
+| [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) | Companion mod for all mods by McJty (RFTools, Deep Resonance) | McJty |
 | [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker) | ModTweaker is an addon for CraftTweaker, a recipe manipulator utility for Minecraft. It allows you to modify the recipes of other mods that add their own crafting mechanics | Jaredlll08 |
+| [More Charcoal](https://www.curseforge.com/minecraft/mc-mods/more-charcoal) | Adds a few more charcoal blocks and items (& tiny coal/charcoal!) | al132 |
 | [More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays) | Brings back the NEI Overlays | FeldiM245 |
-| [Mystcraft](https://www.curseforge.com/minecraft/mc-mods/mystcraft) | Writable Dimensions | XCompWiz |
+| [Not Enough Wands](https://www.curseforge.com/minecraft/mc-mods/not-enough-wands) | Adds various very configurable utility wands to Minecraft | romelo333, McJty |
 | [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) | Performance improvements for Minecraft's lighting engine | jellysquid_ |
+| [PlusTiC](https://www.curseforge.com/minecraft/mc-mods/plustic) | Successor to ExtraTiC, adds new tools to and integrates various mods with Tinkers Construct and Constructs' Armory | landmaster_phuong0429 |
 | [Railcraft](https://www.curseforge.com/minecraft/mc-mods/railcraft) | Redefine your rails! | Covert_Jaguar |
 | [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) | Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range | raoulvdberge |
 | [Real Filing Cabinet](https://www.curseforge.com/minecraft/mc-mods/real-filing-cabinet) | A strangely resourceful storage system. | BlueNeenja |
 | [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) | An elegant solution to your hoarding problem. | raoulvdberge |
 | [Refined Storage Addons](https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons) | An addon mod for Refined Storage. | raoulvdberge |
+| [RF Lux](https://www.curseforge.com/minecraft/mc-mods/rf-lux) | A mod with RF powered and redstone controlled lights | romelo333, McJty |
+| [RFTools](https://www.curseforge.com/minecraft/mc-mods/rftools) | RFTools, blocks and items to help with Redflux (dimension builder, crafter, monitor, scanner, ...) | McJty |
+| [RFTools Dimensions](https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions) | This is an addon mod for RFTools which handles creation of dimensions | McJty |
 | [Sampler](https://www.curseforge.com/minecraft/mc-mods/sampler) | Performance oriented debugging/administration tools | sfPlayer1 |
-| [Simple Generators](https://www.curseforge.com/minecraft/mc-mods/simple-generators) | Generators that produce RF from various Items and Fluids. | ValkyrieofNight |
 | [Sit](https://www.curseforge.com/minecraft/mc-mods/sit) | Allows you to sit on slabs and stairs. | bl4ckscor3 |
 | [Super Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/super-sound-muffler) | Simple mod that allows players to selectively muffle sounds. | EdgarAllen |
 | [Tesla Core Lib](https://www.curseforge.com/minecraft/mc-mods/tesla-core-lib) | Minecraft library useful in creating power hungry machines | face_of_cat |
@@ -134,6 +142,4 @@
 | [Tiny Progressions](https://www.curseforge.com/minecraft/mc-mods/tiny-progressions) | Cobblegens, Growth Crystals and Watering Cans oh my. | Kashdeya |
 | [Torchmaster](https://www.curseforge.com/minecraft/mc-mods/torchmaster) | Adds a special torch which prevents mob spawning in a configurable radius | xalcon |
 | [Useful Nullifiers](https://www.curseforge.com/minecraft/mc-mods/useful-nullifiers) | Nullifiers for getting rid of those useless items, fluids, and energy.  Also includes an item similar to the dev/null. | Bartz24 |
-| [ValkyrieLib](https://www.curseforge.com/minecraft/mc-mods/valkyrielib) | Library for all of ValkyrieofNight's Mods | ValkyrieofNight |
-| [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) | In-game Minecraft map editor - build bigger things more quickly! | sk89q, wizjany_, me4502 |
 | [ZeroCore](https://www.curseforge.com/minecraft/mc-mods/zerocore) | Utility mod and multiblock API | ZeroNoRyouki |
