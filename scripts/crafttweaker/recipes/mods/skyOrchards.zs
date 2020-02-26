@@ -180,9 +180,9 @@ skyOrchardGems("quartz", <minecraft:quartz>);
 skyOrchardGems("glowstone", <minecraft:glowstone_dust>);
 
 // Warum diese nicht gehen, verstehe ich nicht
-// skyOrchardGems("ruby", <techreborn:gem>);
-// skyOrchardGems("saphire", <techreborn:gem:1>);
-// skyOrchardGems("peridot", <techreborn:gem:2>);
+skyOrchardGems("ruby", <techreborn:gem:0>);
+skyOrchardGems("sapphire", <techreborn:gem:1>);
+skyOrchardGems("peridot", <techreborn:gem:2>);
 
 //
 // Metalle Tier 1
