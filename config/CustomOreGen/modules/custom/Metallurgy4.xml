@@ -20,6 +20,7 @@
   <!-- Starting Configuration for Custom Ore Generation. -->
   <ConfigSection>
 
+      <IfCondition condition=':= dimension = "overworld"'>
         <!-- Adding blocks -->
 
         <!-- Begin Sulfur Generation -->
@@ -350,8 +351,9 @@
         <!-- Finished adding blocks -->
 
       <!-- Nether Setup Beginning -->
+      </IfCondition>
 
-      <IfCondition condition=':= dimension = "Nether"'>
+      <IfCondition condition=':= dimension = "the_nether"'>
       
       <!-- Adding blocks -->
 
@@ -495,7 +497,6 @@
 
         <!-- Starting LayeredVeins Preset for Vyroxeres. -->
         <ConfigSection>
-          <IfCondition condition=':= mtlgVyroxeresDist = "LayeredVeins"'>
             <Veins name='mtlgVyroxeresVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x6057D411' drawBoundBox='false' boundBoxColor='0x6057D411'>
               <Description>
                 Small, fairly rare motherlodes  with 2-4 horizontal
@@ -521,7 +522,6 @@
               <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
               <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
             </Veins>
-          </IfCondition>
         </ConfigSection>
         <!-- LayeredVeins Preset for Vyroxeres is complete. -->
 
@@ -532,7 +532,6 @@
 
         <!-- Starting LayeredVeins Preset for Ceruclase. -->
         <ConfigSection>
-          <IfCondition condition=':= mtlgCeruclaseDist = "LayeredVeins"'>
             <Veins name='mtlgCeruclaseVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x603F869C' drawBoundBox='false' boundBoxColor='0x603F869C'>
               <Description>
                 Small, fairly rare motherlodes  with 2-4 horizontal
@@ -558,7 +557,6 @@
               <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
               <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
             </Veins>
-          </IfCondition>
         </ConfigSection>
         <!-- LayeredVeins Preset for Ceruclase is complete. -->
 
@@ -569,7 +567,6 @@
 
         <!-- Starting LayeredVeins Preset for Alduorite. -->
         <ConfigSection>
-          <IfCondition condition=':= mtlgAlduoriteDist = "LayeredVeins"'>
             <Veins name='mtlgAlduoriteVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x609FCED2' drawBoundBox='false' boundBoxColor='0x609FCED2'>
               <Description>
                 Small, fairly rare motherlodes  with 2-4 horizontal
@@ -595,7 +592,6 @@
               <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
               <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
             </Veins>
-          </IfCondition>
         </ConfigSection>
         <!-- LayeredVeins Preset for Alduorite is complete. -->
 

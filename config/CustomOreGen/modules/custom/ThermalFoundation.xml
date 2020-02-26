@@ -10,15 +10,10 @@
      depends.  Included in this foundation are the six ores that are
      heavily used by all associated mods. Configuration by Reteo. -->
 
-
-
-
-<!-- Is the "Thermal Foundation" mod on the system?  Let's find out! -->
-<IfModInstalled name="thermalfoundation">
-
   <!-- Starting Configuration for Custom Ore Generation. -->
   <ConfigSection>
 
+    <IfCondition condition=':= dimension = "overworld"'>
       <!-- Overworld Setup Beginning -->
 
         <!-- Adding blocks -->
@@ -409,15 +404,10 @@
 
         <!-- Finished adding blocks -->
 
+    </IfCondition>
+        
   </ConfigSection>
   <!-- Configuration for Custom Ore Generation Complete! -->
-
-</IfModInstalled>
-<!-- The "Thermal Foundation" mod is now configured. -->
-
-
-
-
 
 <!-- =================================================================
      This file was made using the Sprocket Advanced Configuration

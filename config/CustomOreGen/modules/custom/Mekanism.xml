@@ -10,8 +10,7 @@
   <!-- Starting Configuration for Custom Ore Generation. -->
   <ConfigSection>
 
-        <!-- Original "Overworld" Block Removal Complete -->
-
+    <IfCondition condition=':= dimension = "overworld"'>
         <!-- Adding blocks -->
 
         <!-- Begin Osmium Generation -->
@@ -82,6 +81,8 @@
         <!-- LayeredVeins Preset for Mountain Osmium is  complete. -->
 
         <!-- End Mountain Osmium Generation -->
+
+    </IfCondition>
 
   </ConfigSection>
   <!-- Configuration for Custom Ore Generation Complete! -->

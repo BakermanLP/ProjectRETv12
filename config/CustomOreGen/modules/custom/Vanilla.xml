@@ -6,6 +6,7 @@
      ================================================================= -->
 <ConfigSection>
 
+    <IfCondition condition=':= dimension = "overworld"'>
       <!-- Adding blocks -->
 
       <!-- Begin Clay Generation -->
@@ -204,7 +205,7 @@
             <OreBlock block='minecraft:gold_ore' weight='1.0' />
             <ReplacesOre block='stone' weight='1.0' />
             <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * 1 ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeFrequency' avg=':= 1.108 * _default_ * 1 ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeSize' avg=':= 0.944 * _default_ * 1 ' type='normal' />
             <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 16 ' type='normal' scaleTo='base' />
             <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
@@ -521,6 +522,7 @@
 
       <!-- Finished adding blocks -->
 
+    </IfCondition>
     <!-- Overworld Setup Complete -->
 
 
