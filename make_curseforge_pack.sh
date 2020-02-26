@@ -36,5 +36,4 @@ rmdir modtemp.$$
 unzip ~/Downloads/$PROJECTNAME-$VERSION.zip manifest.json
 php make_modlist.php > modlist.md
 
-
-# rm -v manifest.json
+rm -v manifest.json
