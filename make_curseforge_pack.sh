@@ -13,6 +13,7 @@ mv -v mods/OptiFine* modtemp.$$
 [ -f mods/World-Stripper-* ] && mv -v mods/World-Stripper-* modtemp.$$
 [ -f mods/craftdumper-* ] && mv -v mods/craftdumper-* modtemp.$$
 [ -f mods/worldedit-forge-* ] && mv -v mods/worldedit-forge-* modtemp.$$
+[ -f mods/pmdumper-* ] && mv -v mods/pmdumper-* modtemp.$$
 
 # Make Curseforge Modpack
 ~/bin/twitch-export-builder_linux_amd64 -c .build.json -d . -o ~/Downloads -p $VERSION -n $PROJECTNAME
