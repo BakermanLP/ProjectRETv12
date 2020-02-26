@@ -1,0 +1,19 @@
+ID,Skin,Zombie Skin,Career Names
+minecraft:butcher,assets/minecraft/textures/entity/villager/butcher.png,assets/minecraft/textures/entity/zombie_villager/zombie_butcher.png,"butcher
+leather"
+minecraft:farmer,assets/minecraft/textures/entity/villager/farmer.png,assets/minecraft/textures/entity/zombie_villager/zombie_farmer.png,"farmer
+fisherman
+shepherd
+fletcher"
+minecraft:librarian,assets/minecraft/textures/entity/villager/librarian.png,assets/minecraft/textures/entity/zombie_villager/zombie_librarian.png,"librarian
+cartographer"
+minecraft:nitwit,assets/minecraft/textures/entity/villager/villager.png,assets/minecraft/textures/entity/zombie_villager/zombie_villager.png,nitwit
+minecraft:priest,assets/minecraft/textures/entity/villager/priest.png,assets/minecraft/textures/entity/zombie_villager/zombie_priest.png,cleric
+minecraft:smith,assets/minecraft/textures/entity/villager/smith.png,assets/minecraft/textures/entity/zombie_villager/zombie_smith.png,"armor
+weapon
+tool
+alloyer
+steel_forger"
+openblocks:radio,assets/openblocks/textures/models/king-ish.png,assets/minecraft/textures/entity/zombie_villager/zombie_villager.png,audiophile
+railcraft:trackman,assets/railcraft/textures/entities/villager/trackman.png,assets/railcraft/textures/entities/villager/zombie_trackman.png,"trackman
+cartman"

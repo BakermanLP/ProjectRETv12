@@ -1,0 +1,151 @@
+ID,Name,Class Name,Levels,Rarity,Is Curse,Type,Allowed on Books,Is Treasure,Localized Name [Min Enchantability - Max Enchantability]
+bibliocraft:bibliocraft.deathcompassench,Eternal Compass,jds.bibliocraft.enchantments.EnchantmentDeathCompass,1 - 1,VERY_RARE,-,ALL,+,-,Eternal Compass [10 - 61]
+bibliocraft:bibliocraft.readingench,Reading,jds.bibliocraft.enchantments.EnchantmentReading,1 - 1,UNCOMMON,-,ARMOR_HEAD,+,-,Reading [10 - 61]
+cofhcore:holding,enchantment.cofhcore.holding,cofh.core.enchantment.EnchantmentHolding,1 - 4,UNCOMMON,-,ALL,+,-,"Holding I [1 - 51]
+Holding II [11 - 61]
+Holding III [21 - 71]
+Holding IV [31 - 81]"
+cofhcore:insight,enchantment.cofhcore.insight,cofh.core.enchantment.EnchantmentInsight,1 - 3,UNCOMMON,-,DIGGER,+,-,"Insight I [10 - 60]
+Insight II [19 - 69]
+Insight III [28 - 78]"
+cofhcore:leech,enchantment.cofhcore.leech,cofh.core.enchantment.EnchantmentLeech,1 - 4,UNCOMMON,-,WEAPON,+,-,"Leech I [5 - 55]
+Leech II [15 - 65]
+Leech III [25 - 75]
+Leech IV [35 - 85]"
+cofhcore:multishot,enchantment.cofhcore.multishot,cofh.core.enchantment.EnchantmentMultishot,1 - 4,UNCOMMON,-,BOW,+,-,"Multishot I [1 - 51]
+Multishot II [11 - 61]
+Multishot III [21 - 71]
+Multishot IV [31 - 81]"
+cofhcore:smashing,enchantment.cofhcore.smashing,cofh.core.enchantment.EnchantmentSmashing,1 - 1,RARE,-,DIGGER,+,-,Smashing [15 - 65]
+cofhcore:smelting,enchantment.cofhcore.smelting,cofh.core.enchantment.EnchantmentSmelting,1 - 1,RARE,-,DIGGER,+,-,Smelting [15 - 65]
+cofhcore:soulbound,enchantment.cofhcore.soulbound,cofh.core.enchantment.EnchantmentSoulbound,1 - 3,UNCOMMON,-,ALL,+,-,"Soulbound I [1 - 51]
+Soulbound II [11 - 61]
+Soulbound III [21 - 71]"
+cofhcore:vorpal,enchantment.cofhcore.vorpal,cofh.core.enchantment.EnchantmentVorpal,1 - 3,RARE,-,WEAPON,+,-,"Vorpal I [15 - 65]
+Vorpal II [24 - 74]
+Vorpal III [33 - 83]"
+endercore:autosmelt,enchantment.autosmelt,com.enderio.core.common.enchant.EnchantAutoSmelt,1 - 1,RARE,-,EC_AUTOSMELT,+,-,Auto-Smelt [15 - 60]
+endercore:xpboost,enchantment.xpboost,com.enderio.core.common.enchant.EnchantXPBoost,1 - 3,UNCOMMON,-,EC_XPBOOST,+,-,"XP Boost I [11 - 46]
+XP Boost II [21 - 56]
+XP Boost III [31 - 66]"
+enderio:repellent,enchantment.enderio.repellent,crazypants.enderio.base.enchantment.EnchantmentRepellent,1 - 4,VERY_RARE,-,ARMOR,+,-,"Repellent I [15 - 20]
+Repellent II [20 - 30]
+Repellent III [25 - 40]
+Repellent IV [30 - 50]"
+enderio:shimmer,enchantment.enderio.shimmer,crazypants.enderio.base.enchantment.EnchantmentShimmer,1 - 1,VERY_RARE,+,ALL,-,+,§cShimmer [1 - 100]
+enderio:soulbound,enchantment.enderio.soulbound,crazypants.enderio.base.enchantment.EnchantmentSoulBound,1 - 1,VERY_RARE,-,EC_REALLY_ALL,+,-,Soulbound [16 - 60]
+enderio:witherarrow,enchantment.enderio.witherarrow,crazypants.enderio.base.enchantment.EnchantmentWitherArrow,1 - 1,UNCOMMON,-,BOW,+,-,Withering [20 - 50]
+enderio:witherweapon,enchantment.enderio.witherweapon,crazypants.enderio.base.enchantment.EnchantmentWitherWeapon,1 - 1,UNCOMMON,-,WEAPON,+,-,Decay [20 - 50]
+minecraft:aqua_affinity,enchantment.waterWorker,net.minecraft.enchantment.EnchantmentWaterWorker,1 - 1,RARE,-,ARMOR_HEAD,+,-,Aqua Affinity [1 - 41]
+minecraft:bane_of_arthropods,enchantment.damage.arthropods,net.minecraft.enchantment.EnchantmentDamage,1 - 5,UNCOMMON,-,WEAPON,+,-,"Bane of Arthropods I [5 - 25]
+Bane of Arthropods II [13 - 33]
+Bane of Arthropods III [21 - 41]
+Bane of Arthropods IV [29 - 49]
+Bane of Arthropods V [37 - 57]"
+minecraft:binding_curse,enchantment.binding_curse,net.minecraft.enchantment.EnchantmentBindingCurse,1 - 1,VERY_RARE,+,WEARABLE,+,+,§cCurse of Binding [25 - 50]
+minecraft:blast_protection,enchantment.protect.explosion,net.minecraft.enchantment.EnchantmentProtection,1 - 4,RARE,-,ARMOR,+,-,"Blast Protection I [5 - 13]
+Blast Protection II [13 - 21]
+Blast Protection III [21 - 29]
+Blast Protection IV [29 - 37]"
+minecraft:depth_strider,enchantment.waterWalker,net.minecraft.enchantment.EnchantmentWaterWalker,1 - 3,RARE,-,ARMOR_FEET,+,-,"Depth Strider I [10 - 25]
+Depth Strider II [20 - 35]
+Depth Strider III [30 - 45]"
+minecraft:efficiency,enchantment.digging,net.minecraft.enchantment.EnchantmentDigging,1 - 5,COMMON,-,DIGGER,+,-,"Efficiency I [1 - 61]
+Efficiency II [11 - 71]
+Efficiency III [21 - 81]
+Efficiency IV [31 - 91]
+Efficiency V [41 - 101]"
+minecraft:feather_falling,enchantment.protect.fall,net.minecraft.enchantment.EnchantmentProtection,1 - 4,UNCOMMON,-,ARMOR_FEET,+,-,"Feather Falling I [5 - 11]
+Feather Falling II [11 - 17]
+Feather Falling III [17 - 23]
+Feather Falling IV [23 - 29]"
+minecraft:fire_aspect,enchantment.fire,net.minecraft.enchantment.EnchantmentFireAspect,1 - 2,RARE,-,WEAPON,+,-,"Fire Aspect I [10 - 61]
+Fire Aspect II [30 - 71]"
+minecraft:fire_protection,enchantment.protect.fire,net.minecraft.enchantment.EnchantmentProtection,1 - 4,UNCOMMON,-,ARMOR,+,-,"Fire Protection I [10 - 18]
+Fire Protection II [18 - 26]
+Fire Protection III [26 - 34]
+Fire Protection IV [34 - 42]"
+minecraft:flame,enchantment.arrowFire,net.minecraft.enchantment.EnchantmentArrowFire,1 - 1,RARE,-,BOW,+,-,Flame [20 - 50]
+minecraft:fortune,enchantment.lootBonusDigger,net.minecraft.enchantment.EnchantmentLootBonus,1 - 3,RARE,-,DIGGER,+,-,"Fortune I [15 - 61]
+Fortune II [24 - 71]
+Fortune III [33 - 81]"
+minecraft:frost_walker,enchantment.frostWalker,net.minecraft.enchantment.EnchantmentFrostWalker,1 - 2,RARE,-,ARMOR_FEET,+,+,"Frost Walker I [10 - 25]
+Frost Walker II [20 - 35]"
+minecraft:infinity,enchantment.arrowInfinite,net.minecraft.enchantment.EnchantmentArrowInfinite,1 - 1,VERY_RARE,-,BOW,+,-,Infinity [20 - 50]
+minecraft:knockback,enchantment.knockback,net.minecraft.enchantment.EnchantmentKnockback,1 - 2,UNCOMMON,-,WEAPON,+,-,"Knockback I [5 - 61]
+Knockback II [25 - 71]"
+minecraft:looting,enchantment.lootBonus,net.minecraft.enchantment.EnchantmentLootBonus,1 - 3,RARE,-,WEAPON,+,-,"Looting I [15 - 61]
+Looting II [24 - 71]
+Looting III [33 - 81]"
+minecraft:luck_of_the_sea,enchantment.lootBonusFishing,net.minecraft.enchantment.EnchantmentLootBonus,1 - 3,RARE,-,FISHING_ROD,+,-,"Luck of the Sea I [15 - 61]
+Luck of the Sea II [24 - 71]
+Luck of the Sea III [33 - 81]"
+minecraft:lure,enchantment.fishingSpeed,net.minecraft.enchantment.EnchantmentFishingSpeed,1 - 3,RARE,-,FISHING_ROD,+,-,"Lure I [15 - 61]
+Lure II [24 - 71]
+Lure III [33 - 81]"
+minecraft:mending,enchantment.mending,net.minecraft.enchantment.EnchantmentMending,1 - 1,RARE,-,BREAKABLE,+,+,Mending [25 - 75]
+minecraft:power,enchantment.arrowDamage,net.minecraft.enchantment.EnchantmentArrowDamage,1 - 5,COMMON,-,BOW,+,-,"Power I [1 - 16]
+Power II [11 - 26]
+Power III [21 - 36]
+Power IV [31 - 46]
+Power V [41 - 56]"
+minecraft:projectile_protection,enchantment.protect.projectile,net.minecraft.enchantment.EnchantmentProtection,1 - 4,UNCOMMON,-,ARMOR,+,-,"Projectile Protection I [3 - 9]
+Projectile Protection II [9 - 15]
+Projectile Protection III [15 - 21]
+Projectile Protection IV [21 - 27]"
+minecraft:protection,enchantment.protect.all,net.minecraft.enchantment.EnchantmentProtection,1 - 4,COMMON,-,ARMOR,+,-,"Protection I [1 - 12]
+Protection II [12 - 23]
+Protection III [23 - 34]
+Protection IV [34 - 45]"
+minecraft:punch,enchantment.arrowKnockback,net.minecraft.enchantment.EnchantmentArrowKnockback,1 - 2,RARE,-,BOW,+,-,"Punch I [12 - 37]
+Punch II [32 - 57]"
+minecraft:respiration,enchantment.oxygen,net.minecraft.enchantment.EnchantmentOxygen,1 - 3,RARE,-,ARMOR_HEAD,+,-,"Respiration I [10 - 40]
+Respiration II [20 - 50]
+Respiration III [30 - 60]"
+minecraft:sharpness,enchantment.damage.all,net.minecraft.enchantment.EnchantmentDamage,1 - 5,COMMON,-,WEAPON,+,-,"Sharpness I [1 - 21]
+Sharpness II [12 - 32]
+Sharpness III [23 - 43]
+Sharpness IV [34 - 54]
+Sharpness V [45 - 65]"
+minecraft:silk_touch,enchantment.untouching,net.minecraft.enchantment.EnchantmentUntouching,1 - 1,VERY_RARE,-,DIGGER,+,-,Silk Touch [15 - 61]
+minecraft:smite,enchantment.damage.undead,net.minecraft.enchantment.EnchantmentDamage,1 - 5,UNCOMMON,-,WEAPON,+,-,"Smite I [5 - 25]
+Smite II [13 - 33]
+Smite III [21 - 41]
+Smite IV [29 - 49]
+Smite V [37 - 57]"
+minecraft:sweeping,enchantment.sweeping,net.minecraft.enchantment.EnchantmentSweepingEdge,1 - 3,RARE,-,WEAPON,+,-,"Sweeping Edge I [5 - 20]
+Sweeping Edge II [14 - 29]
+Sweeping Edge III [23 - 38]"
+minecraft:thorns,enchantment.thorns,net.minecraft.enchantment.EnchantmentThorns,1 - 3,VERY_RARE,-,ARMOR_CHEST,+,-,"Thorns I [10 - 61]
+Thorns II [30 - 71]
+Thorns III [50 - 81]"
+minecraft:unbreaking,enchantment.durability,net.minecraft.enchantment.EnchantmentDurability,1 - 3,UNCOMMON,-,BREAKABLE,+,-,"Unbreaking I [5 - 61]
+Unbreaking II [13 - 71]
+Unbreaking III [21 - 81]"
+minecraft:vanishing_curse,enchantment.vanishing_curse,net.minecraft.enchantment.EnchantmentVanishingCurse,1 - 1,VERY_RARE,+,ALL,+,+,§cCurse of Vanishing [25 - 50]
+openblocks:explosive,enchantment.openblocks.explosive,openblocks.enchantments.EnchantmentExplosive,1 - 3,RARE,-,ARMOR,+,-,"Unstable I [15 - 25]
+Unstable II [25 - 35]
+Unstable III [100 - 110]"
+openblocks:last_stand,enchantment.openblocks.laststand,openblocks.enchantments.EnchantmentLastStand,1 - 2,UNCOMMON,-,ARMOR,+,-,"Last Stand I [15 - 25]
+Last Stand II [25 - 35]"
+projectred-expansion:electric_efficiency,enchantment.projectred.expansion.fuelEfficiency,mrtjp.projectred.expansion.EnchantmentElectricEfficiency,1 - 4,RARE,-,ALL,+,-,"Electric Efficiency I [11 - 16]
+Electric Efficiency II [21 - 26]
+Electric Efficiency III [31 - 36]
+Electric Efficiency IV [41 - 46]"
+railcraft:destruction,enchantment.railcraft.destruction,mods.railcraft.common.items.enchantment.EnchantmentDestruction,1 - 3,VERY_RARE,-,DIGGER,+,-,"Destruction I [5 - 15]
+Destruction II [15 - 25]
+Destruction III [25 - 35]"
+railcraft:implosion,enchantment.railcraft.implosion,mods.railcraft.common.items.enchantment.EnchantmentDamageRailcraft,1 - 5,RARE,-,DIGGER,+,-,"Implosion I [5 - 25]
+Implosion II [13 - 33]
+Implosion III [21 - 41]
+Implosion IV [29 - 49]
+Implosion V [37 - 57]"
+railcraft:smack,enchantment.railcraft.smack,mods.railcraft.common.items.enchantment.EnchantmentSmack,1 - 4,VERY_RARE,-,DIGGER,+,-,"Smack I [17 - 37]
+Smack II [25 - 45]
+Smack III [33 - 53]
+Smack IV [41 - 61]"
+railcraft:wrecking,enchantment.railcraft.wrecking,mods.railcraft.common.items.enchantment.EnchantmentDamageRailcraft,1 - 5,RARE,-,DIGGER,+,-,"Wrecking I [1 - 21]
+Wrecking II [12 - 32]
+Wrecking III [23 - 43]
+Wrecking IV [34 - 54]
+Wrecking V [45 - 65]"

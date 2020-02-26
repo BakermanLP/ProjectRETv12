@@ -1,0 +1,1265 @@
+ID,Display Text,Title,Description,Icon,X,Y,Background,Frame,Is Hidden,Should Announce,Should Show Toast,Parent,Children,Reward Experience,Reward Loot,Reward Recipes,Reward Function
+bonsaitrees:grow,§a[§r§aGrow a Bonsai Tree§r§a]§r,Grow a Bonsai Tree§r,Use it for decoration or as early tree farm§r,minecraft:sapling,1.0,0.0,,TASK,-,+,+,bonsaitrees:root,,0,,,null
+bonsaitrees:root,§a[§r§aBonsai Trees§r§a]§r,Bonsai Trees§r,Craft a Bonsai Pot§r,bonsaitrees:bonsaipot,0.0,0.0,assets/minecraft/textures/gui/advancements/backgrounds/husbandry.png,TASK,-,-,-,,bonsaitrees:grow,0,,,null
+colossalchests:base/copper,§a[§r§aCopper Colossal Chest§r§a]§r,Copper Colossal Chest§r,Form a copper Colossal Chest§r,colossalchests:chest_wall:1,1.0,0.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/copper,0,,,null
+colossalchests:base/diamond,§a[§r§aDiamond Colossal Chest§r§a]§r,Diamond Colossal Chest§r,Form a diamond Colossal Chest§r,colossalchests:chest_wall:5,1.0,1.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/diamond,0,,,null
+colossalchests:base/gold,§a[§r§aGold Colossal Chest§r§a]§r,Gold Colossal Chest§r,Form a golden Colossal Chest§r,colossalchests:chest_wall:4,1.0,4.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/gold,0,,,null
+colossalchests:base/iron,§a[§r§aIron Colossal Chest§r§a]§r,Iron Colossal Chest§r,Form an iron Colossal Chest§r,colossalchests:chest_wall:2,1.0,5.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/iron,0,,,null
+colossalchests:base/obsidian,§a[§r§aObsidian Colossal Chest§r§a]§r,Obsidian Colossal Chest§r,Form an obsidian Colossal Chest§r,colossalchests:chest_wall:6,1.0,3.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/obsidian,0,,,null
+colossalchests:base/silver,§a[§r§aSilver Colossal Chest§r§a]§r,Silver Colossal Chest§r,Form a silver Colossal Chest§r,colossalchests:chest_wall:3,1.0,7.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/silver,0,,,null
+colossalchests:base/wood,§a[§r§aWooden Colossal Chest§r§a]§r,Wooden Colossal Chest§r,Form a wooden Colossal Chest§r,colossalchests:chest_wall,1.0,6.0,,TASK,-,+,+,colossalchests:root,colossalchests:size/wood,0,,,null
+colossalchests:root,§a[§r§aColossal Chests§r§a]§r,Colossal Chests§r,For when regular chests are too small.§r,colossalchests:colossal_chest,0.0,3.5,assets/minecraft/textures/gui/advancements/backgrounds/adventure.png,TASK,-,-,-,,"colossalchests:base/copper
+colossalchests:base/diamond
+colossalchests:uncolossal
+colossalchests:base/obsidian
+colossalchests:base/gold
+colossalchests:base/iron
+colossalchests:base/wood
+colossalchests:base/silver",0,,"colossalchests:uncolossal_chest
+colossalchests:colossal_chest
+colossalchests:chest_wall
+colossalchests:interface
+colossalchests:colossal_chest_12
+colossalchests:chest_wall_12
+colossalchests:interface_12
+colossalchests:colossal_chest_14
+colossalchests:chest_wall_14
+colossalchests:interface_14
+colossalchests:colossal_chest_15
+colossalchests:chest_wall_15
+colossalchests:interface_15
+colossalchests:colossal_chest_16
+colossalchests:chest_wall_16
+colossalchests:interface_16",null
+colossalchests:size/copper,§5[§r§5Epic Copper Colossal Chest§r§5]§r,Epic Copper Colossal Chest§r,Form a copper Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:1,2.0,0.0,,CHALLENGE,-,+,+,colossalchests:base/copper,,0,,,null
+colossalchests:size/diamond,§5[§r§5Epic Diamond Colossal Chest§r§5]§r,Epic Diamond Colossal Chest§r,Form a diamond Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:5,2.0,1.0,,CHALLENGE,-,+,+,colossalchests:base/diamond,,0,,,null
+colossalchests:size/gold,§5[§r§5Epic Gold Colossal Chest§r§5]§r,Epic Gold Colossal Chest§r,Form a golden Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:4,2.0,4.0,,CHALLENGE,-,+,+,colossalchests:base/gold,,0,,,null
+colossalchests:size/iron,§5[§r§5Epic Iron Colossal Chest§r§5]§r,Epic Iron Colossal Chest§r,Form an iron Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:2,2.0,5.0,,CHALLENGE,-,+,+,colossalchests:base/iron,,0,,,null
+colossalchests:size/obsidian,§5[§r§5Epic Obsidian Colossal Chest§r§5]§r,Epic Obsidian Colossal Chest§r,Form an obsidian Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:6,2.0,3.0,,CHALLENGE,-,+,+,colossalchests:base/obsidian,,0,,,null
+colossalchests:size/silver,§5[§r§5Epic Silver Colossal Chest§r§5]§r,Epic Silver Colossal Chest§r,Form a silver Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest:3,2.0,7.0,,CHALLENGE,-,+,+,colossalchests:base/silver,,0,,,null
+colossalchests:size/wood,§5[§r§5Epic Wooden Colossal Chest§r§5]§r,Epic Wooden Colossal Chest§r,Form a wooden Colossal Chest of at least 10x10x10§r,colossalchests:colossal_chest,2.0,6.0,,CHALLENGE,-,+,+,colossalchests:base/wood,,0,,,null
+colossalchests:uncolossal,§a[§r§aThe most colossal of 'em all!§r§a]§r,The most colossal of 'em all!§r,Obtain an Uncolossal Chest§r,colossalchests:uncolossal_chest,1.0,2.0,,TASK,-,+,+,colossalchests:root,,0,,,null
+culinaryconstruct:craft_food,§a[§r§aSandwich Lover§r§a]§r,Sandwich Lover§r,Craft a sandwich§r,culinaryconstruct:sandwich_station,2.0,2.0,,TASK,-,+,+,minecraft:husbandry/plant_seed,,0,,,null
+enderio:gears/g1_wooden_gear,§a[§r§aArboreally Mechanical§r§a]§r,Arboreally Mechanical§r,Craft a Wooden Gear§r,enderio:item_material:9,1.0,5.5,,TASK,-,+,+,enderio:root,enderio:gears/g2_stone_gear,10,,,null
+enderio:gears/g2_stone_gear,§a[§r§aGeologically Mechanical§r§a]§r,Geologically Mechanical§r,Craft a Stone Gear§r,enderio:item_material:10,2.0,5.5,,TASK,-,+,+,enderio:gears/g1_wooden_gear,enderio:gears/g3_iron_gear,10,,,null
+enderio:gears/g3_iron_gear,§a[§r§aFerrously Mechanical§r§a]§r,Ferrously Mechanical§r,Craft an Iron Gear§r,enderio:item_material:11,3.0,5.5,,TASK,-,+,+,enderio:gears/g2_stone_gear,enderio:gears/g4_energized_gear,20,,,null
+enderio:gears/g4_energized_gear,§a[§r§aLuminously Mechanical§r§a]§r,Luminously Mechanical§r,Craft an Energized Bimetal Gear§r,enderio:item_material:12,4.0,5.5,,TASK,-,+,+,enderio:gears/g3_iron_gear,enderio:gears/g5_vibrant_gear,30,,,null
+enderio:gears/g5_vibrant_gear,§a[§r§aMystically Mechanical§r§a]§r,Mystically Mechanical§r,Craft a Vibrant Bimetal Gear§r,enderio:item_material:13,5.0,5.5,,TASK,-,+,+,enderio:gears/g4_energized_gear,,40,,,null
+enderio:root,§a[§r§aEnder IO Basics§r§a]§r,Ender IO Basics§r,A step closer to infinity§r,enderio:item_enderface:16,0.0,4.1875,assets/minecraft/textures/blocks/bedrock.png,TASK,-,-,+,,"enderio:start/1_infinity_powder_get
+enderio:gears/g1_wooden_gear",0,,,null
+enderio:start/1_infinity_powder_get,§a[§r§aCollect the Infinite§r§a]§r,Collect the Infinite§r,Light Bedrock on fire and get a reward§r,minecraft:bedrock,1.0,2.875,,TASK,-,+,+,enderio:root,enderio:start/2_simple_chassis_get,20,,,null
+enderio:start/2_simple_chassis_get,§a[§r§aThe Third 'S' is Silent§r§a]§r,The Third 'S' is Silent§r,Make your first Machine Chassis§r,enderio:item_material,2.0,2.875,,TASK,-,+,+,enderio:start/1_infinity_powder_get,"enderiomachines:basics/sagmill/1_sagmill_get
+enderiomachines:basics/goal/1_all_simple_get
+enderiomachines:basics/alloy/1_alloy_smelter_get
+enderiomachines:basics/stirling/1_stirling_generator_get",10,,,null
+enderioconduits:energy/1_energy_conduit,§a[§r§aBasic Energy§r§a]§r,Basic Energy§r,Craft some Energy Conduits§r,enderio:item_power_conduit,3.0,3.0,,TASK,-,+,+,enderioconduits:start/2_conduit_binder,enderioconduits:energy/2_energy_conduit_enhanced,10,,,null
+enderioconduits:energy/2_energy_conduit_enhanced,§a[§r§aEnhanced Energy§r§a]§r,Enhanced Energy§r,Craft some Enhanced Energy Conduits§r,enderio:item_power_conduit:1,4.0,3.0,,TASK,-,+,+,enderioconduits:energy/1_energy_conduit,enderioconduits:energy/3_energy_conduit_ender,20,,,null
+enderioconduits:energy/3_energy_conduit_ender,§a[§r§aEnder Energy§r§a]§r,Ender Energy§r,Craft some Ender Energy Conduits§r,enderio:item_power_conduit:2,5.0,3.0,,TASK,-,+,+,enderioconduits:energy/2_energy_conduit_enhanced,,30,,,null
+enderioconduits:fluid/1_fluid_conduit,§a[§r§aBasic Fluid§r§a]§r,Basic Fluid§r,Craft some Fluid Conduits§r,enderio:item_liquid_conduit,3.0,0.0,,TASK,-,+,+,enderioconduits:start/2_conduit_binder,enderioconduits:fluid/2_fluid_conduit_pressurized,10,,,null
+enderioconduits:fluid/2_fluid_conduit_pressurized,§a[§r§aUnder Pressure§r§a]§r,Under Pressure§r,Craft some Pressurized Fluid Conduits§r,enderio:item_liquid_conduit:1,4.0,0.0,,TASK,-,+,+,enderioconduits:fluid/1_fluid_conduit,enderioconduits:fluid/3_fluid_conduit_ender,20,,,null
+enderioconduits:fluid/3_fluid_conduit_ender,"§a[§r§aInstant Fluids, Just Add Ender§r§a]§r","Instant Fluids, Just Add Ender§r",Craft some Ender Fluid Conduits§r,enderio:item_liquid_conduit:2,5.0,0.0,,TASK,-,+,+,enderioconduits:fluid/2_fluid_conduit_pressurized,,30,,,null
+enderioconduits:goals/all_conduits,§a[§r§aJack of All Trades§r§a]§r,Jack of All Trades§r,Craft all of the core conduit types§r,enderio:item_item_conduit,3.0,2.0,,GOAL,+,+,+,enderioconduits:start/2_conduit_binder,,30,enderio:reward,,null
+enderioconduits:goals/all_filters,§a[§r§aGetting Specific§r§a]§r,Getting Specific§r,Craft all of the core filter types§r,enderio:item_mod_item_filter,4.0,5.5,,GOAL,+,+,+,enderioconduits:item/1_item_conduit,,30,enderio:reward,,null
+enderioconduits:item/1_item_conduit,§a[§r§aItem Transfer§r§a]§r,Item Transfer§r,Craft some Item Conduits§r,enderio:item_item_conduit,3.0,5.0,,TASK,-,+,+,enderioconduits:start/2_conduit_binder,"enderioconduits:item/2_basic_filter
+enderioconduits:goals/all_filters",20,,,null
+enderioconduits:item/2_basic_filter,§a[§r§aFiltering For Dummies§r§a]§r,Filtering For Dummies§r,Craft a Basic Item Filter§r,enderio:item_basic_item_filter,4.0,4.5,,TASK,-,+,+,enderioconduits:item/1_item_conduit,"enderioconduits:item/3_big_filter
+enderioconduits:item/3_advanced_filter",10,,,null
+enderioconduits:item/3_advanced_filter,§a[§r§aMaximum Control§r§a]§r,Maximum Control§r,Craft an Advanced Item Filter§r,enderio:item_advanced_item_filter,5.0,5.0,,TASK,-,+,+,enderioconduits:item/2_basic_filter,enderioconduits:item/4_big_advanced_filter,20,,,null
+enderioconduits:item/3_big_filter,§a[§r§aMaximum Size§r§a]§r,Maximum Size§r,Craft a Big Item Filter§r,enderio:item_big_item_filter,5.0,4.0,,TASK,-,+,+,enderioconduits:item/2_basic_filter,,20,,,null
+enderioconduits:item/4_big_advanced_filter,§a[§r§aOne Filter to Rule Them All§r§a]§r,One Filter to Rule Them All§r,Craft a Big Advanced Item Filter§r,enderio:item_big_advanced_item_filter,6.0,5.0,,TASK,-,+,+,enderioconduits:item/3_advanced_filter,,30,,,null
+enderioconduits:redstone/1_redstone_conduit,§a[§r§aRedstone Transfer§r§a]§r,Redstone Transfer§r,Craft some Redstone Conduits§r,enderio:item_redstone_conduit,3.0,1.0,,TASK,-,+,+,enderioconduits:start/2_conduit_binder,,10,,,null
+enderioconduits:root,§a[§r§aEnder IO Conduits§r§a]§r,Ender IO Conduits§r,How many pipes in one block?§r,enderio:item_enderface:21,0.0,2.5,assets/enderio/textures/blocks/conduit_connector.png,TASK,-,-,+,,enderioconduits:start/1_binder_composite,0,,,null
+enderioconduits:start/1_binder_composite,§a[§r§aI Am Not Grout!§r§a]§r,I Am Not Grout!§r,Craft some Binder Composite§r,enderio:item_material:22,1.0,2.5,,TASK,-,+,+,enderioconduits:root,enderioconduits:start/2_conduit_binder,10,,,null
+enderioconduits:start/2_conduit_binder,§a[§r§aUniversal Binder§r§a]§r,Universal Binder§r,Smelt some Conduit Binder§r,enderio:item_material:4,2.0,2.5,,TASK,-,+,+,enderioconduits:start/1_binder_composite,"enderioconduits:fluid/1_fluid_conduit
+enderioconduits:redstone/1_redstone_conduit
+enderioconduits:goals/all_conduits
+enderioconduits:energy/1_energy_conduit
+enderioconduits:item/1_item_conduit",10,,,null
+enderiomachines:basics/alloy/1_alloy_smelter_get,§a[§r§aAlloys and Enemies§r§a]§r,Alloys and Enemies§r,Craft a Simple Alloy Smelter§r,enderio:block_simple_alloy_smelter,3.0,3.5,,TASK,-,+,+,enderio:start/2_simple_chassis_get,enderiomachines:basics/alloy/2_energetic_alloy_get,10,,,null
+enderiomachines:basics/alloy/2_energetic_alloy_get,§a[§r§aEnergized Metal§r§a]§r,Energized Metal§r,"Combine gold, redstone, and glowstone§r",enderio:item_alloy_ingot:1,4.0,3.5,,TASK,-,+,+,enderiomachines:basics/alloy/1_alloy_smelter_get,,10,,,null
+enderiomachines:basics/alloy/machine_chassis_get,§5[§r§5The Culmination§r§5]§r,The Culmination§r,Craft a Machine Chassis§r,enderio:item_material:1,7.0,1.0,,CHALLENGE,-,+,+,enderiomachines:basics/sagmill/a_powder_coating,,10,enderio:reward,,null
+enderiomachines:basics/goal/1_all_simple_get,§a[§r§aStart at the Beginning§r§a]§r,Start at the Beginning§r,Craft all simple machines§r,enderio:block_simple_stirling_generator,3.0,2.375,,GOAL,+,+,+,enderio:start/2_simple_chassis_get,,30,enderio:reward,,null
+enderiomachines:basics/sagmill/1_sagmill_get,§a[§r§aSemi-Autogenous Grinding§r§a]§r,Semi-Autogenous Grinding§r,Craft a simple SAG Mill§r,enderio:block_simple_sag_mill,3.0,1.25,,TASK,-,+,+,enderio:start/2_simple_chassis_get,"enderiomachines:basics/sagmill/6_coal
+enderiomachines:basics/sagmill/8_blue
+enderiomachines:basics/sagmill/2_sagmill_flowers",10,,,null
+enderiomachines:basics/sagmill/2_sagmill_flowers,§a[§r§aDestroy Something Beautiful§r§a]§r,Destroy Something Beautiful§r,Grind down some plant matter§r,enderio:item_material:46,4.0,2.5,,TASK,-,+,+,enderiomachines:basics/sagmill/1_sagmill_get,"enderiomachines:basics/sagmill/3_sagmill_bushes
+enderiomachines:basics/sagmill/5_green",10,,,null
+enderiomachines:basics/sagmill/3_sagmill_bushes,§a[§r§aUseful in Death§r§a]§r,Useful in Death§r,Grind down a dead bush§r,enderio:item_material:47,5.0,2.0,,TASK,-,+,+,enderiomachines:basics/sagmill/2_sagmill_flowers,enderiomachines:basics/sagmill/4_brown,10,,,null
+enderiomachines:basics/sagmill/4_brown,§a[§r§aWho Needs Jungles?§r§a]§r,Who Needs Jungles?§r,Combine some twigs and organic matter into dye§r,enderio:item_material:49,6.0,2.0,,TASK,-,+,+,enderiomachines:basics/sagmill/3_sagmill_bushes,,10,,,null
+enderiomachines:basics/sagmill/5_green,§a[§r§aCaution: Do Not Eat§r§a]§r,Caution: Do Not Eat§r,Combine some plant matter and animal products into dye§r,enderio:item_material:48,5.0,3.0,,TASK,-,+,+,enderiomachines:basics/sagmill/2_sagmill_flowers,,10,,,null
+enderiomachines:basics/sagmill/6_coal,§a[§r§aChewing Dead Wood§r§a]§r,Chewing Dead Wood§r,Grind down some coal§r,minecraft:coal,4.0,0.0,,TASK,-,+,+,enderiomachines:basics/sagmill/1_sagmill_get,enderiomachines:basics/sagmill/7_black,10,,,null
+enderiomachines:basics/sagmill/7_black,§a[§r§aWho Needs Squid?§r§a]§r,Who Needs Squid?§r,Combine some coal dust and animal products into dye§r,enderio:item_material:50,5.0,0.0,,TASK,-,+,+,enderiomachines:basics/sagmill/6_coal,,10,,,null
+enderiomachines:basics/sagmill/8_blue,§a[§r§aBejeweled§r§a]§r,Bejeweled§r,Grind down some Lapis Lazuli§r,minecraft:dye:4,4.0,1.0,,TASK,-,+,+,enderiomachines:basics/sagmill/1_sagmill_get,enderiomachines:basics/sagmill/9_white,10,,,null
+enderiomachines:basics/sagmill/9_white,§a[§r§aBejeweled 2§r§a]§r,Bejeweled 2§r,Grind down some Quartz§r,minecraft:quartz,5.0,1.0,,TASK,-,+,+,enderiomachines:basics/sagmill/8_blue,enderiomachines:basics/sagmill/a_powder_coating,10,,,null
+enderiomachines:basics/sagmill/a_powder_coating,§a[§r§aClassic Color§r§a]§r,Classic Color§r,Craft some Organic Machine Powder Coating§r,enderio:item_material:51,6.0,1.0,,TASK,-,+,+,enderiomachines:basics/sagmill/9_white,enderiomachines:basics/alloy/machine_chassis_get,10,,,null
+enderiomachines:basics/stirling/1_stirling_generator_get,§a[§r§aHarness the Heat§r§a]§r,Harness the Heat§r,Craft a Simple Stirling Generator§r,enderio:block_simple_stirling_generator,3.0,4.5,,TASK,-,+,+,enderio:start/2_simple_chassis_get,,10,,,null
+enderiomachines:root,§a[§r§aEnder IO Machines§r§a]§r,Ender IO Machines§r,Begin your automation adventure§r,enderio:item_enderface:19,0.0,0.0,assets/enderio/textures/blocks/block_machine_bottom.png,TASK,-,-,+,,,0,,,null
+minecraft:adventure/adventuring_time,§5[§r§5Adventuring Time§r§5]§r,Adventuring Time§r,Discover every biome§r,minecraft:diamond_boots,2.0,5.0,,CHALLENGE,-,+,+,minecraft:adventure/sleep_in_bed,,500,,,null
+minecraft:adventure/kill_a_mob,§a[§r§aMonster Hunter§r§a]§r,Monster Hunter§r,Kill any hostile monster§r,minecraft:iron_sword,1.0,1.0,,TASK,-,+,+,minecraft:adventure/root,"minecraft:adventure/shoot_arrow
+minecraft:adventure/kill_all_mobs
+minecraft:adventure/totem_of_undying",0,,,null
+minecraft:adventure/kill_all_mobs,§5[§r§5Monsters Hunted§r§5]§r,Monsters Hunted§r,Kill one of every hostile monster§r,minecraft:diamond_sword,2.0,1.0,,CHALLENGE,-,+,+,minecraft:adventure/kill_a_mob,,100,,,null
+minecraft:adventure/root,§a[§r§aAdventure§r§a]§r,Adventure§r,"Adventure, exploration and combat§r",minecraft:map,0.0,3.0,assets/minecraft/textures/gui/advancements/backgrounds/adventure.png,TASK,-,-,-,,"minecraft:adventure/kill_a_mob
+openblocks:tma2
+openblocks:oops
+minecraft:adventure/trade
+minecraft:adventure/sleep_in_bed",0,,,null
+minecraft:adventure/shoot_arrow,§a[§r§aTake Aim§r§a]§r,Take Aim§r,Shoot something with a bow and arrow§r,minecraft:bow,2.0,0.0,,TASK,-,+,+,minecraft:adventure/kill_a_mob,minecraft:adventure/sniper_duel,0,,,null
+minecraft:adventure/sleep_in_bed,§a[§r§aSweet dreams§r§a]§r,Sweet dreams§r,Change your respawn point§r,minecraft:bed,1.0,5.0,,TASK,-,+,+,minecraft:adventure/root,minecraft:adventure/adventuring_time,0,,,null
+minecraft:adventure/sniper_duel,§5[§r§5Sniper duel§r§5]§r,Sniper duel§r,Kill a skeleton with an arrow from more than 50 meters§r,minecraft:arrow,3.0,0.0,,CHALLENGE,-,+,+,minecraft:adventure/shoot_arrow,,50,,,null
+minecraft:adventure/summon_iron_golem,§a[§r§aHired Help§r§a]§r,Hired Help§r,Summon an Iron Golem to help defend a village§r,minecraft:pumpkin,2.0,4.0,,GOAL,-,+,+,minecraft:adventure/trade,,0,,,null
+minecraft:adventure/totem_of_undying,§a[§r§aPostmortal§r§a]§r,Postmortal§r,Use a Totem of Undying to cheat death§r,minecraft:totem_of_undying,2.0,2.0,,GOAL,-,+,+,minecraft:adventure/kill_a_mob,,0,,,null
+minecraft:adventure/trade,§a[§r§aWhat a Deal!§r§a]§r,What a Deal!§r,Successfully trade with a Villager§r,minecraft:emerald,1.0,4.0,,TASK,-,+,+,minecraft:adventure/root,minecraft:adventure/summon_iron_golem,0,,,null
+minecraft:end/dragon_breath,§a[§r§aYou Need a Mint§r§a]§r,You Need a Mint§r,Collect dragon's breath in a glass bottle§r,minecraft:dragon_breath,2.0,3.0,,GOAL,-,+,+,minecraft:end/kill_dragon,,0,,,null
+minecraft:end/dragon_egg,§a[§r§aThe Next Generation§r§a]§r,The Next Generation§r,Hold the Dragon Egg§r,minecraft:dragon_egg,2.0,0.0,,GOAL,-,+,+,minecraft:end/kill_dragon,,0,,,null
+minecraft:end/elytra,§a[§r§aSky's the Limit§r§a]§r,Sky's the Limit§r,Find an Elytra§r,minecraft:elytra,4.0,0.5,,GOAL,-,+,+,minecraft:end/find_end_city,,0,,,null
+minecraft:end/enter_end_gateway,§a[§r§aRemote Getaway§r§a]§r,Remote Getaway§r,Escape the island§r,minecraft:ender_pearl,2.0,1.0,,TASK,-,+,+,minecraft:end/kill_dragon,minecraft:end/find_end_city,0,,,null
+minecraft:end/find_end_city,§a[§r§aThe City at the End of the Game§r§a]§r,The City at the End of the Game§r,"Go on in, what could happen?§r",minecraft:purpur_block,3.0,1.0,,TASK,-,+,+,minecraft:end/enter_end_gateway,"minecraft:end/elytra
+minecraft:end/levitate",0,,,null
+minecraft:end/kill_dragon,§a[§r§aFree the End§r§a]§r,Free the End§r,Good luck§r,minecraft:skull:5,1.0,1.5,,TASK,-,+,+,minecraft:end/root,"minecraft:end/dragon_egg
+minecraft:end/enter_end_gateway
+minecraft:end/respawn_dragon
+minecraft:end/dragon_breath",0,,,null
+minecraft:end/levitate,§5[§r§5Great View From Up Here§r§5]§r,Great View From Up Here§r,Levitate up 50 blocks from the attacks of a Shulker§r,minecraft:shulker_shell,4.0,1.5,,CHALLENGE,-,+,+,minecraft:end/find_end_city,,50,,,null
+minecraft:end/respawn_dragon,§a[§r§aThe End... Again...§r§a]§r,The End... Again...§r,Respawn the ender dragon§r,minecraft:end_crystal,2.0,2.0,,GOAL,-,+,+,minecraft:end/kill_dragon,,0,,,null
+minecraft:end/root,§a[§r§aThe End§r§a]§r,The End§r,Or the beginning?§r,minecraft:end_stone,0.0,1.5,assets/minecraft/textures/gui/advancements/backgrounds/end.png,TASK,-,-,-,,minecraft:end/kill_dragon,0,,,null
+minecraft:husbandry/balanced_diet,§5[§r§5A Balanced Diet§r§5]§r,A Balanced Diet§r,"Eat everything that is edible, even if it's not good for you§r",minecraft:apple,2.0,1.0,,CHALLENGE,-,+,+,minecraft:husbandry/plant_seed,,100,,,null
+minecraft:husbandry/break_diamond_hoe,§5[§r§5Serious Dedication§r§5]§r,Serious Dedication§r,"Completely use up a diamond hoe, and then reevaluate your life choices§r",minecraft:diamond_hoe,2.0,3.0,,CHALLENGE,-,+,+,minecraft:husbandry/plant_seed,,100,,,null
+minecraft:husbandry/bred_all_animals,§5[§r§5Two by Two§r§5]§r,Two by Two§r,Breed all the animals!§r,minecraft:golden_carrot,2.0,0.0,,CHALLENGE,-,+,+,minecraft:husbandry/breed_an_animal,,100,,,null
+minecraft:husbandry/breed_an_animal,§a[§r§aThe Parrots and the Bats§r§a]§r,The Parrots and the Bats§r,Breed two animals together§r,minecraft:wheat,1.0,0.0,,TASK,-,+,+,minecraft:husbandry/root,minecraft:husbandry/bred_all_animals,0,,,null
+minecraft:husbandry/plant_seed,§a[§r§aA Seedy Place§r§a]§r,A Seedy Place§r,Plant a seed and watch it grow§r,minecraft:wheat,1.0,2.0,,TASK,-,+,+,minecraft:husbandry/root,"minecraft:husbandry/balanced_diet
+culinaryconstruct:craft_food
+minecraft:husbandry/break_diamond_hoe",0,,,null
+minecraft:husbandry/root,§a[§r§aHusbandry§r§a]§r,Husbandry§r,The world is full of friends and food§r,minecraft:hay_block,0.0,1.0,assets/minecraft/textures/gui/advancements/backgrounds/husbandry.png,TASK,-,-,-,,"minecraft:husbandry/breed_an_animal
+minecraft:husbandry/tame_an_animal
+minecraft:husbandry/plant_seed",0,,,null
+minecraft:husbandry/tame_an_animal,§a[§r§aBest Friends Forever§r§a]§r,Best Friends Forever§r,Tame an animal§r,minecraft:lead,1.0,1.0,,TASK,-,+,+,minecraft:husbandry/root,,0,,,null
+minecraft:nether/all_effects,§5[§r§5How Did We Get Here?§r§5]§r,How Did We Get Here?§r,Have every effect applied at the same time§r,minecraft:bucket,5.0,0.5,,CHALLENGE,+,+,+,minecraft:nether/all_potions,,1000,,,null
+minecraft:nether/all_potions,§5[§r§5A Furious Cocktail§r§5]§r,A Furious Cocktail§r,Have every potion effect applied at the same time§r,minecraft:milk_bucket,4.0,0.5,,CHALLENGE,-,+,+,minecraft:nether/brew_potion,minecraft:nether/all_effects,100,,,null
+minecraft:nether/brew_potion,§a[§r§aLocal Brewery§r§a]§r,Local Brewery§r,Brew a potion§r,minecraft:potion,3.0,0.5,,TASK,-,+,+,minecraft:nether/obtain_blaze_rod,minecraft:nether/all_potions,0,,,null
+minecraft:nether/create_beacon,§a[§r§aBring Home the Beacon§r§a]§r,Bring Home the Beacon§r,Construct and place a Beacon§r,minecraft:beacon,4.0,1.5,,TASK,-,+,+,minecraft:nether/summon_wither,minecraft:nether/create_full_beacon,0,,,null
+minecraft:nether/create_full_beacon,§a[§r§aBeaconator§r§a]§r,Beaconator§r,Bring a beacon to full power§r,minecraft:beacon,5.0,1.5,,GOAL,-,+,+,minecraft:nether/create_beacon,,0,,,null
+minecraft:nether/fast_travel,§5[§r§5Subspace Bubble§r§5]§r,Subspace Bubble§r,Use the Nether to travel 7km in the Overworld§r,minecraft:map,1.0,0.0,,CHALLENGE,-,+,+,minecraft:nether/root,,100,,,null
+minecraft:nether/find_fortress,§a[§r§aA Terrible Fortress§r§a]§r,A Terrible Fortress§r,Break your way into a Nether Fortress§r,minecraft:nether_brick,1.0,1.0,,TASK,-,+,+,minecraft:nether/root,"minecraft:nether/obtain_blaze_rod
+minecraft:nether/get_wither_skull",0,,,null
+minecraft:nether/get_wither_skull,§a[§r§aSpooky Scary Skeleton§r§a]§r,Spooky Scary Skeleton§r,Obtain a wither skeleton's skull§r,minecraft:skull:1,2.0,1.5,,TASK,-,+,+,minecraft:nether/find_fortress,minecraft:nether/summon_wither,0,,,null
+minecraft:nether/obtain_blaze_rod,§a[§r§aInto Fire§r§a]§r,Into Fire§r,Relieve a Blaze of its rod§r,minecraft:blaze_rod,2.0,0.5,,TASK,-,+,+,minecraft:nether/find_fortress,minecraft:nether/brew_potion,0,,,null
+minecraft:nether/return_to_sender,§5[§r§5Return to Sender§r§5]§r,Return to Sender§r,Destroy a Ghast with a fireball§r,minecraft:fire_charge,1.0,2.5,,CHALLENGE,-,+,+,minecraft:nether/root,minecraft:nether/uneasy_alliance,50,,,null
+minecraft:nether/root,§a[§r§aNether§r§a]§r,Nether§r,Bring summer clothes§r,minecraft:red_nether_brick,0.0,1.25,assets/minecraft/textures/gui/advancements/backgrounds/nether.png,TASK,-,-,-,,"minecraft:nether/fast_travel
+minecraft:nether/find_fortress
+minecraft:nether/return_to_sender",0,,,null
+minecraft:nether/summon_wither,§a[§r§aWithering Heights§r§a]§r,Withering Heights§r,Summon the Wither§r,minecraft:nether_star,3.0,1.5,,TASK,-,+,+,minecraft:nether/get_wither_skull,minecraft:nether/create_beacon,0,,,null
+minecraft:nether/uneasy_alliance,§5[§r§5Uneasy Alliance§r§5]§r,Uneasy Alliance§r,"Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it.§r",minecraft:ghast_tear,2.0,2.5,,CHALLENGE,-,+,+,minecraft:nether/return_to_sender,,100,,,null
+minecraft:recipes/brewing/blaze_powder,minecraft:recipes/brewing/blaze_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blaze_powder,null
+minecraft:recipes/brewing/brewing_stand,minecraft:recipes/brewing/brewing_stand§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brewing_stand,null
+minecraft:recipes/brewing/cauldron,minecraft:recipes/brewing/cauldron§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cauldron,null
+minecraft:recipes/brewing/fermented_spider_eye,minecraft:recipes/brewing/fermented_spider_eye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:fermented_spider_eye,null
+minecraft:recipes/brewing/glass_bottle,minecraft:recipes/brewing/glass_bottle§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:glass_bottle,null
+minecraft:recipes/brewing/golden_carrot,minecraft:recipes/brewing/golden_carrot§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_carrot,null
+minecraft:recipes/brewing/magma_cream,minecraft:recipes/brewing/magma_cream§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magma_cream,null
+minecraft:recipes/brewing/speckled_melon,minecraft:recipes/brewing/speckled_melon§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:speckled_melon,null
+minecraft:recipes/building_blocks/acacia_planks,minecraft:recipes/building_blocks/acacia_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_planks,null
+minecraft:recipes/building_blocks/acacia_stairs,minecraft:recipes/building_blocks/acacia_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_stairs,null
+minecraft:recipes/building_blocks/acacia_wooden_slab,minecraft:recipes/building_blocks/acacia_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_wooden_slab,null
+minecraft:recipes/building_blocks/andesite,minecraft:recipes/building_blocks/andesite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:andesite,null
+minecraft:recipes/building_blocks/birch_planks,minecraft:recipes/building_blocks/birch_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_planks,null
+minecraft:recipes/building_blocks/birch_stairs,minecraft:recipes/building_blocks/birch_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_stairs,null
+minecraft:recipes/building_blocks/birch_wooden_slab,minecraft:recipes/building_blocks/birch_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_wooden_slab,null
+minecraft:recipes/building_blocks/black_concrete_powder,minecraft:recipes/building_blocks/black_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_concrete_powder,null
+minecraft:recipes/building_blocks/black_stained_glass,minecraft:recipes/building_blocks/black_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_stained_glass,null
+minecraft:recipes/building_blocks/black_stained_hardened_clay,minecraft:recipes/building_blocks/black_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_stained_hardened_clay,null
+minecraft:recipes/building_blocks/black_wool,minecraft:recipes/building_blocks/black_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_wool,null
+minecraft:recipes/building_blocks/blue_concrete_powder,minecraft:recipes/building_blocks/blue_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_concrete_powder,null
+minecraft:recipes/building_blocks/blue_stained_glass,minecraft:recipes/building_blocks/blue_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_stained_glass,null
+minecraft:recipes/building_blocks/blue_stained_hardened_clay,minecraft:recipes/building_blocks/blue_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_stained_hardened_clay,null
+minecraft:recipes/building_blocks/blue_wool,minecraft:recipes/building_blocks/blue_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_wool,null
+minecraft:recipes/building_blocks/bone_block,minecraft:recipes/building_blocks/bone_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:bone_meal_from_block
+minecraft:bone_block",null
+minecraft:recipes/building_blocks/bookshelf,minecraft:recipes/building_blocks/bookshelf§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bookshelf,null
+minecraft:recipes/building_blocks/brick_block,minecraft:recipes/building_blocks/brick_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brick_block,null
+minecraft:recipes/building_blocks/brick_slab,minecraft:recipes/building_blocks/brick_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brick_slab,null
+minecraft:recipes/building_blocks/brick_stairs,minecraft:recipes/building_blocks/brick_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brick_stairs,null
+minecraft:recipes/building_blocks/brown_concrete_powder,minecraft:recipes/building_blocks/brown_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_concrete_powder,null
+minecraft:recipes/building_blocks/brown_stained_glass,minecraft:recipes/building_blocks/brown_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_stained_glass,null
+minecraft:recipes/building_blocks/brown_stained_hardened_clay,minecraft:recipes/building_blocks/brown_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_stained_hardened_clay,null
+minecraft:recipes/building_blocks/brown_wool,minecraft:recipes/building_blocks/brown_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_wool,null
+minecraft:recipes/building_blocks/chiseled_quartz_block,minecraft:recipes/building_blocks/chiseled_quartz_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chiseled_quartz_block,null
+minecraft:recipes/building_blocks/chiseled_red_sandstone,minecraft:recipes/building_blocks/chiseled_red_sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chiseled_red_sandstone,null
+minecraft:recipes/building_blocks/chiseled_sandstone,minecraft:recipes/building_blocks/chiseled_sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chiseled_sandstone,null
+minecraft:recipes/building_blocks/chiseled_stonebrick,minecraft:recipes/building_blocks/chiseled_stonebrick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chiseled_stonebrick,null
+minecraft:recipes/building_blocks/clay,minecraft:recipes/building_blocks/clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:clay,null
+minecraft:recipes/building_blocks/coal_block,minecraft:recipes/building_blocks/coal_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:coal_block
+minecraft:coal",null
+minecraft:recipes/building_blocks/coarse_dirt,minecraft:recipes/building_blocks/coarse_dirt§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:coarse_dirt,null
+minecraft:recipes/building_blocks/cobblestone_slab,minecraft:recipes/building_blocks/cobblestone_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cobblestone_slab,null
+minecraft:recipes/building_blocks/cyan_concrete_powder,minecraft:recipes/building_blocks/cyan_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_concrete_powder,null
+minecraft:recipes/building_blocks/cyan_stained_glass,minecraft:recipes/building_blocks/cyan_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_stained_glass,null
+minecraft:recipes/building_blocks/cyan_stained_hardened_clay,minecraft:recipes/building_blocks/cyan_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_stained_hardened_clay,null
+minecraft:recipes/building_blocks/cyan_wool,minecraft:recipes/building_blocks/cyan_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_wool,null
+minecraft:recipes/building_blocks/dark_oak_planks,minecraft:recipes/building_blocks/dark_oak_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_planks,null
+minecraft:recipes/building_blocks/dark_oak_stairs,minecraft:recipes/building_blocks/dark_oak_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_stairs,null
+minecraft:recipes/building_blocks/dark_oak_wooden_slab,minecraft:recipes/building_blocks/dark_oak_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_wooden_slab,null
+minecraft:recipes/building_blocks/dark_prismarine,minecraft:recipes/building_blocks/dark_prismarine§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_prismarine,null
+minecraft:recipes/building_blocks/diamond_block,minecraft:recipes/building_blocks/diamond_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:diamond_block
+minecraft:diamond",null
+minecraft:recipes/building_blocks/diorite,minecraft:recipes/building_blocks/diorite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diorite,null
+minecraft:recipes/building_blocks/emerald_block,minecraft:recipes/building_blocks/emerald_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:emerald
+minecraft:emerald_block",null
+minecraft:recipes/building_blocks/end_bricks,minecraft:recipes/building_blocks/end_bricks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:end_bricks,null
+minecraft:recipes/building_blocks/glowstone,minecraft:recipes/building_blocks/glowstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:glowstone,null
+minecraft:recipes/building_blocks/gold_block,minecraft:recipes/building_blocks/gold_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:gold_ingot_from_block
+minecraft:gold_block",null
+minecraft:recipes/building_blocks/granite,minecraft:recipes/building_blocks/granite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:granite,null
+minecraft:recipes/building_blocks/gray_concrete_powder,minecraft:recipes/building_blocks/gray_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_concrete_powder,null
+minecraft:recipes/building_blocks/gray_stained_glass,minecraft:recipes/building_blocks/gray_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_stained_glass,null
+minecraft:recipes/building_blocks/gray_stained_hardened_clay,minecraft:recipes/building_blocks/gray_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_stained_hardened_clay,null
+minecraft:recipes/building_blocks/gray_wool,minecraft:recipes/building_blocks/gray_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_wool,null
+minecraft:recipes/building_blocks/green_concrete_powder,minecraft:recipes/building_blocks/green_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_concrete_powder,null
+minecraft:recipes/building_blocks/green_stained_glass,minecraft:recipes/building_blocks/green_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_stained_glass,null
+minecraft:recipes/building_blocks/green_stained_hardened_clay,minecraft:recipes/building_blocks/green_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_stained_hardened_clay,null
+minecraft:recipes/building_blocks/green_wool,minecraft:recipes/building_blocks/green_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_wool,null
+minecraft:recipes/building_blocks/hay_block,minecraft:recipes/building_blocks/hay_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:hay_block
+minecraft:wheat",null
+minecraft:recipes/building_blocks/iron_block,minecraft:recipes/building_blocks/iron_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:iron_block
+minecraft:iron_ingot_from_block",null
+minecraft:recipes/building_blocks/jungle_planks,minecraft:recipes/building_blocks/jungle_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_planks,null
+minecraft:recipes/building_blocks/jungle_stairs,minecraft:recipes/building_blocks/jungle_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_stairs,null
+minecraft:recipes/building_blocks/jungle_wooden_slab,minecraft:recipes/building_blocks/jungle_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_wooden_slab,null
+minecraft:recipes/building_blocks/lapis_block,minecraft:recipes/building_blocks/lapis_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:lapis_block
+minecraft:lapis_lazuli",null
+minecraft:recipes/building_blocks/light_blue_concrete_powder,minecraft:recipes/building_blocks/light_blue_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_concrete_powder,null
+minecraft:recipes/building_blocks/light_blue_stained_glass,minecraft:recipes/building_blocks/light_blue_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_stained_glass,null
+minecraft:recipes/building_blocks/light_blue_stained_hardened_clay,minecraft:recipes/building_blocks/light_blue_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_stained_hardened_clay,null
+minecraft:recipes/building_blocks/light_blue_wool,minecraft:recipes/building_blocks/light_blue_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_wool,null
+minecraft:recipes/building_blocks/light_gray_concrete_powder,minecraft:recipes/building_blocks/light_gray_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_concrete_powder,null
+minecraft:recipes/building_blocks/light_gray_stained_glass,minecraft:recipes/building_blocks/light_gray_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_stained_glass,null
+minecraft:recipes/building_blocks/light_gray_stained_hardened_clay,minecraft:recipes/building_blocks/light_gray_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_stained_hardened_clay,null
+minecraft:recipes/building_blocks/light_gray_wool,minecraft:recipes/building_blocks/light_gray_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_wool,null
+minecraft:recipes/building_blocks/lime_concrete_powder,minecraft:recipes/building_blocks/lime_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_concrete_powder,null
+minecraft:recipes/building_blocks/lime_stained_glass,minecraft:recipes/building_blocks/lime_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_stained_glass,null
+minecraft:recipes/building_blocks/lime_stained_hardened_clay,minecraft:recipes/building_blocks/lime_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_stained_hardened_clay,null
+minecraft:recipes/building_blocks/lime_wool,minecraft:recipes/building_blocks/lime_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_wool,null
+minecraft:recipes/building_blocks/lit_pumpkin,minecraft:recipes/building_blocks/lit_pumpkin§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lit_pumpkin,null
+minecraft:recipes/building_blocks/magenta_concrete_powder,minecraft:recipes/building_blocks/magenta_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_concrete_powder,null
+minecraft:recipes/building_blocks/magenta_stained_glass,minecraft:recipes/building_blocks/magenta_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_stained_glass,null
+minecraft:recipes/building_blocks/magenta_stained_hardened_clay,minecraft:recipes/building_blocks/magenta_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_stained_hardened_clay,null
+minecraft:recipes/building_blocks/magenta_wool,minecraft:recipes/building_blocks/magenta_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_wool,null
+minecraft:recipes/building_blocks/magma,minecraft:recipes/building_blocks/magma§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magma,null
+minecraft:recipes/building_blocks/melon_block,minecraft:recipes/building_blocks/melon_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:melon_block,null
+minecraft:recipes/building_blocks/mossy_cobblestone,minecraft:recipes/building_blocks/mossy_cobblestone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:mossy_cobblestone,null
+minecraft:recipes/building_blocks/mossy_stonebrick,minecraft:recipes/building_blocks/mossy_stonebrick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:mossy_stonebrick,null
+minecraft:recipes/building_blocks/nether_brick,minecraft:recipes/building_blocks/nether_brick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:nether_brick,null
+minecraft:recipes/building_blocks/nether_brick_slab,minecraft:recipes/building_blocks/nether_brick_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:nether_brick_slab,null
+minecraft:recipes/building_blocks/nether_brick_stairs,minecraft:recipes/building_blocks/nether_brick_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:nether_brick_stairs,null
+minecraft:recipes/building_blocks/nether_wart_block,minecraft:recipes/building_blocks/nether_wart_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:nether_wart_block,null
+minecraft:recipes/building_blocks/oak_planks,minecraft:recipes/building_blocks/oak_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:oak_planks,null
+minecraft:recipes/building_blocks/oak_stairs,minecraft:recipes/building_blocks/oak_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:oak_stairs,null
+minecraft:recipes/building_blocks/oak_wooden_slab,minecraft:recipes/building_blocks/oak_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:oak_wooden_slab,null
+minecraft:recipes/building_blocks/orange_concrete_powder,minecraft:recipes/building_blocks/orange_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_concrete_powder,null
+minecraft:recipes/building_blocks/orange_stained_glass,minecraft:recipes/building_blocks/orange_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_stained_glass,null
+minecraft:recipes/building_blocks/orange_stained_hardened_clay,minecraft:recipes/building_blocks/orange_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_stained_hardened_clay,null
+minecraft:recipes/building_blocks/orange_wool,minecraft:recipes/building_blocks/orange_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_wool,null
+minecraft:recipes/building_blocks/pillar_quartz_block,minecraft:recipes/building_blocks/pillar_quartz_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pillar_quartz_block,null
+minecraft:recipes/building_blocks/pink_concrete_powder,minecraft:recipes/building_blocks/pink_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_concrete_powder,null
+minecraft:recipes/building_blocks/pink_stained_glass,minecraft:recipes/building_blocks/pink_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_stained_glass,null
+minecraft:recipes/building_blocks/pink_stained_hardened_clay,minecraft:recipes/building_blocks/pink_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_stained_hardened_clay,null
+minecraft:recipes/building_blocks/pink_wool,minecraft:recipes/building_blocks/pink_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_wool,null
+minecraft:recipes/building_blocks/polished_andesite,minecraft:recipes/building_blocks/polished_andesite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:polished_andesite,null
+minecraft:recipes/building_blocks/polished_diorite,minecraft:recipes/building_blocks/polished_diorite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:polished_diorite,null
+minecraft:recipes/building_blocks/polished_granite,minecraft:recipes/building_blocks/polished_granite§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:polished_granite,null
+minecraft:recipes/building_blocks/prismarine,minecraft:recipes/building_blocks/prismarine§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:prismarine,null
+minecraft:recipes/building_blocks/prismarine_bricks,minecraft:recipes/building_blocks/prismarine_bricks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:prismarine_bricks,null
+minecraft:recipes/building_blocks/purple_concrete_powder,minecraft:recipes/building_blocks/purple_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_concrete_powder,null
+minecraft:recipes/building_blocks/purple_stained_glass,minecraft:recipes/building_blocks/purple_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_stained_glass,null
+minecraft:recipes/building_blocks/purple_stained_hardened_clay,minecraft:recipes/building_blocks/purple_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_stained_hardened_clay,null
+minecraft:recipes/building_blocks/purple_wool,minecraft:recipes/building_blocks/purple_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_wool,null
+minecraft:recipes/building_blocks/purpur_block,minecraft:recipes/building_blocks/purpur_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purpur_block,null
+minecraft:recipes/building_blocks/purpur_pillar,minecraft:recipes/building_blocks/purpur_pillar§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purpur_pillar,null
+minecraft:recipes/building_blocks/purpur_slab,minecraft:recipes/building_blocks/purpur_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purpur_slab,null
+minecraft:recipes/building_blocks/purpur_stairs,minecraft:recipes/building_blocks/purpur_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purpur_stairs,null
+minecraft:recipes/building_blocks/quartz_block,minecraft:recipes/building_blocks/quartz_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:quartz_block,null
+minecraft:recipes/building_blocks/quartz_slab,minecraft:recipes/building_blocks/quartz_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:quartz_slab,null
+minecraft:recipes/building_blocks/quartz_stairs,minecraft:recipes/building_blocks/quartz_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:quartz_stairs,null
+minecraft:recipes/building_blocks/red_concrete_powder,minecraft:recipes/building_blocks/red_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_concrete_powder,null
+minecraft:recipes/building_blocks/red_nether_brick,minecraft:recipes/building_blocks/red_nether_brick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_nether_brick,null
+minecraft:recipes/building_blocks/red_sandstone,minecraft:recipes/building_blocks/red_sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_sandstone,null
+minecraft:recipes/building_blocks/red_sandstone_slab,minecraft:recipes/building_blocks/red_sandstone_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_sandstone_slab,null
+minecraft:recipes/building_blocks/red_sandstone_stairs,minecraft:recipes/building_blocks/red_sandstone_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_sandstone_stairs,null
+minecraft:recipes/building_blocks/red_stained_glass,minecraft:recipes/building_blocks/red_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_stained_glass,null
+minecraft:recipes/building_blocks/red_stained_hardened_clay,minecraft:recipes/building_blocks/red_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_stained_hardened_clay,null
+minecraft:recipes/building_blocks/red_wool,minecraft:recipes/building_blocks/red_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_wool,null
+minecraft:recipes/building_blocks/sandstone,minecraft:recipes/building_blocks/sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sandstone,null
+minecraft:recipes/building_blocks/sandstone_slab,minecraft:recipes/building_blocks/sandstone_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sandstone_slab,null
+minecraft:recipes/building_blocks/sandstone_stairs,minecraft:recipes/building_blocks/sandstone_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sandstone_stairs,null
+minecraft:recipes/building_blocks/sea_lantern,minecraft:recipes/building_blocks/sea_lantern§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sea_lantern,null
+minecraft:recipes/building_blocks/smooth_red_sandstone,minecraft:recipes/building_blocks/smooth_red_sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:smooth_red_sandstone,null
+minecraft:recipes/building_blocks/smooth_sandstone,minecraft:recipes/building_blocks/smooth_sandstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:smooth_sandstone,null
+minecraft:recipes/building_blocks/snow,minecraft:recipes/building_blocks/snow§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:snow,null
+minecraft:recipes/building_blocks/spruce_planks,minecraft:recipes/building_blocks/spruce_planks§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_planks,null
+minecraft:recipes/building_blocks/spruce_stairs,minecraft:recipes/building_blocks/spruce_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_stairs,null
+minecraft:recipes/building_blocks/spruce_wooden_slab,minecraft:recipes/building_blocks/spruce_wooden_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_wooden_slab,null
+minecraft:recipes/building_blocks/stone_brick_slab,minecraft:recipes/building_blocks/stone_brick_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_brick_slab,null
+minecraft:recipes/building_blocks/stone_brick_stairs,minecraft:recipes/building_blocks/stone_brick_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_brick_stairs,null
+minecraft:recipes/building_blocks/stone_slab,minecraft:recipes/building_blocks/stone_slab§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_slab,null
+minecraft:recipes/building_blocks/stone_stairs,minecraft:recipes/building_blocks/stone_stairs§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_stairs,null
+minecraft:recipes/building_blocks/stonebrick,minecraft:recipes/building_blocks/stonebrick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stonebrick,null
+minecraft:recipes/building_blocks/string_to_wool,minecraft:recipes/building_blocks/string_to_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:string_to_wool,null
+minecraft:recipes/building_blocks/white_concrete_powder,minecraft:recipes/building_blocks/white_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_concrete_powder,null
+minecraft:recipes/building_blocks/white_stained_glass,minecraft:recipes/building_blocks/white_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_stained_glass,null
+minecraft:recipes/building_blocks/white_stained_hardened_clay,minecraft:recipes/building_blocks/white_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_stained_hardened_clay,null
+minecraft:recipes/building_blocks/yellow_concrete_powder,minecraft:recipes/building_blocks/yellow_concrete_powder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_concrete_powder,null
+minecraft:recipes/building_blocks/yellow_stained_glass,minecraft:recipes/building_blocks/yellow_stained_glass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_stained_glass,null
+minecraft:recipes/building_blocks/yellow_stained_hardened_clay,minecraft:recipes/building_blocks/yellow_stained_hardened_clay§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_stained_hardened_clay,null
+minecraft:recipes/building_blocks/yellow_wool,minecraft:recipes/building_blocks/yellow_wool§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_wool,null
+minecraft:recipes/combat/arrow,minecraft:recipes/combat/arrow§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:arrow,null
+minecraft:recipes/combat/bow,minecraft:recipes/combat/bow§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bow,null
+minecraft:recipes/combat/diamond_boots,minecraft:recipes/combat/diamond_boots§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_boots,null
+minecraft:recipes/combat/diamond_chestplate,minecraft:recipes/combat/diamond_chestplate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_chestplate,null
+minecraft:recipes/combat/diamond_helmet,minecraft:recipes/combat/diamond_helmet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_helmet,null
+minecraft:recipes/combat/diamond_leggings,minecraft:recipes/combat/diamond_leggings§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_leggings,null
+minecraft:recipes/combat/diamond_sword,minecraft:recipes/combat/diamond_sword§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_sword,null
+minecraft:recipes/combat/golden_boots,minecraft:recipes/combat/golden_boots§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_boots,null
+minecraft:recipes/combat/golden_chestplate,minecraft:recipes/combat/golden_chestplate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_chestplate,null
+minecraft:recipes/combat/golden_helmet,minecraft:recipes/combat/golden_helmet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_helmet,null
+minecraft:recipes/combat/golden_leggings,minecraft:recipes/combat/golden_leggings§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_leggings,null
+minecraft:recipes/combat/golden_sword,minecraft:recipes/combat/golden_sword§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_sword,null
+minecraft:recipes/combat/iron_boots,minecraft:recipes/combat/iron_boots§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_boots,null
+minecraft:recipes/combat/iron_chestplate,minecraft:recipes/combat/iron_chestplate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_chestplate,null
+minecraft:recipes/combat/iron_helmet,minecraft:recipes/combat/iron_helmet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_helmet,null
+minecraft:recipes/combat/iron_leggings,minecraft:recipes/combat/iron_leggings§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_leggings,null
+minecraft:recipes/combat/iron_sword,minecraft:recipes/combat/iron_sword§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_sword,null
+minecraft:recipes/combat/leather_boots,minecraft:recipes/combat/leather_boots§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:leather_boots,null
+minecraft:recipes/combat/leather_chestplate,minecraft:recipes/combat/leather_chestplate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:leather_chestplate,null
+minecraft:recipes/combat/leather_helmet,minecraft:recipes/combat/leather_helmet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:leather_helmet,null
+minecraft:recipes/combat/leather_leggings,minecraft:recipes/combat/leather_leggings§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:leather_leggings,null
+minecraft:recipes/combat/shield,minecraft:recipes/combat/shield§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:shield,null
+minecraft:recipes/combat/spectral_arrow,minecraft:recipes/combat/spectral_arrow§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spectral_arrow,null
+minecraft:recipes/combat/stone_sword,minecraft:recipes/combat/stone_sword§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_sword,null
+minecraft:recipes/combat/wooden_sword,minecraft:recipes/combat/wooden_sword§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_sword,null
+minecraft:recipes/decorations/acacia_fence,minecraft:recipes/decorations/acacia_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_fence,null
+minecraft:recipes/decorations/anvil,minecraft:recipes/decorations/anvil§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:anvil,null
+minecraft:recipes/decorations/armor_stand,minecraft:recipes/decorations/armor_stand§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:armor_stand,null
+minecraft:recipes/decorations/birch_fence,minecraft:recipes/decorations/birch_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_fence,null
+minecraft:recipes/decorations/black_banner,minecraft:recipes/decorations/black_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_banner,null
+minecraft:recipes/decorations/black_bed,minecraft:recipes/decorations/black_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_bed,null
+minecraft:recipes/decorations/black_bed_from_white_bed,minecraft:recipes/decorations/black_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_bed_from_white_bed,null
+minecraft:recipes/decorations/black_carpet,minecraft:recipes/decorations/black_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_carpet,null
+minecraft:recipes/decorations/black_stained_glass_pane,minecraft:recipes/decorations/black_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:black_stained_glass_pane,null
+minecraft:recipes/decorations/blue_banner,minecraft:recipes/decorations/blue_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_banner,null
+minecraft:recipes/decorations/blue_bed,minecraft:recipes/decorations/blue_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_bed,null
+minecraft:recipes/decorations/blue_bed_from_white_bed,minecraft:recipes/decorations/blue_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_bed_from_white_bed,null
+minecraft:recipes/decorations/blue_carpet,minecraft:recipes/decorations/blue_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_carpet,null
+minecraft:recipes/decorations/blue_stained_glass_pane,minecraft:recipes/decorations/blue_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:blue_stained_glass_pane,null
+minecraft:recipes/decorations/brown_banner,minecraft:recipes/decorations/brown_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_banner,null
+minecraft:recipes/decorations/brown_bed,minecraft:recipes/decorations/brown_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_bed,null
+minecraft:recipes/decorations/brown_bed_from_white_bed,minecraft:recipes/decorations/brown_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_bed_from_white_bed,null
+minecraft:recipes/decorations/brown_carpet,minecraft:recipes/decorations/brown_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_carpet,null
+minecraft:recipes/decorations/brown_stained_glass_pane,minecraft:recipes/decorations/brown_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:brown_stained_glass_pane,null
+minecraft:recipes/decorations/chest,minecraft:recipes/decorations/chest§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chest,null
+minecraft:recipes/decorations/cobblestone_wall,minecraft:recipes/decorations/cobblestone_wall§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cobblestone_wall,null
+minecraft:recipes/decorations/crafting_table,minecraft:recipes/decorations/crafting_table§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:crafting_table,null
+minecraft:recipes/decorations/cyan_banner,minecraft:recipes/decorations/cyan_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_banner,null
+minecraft:recipes/decorations/cyan_bed,minecraft:recipes/decorations/cyan_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_bed,null
+minecraft:recipes/decorations/cyan_bed_from_white_bed,minecraft:recipes/decorations/cyan_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_bed_from_white_bed,null
+minecraft:recipes/decorations/cyan_carpet,minecraft:recipes/decorations/cyan_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_carpet,null
+minecraft:recipes/decorations/cyan_stained_glass_pane,minecraft:recipes/decorations/cyan_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_stained_glass_pane,null
+minecraft:recipes/decorations/dark_oak_fence,minecraft:recipes/decorations/dark_oak_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_fence,null
+minecraft:recipes/decorations/enchanting_table,minecraft:recipes/decorations/enchanting_table§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:enchanting_table,null
+minecraft:recipes/decorations/end_crystal,minecraft:recipes/decorations/end_crystal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:end_crystal,null
+minecraft:recipes/decorations/end_rod,minecraft:recipes/decorations/end_rod§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:end_rod,null
+minecraft:recipes/decorations/ender_chest,minecraft:recipes/decorations/ender_chest§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:ender_chest,null
+minecraft:recipes/decorations/fence,minecraft:recipes/decorations/fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:fence,null
+minecraft:recipes/decorations/flower_pot,minecraft:recipes/decorations/flower_pot§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:flower_pot,null
+minecraft:recipes/decorations/furnace,minecraft:recipes/decorations/furnace§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:furnace,null
+minecraft:recipes/decorations/glass_pane,minecraft:recipes/decorations/glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:glass_pane,null
+minecraft:recipes/decorations/gray_banner,minecraft:recipes/decorations/gray_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_banner,null
+minecraft:recipes/decorations/gray_bed,minecraft:recipes/decorations/gray_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_bed,null
+minecraft:recipes/decorations/gray_bed_from_white_bed,minecraft:recipes/decorations/gray_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_bed_from_white_bed,null
+minecraft:recipes/decorations/gray_carpet,minecraft:recipes/decorations/gray_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_carpet,null
+minecraft:recipes/decorations/gray_stained_glass_pane,minecraft:recipes/decorations/gray_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_stained_glass_pane,null
+minecraft:recipes/decorations/green_banner,minecraft:recipes/decorations/green_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_banner,null
+minecraft:recipes/decorations/green_bed,minecraft:recipes/decorations/green_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_bed,null
+minecraft:recipes/decorations/green_bed_from_white_bed,minecraft:recipes/decorations/green_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_bed_from_white_bed,null
+minecraft:recipes/decorations/green_carpet,minecraft:recipes/decorations/green_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_carpet,null
+minecraft:recipes/decorations/green_stained_glass_pane,minecraft:recipes/decorations/green_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:green_stained_glass_pane,null
+minecraft:recipes/decorations/iron_bars,minecraft:recipes/decorations/iron_bars§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_bars,null
+minecraft:recipes/decorations/item_frame,minecraft:recipes/decorations/item_frame§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:item_frame,null
+minecraft:recipes/decorations/jukebox,minecraft:recipes/decorations/jukebox§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jukebox,null
+minecraft:recipes/decorations/jungle_fence,minecraft:recipes/decorations/jungle_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_fence,null
+minecraft:recipes/decorations/ladder,minecraft:recipes/decorations/ladder§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:ladder,null
+minecraft:recipes/decorations/light_blue_banner,minecraft:recipes/decorations/light_blue_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_banner,null
+minecraft:recipes/decorations/light_blue_bed,minecraft:recipes/decorations/light_blue_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_bed,null
+minecraft:recipes/decorations/light_blue_bed_from_white_bed,minecraft:recipes/decorations/light_blue_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_bed_from_white_bed,null
+minecraft:recipes/decorations/light_blue_carpet,minecraft:recipes/decorations/light_blue_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_carpet,null
+minecraft:recipes/decorations/light_blue_stained_glass_pane,minecraft:recipes/decorations/light_blue_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_stained_glass_pane,null
+minecraft:recipes/decorations/light_gray_banner,minecraft:recipes/decorations/light_gray_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_banner,null
+minecraft:recipes/decorations/light_gray_bed,minecraft:recipes/decorations/light_gray_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_bed,null
+minecraft:recipes/decorations/light_gray_bed_from_white_bed,minecraft:recipes/decorations/light_gray_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_bed_from_white_bed,null
+minecraft:recipes/decorations/light_gray_carpet,minecraft:recipes/decorations/light_gray_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_carpet,null
+minecraft:recipes/decorations/light_gray_stained_glass_pane,minecraft:recipes/decorations/light_gray_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_stained_glass_pane,null
+minecraft:recipes/decorations/lime_banner,minecraft:recipes/decorations/lime_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_banner,null
+minecraft:recipes/decorations/lime_bed,minecraft:recipes/decorations/lime_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_bed,null
+minecraft:recipes/decorations/lime_bed_from_white_bed,minecraft:recipes/decorations/lime_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_bed_from_white_bed,null
+minecraft:recipes/decorations/lime_carpet,minecraft:recipes/decorations/lime_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_carpet,null
+minecraft:recipes/decorations/lime_stained_glass_pane,minecraft:recipes/decorations/lime_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_stained_glass_pane,null
+minecraft:recipes/decorations/magenta_banner,minecraft:recipes/decorations/magenta_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_banner,null
+minecraft:recipes/decorations/magenta_bed,minecraft:recipes/decorations/magenta_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_bed,null
+minecraft:recipes/decorations/magenta_bed_from_white_bed,minecraft:recipes/decorations/magenta_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_bed_from_white_bed,null
+minecraft:recipes/decorations/magenta_carpet,minecraft:recipes/decorations/magenta_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_carpet,null
+minecraft:recipes/decorations/magenta_stained_glass_pane,minecraft:recipes/decorations/magenta_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_stained_glass_pane,null
+minecraft:recipes/decorations/mossy_cobblestone_wall,minecraft:recipes/decorations/mossy_cobblestone_wall§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:mossy_cobblestone_wall,null
+minecraft:recipes/decorations/nether_brick_fence,minecraft:recipes/decorations/nether_brick_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:nether_brick_fence,null
+minecraft:recipes/decorations/orange_banner,minecraft:recipes/decorations/orange_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_banner,null
+minecraft:recipes/decorations/orange_bed,minecraft:recipes/decorations/orange_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_bed,null
+minecraft:recipes/decorations/orange_bed_from_white_bed,minecraft:recipes/decorations/orange_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_bed_from_white_bed,null
+minecraft:recipes/decorations/orange_carpet,minecraft:recipes/decorations/orange_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_carpet,null
+minecraft:recipes/decorations/orange_stained_glass_pane,minecraft:recipes/decorations/orange_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_stained_glass_pane,null
+minecraft:recipes/decorations/painting,minecraft:recipes/decorations/painting§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:painting,null
+minecraft:recipes/decorations/pink_banner,minecraft:recipes/decorations/pink_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_banner,null
+minecraft:recipes/decorations/pink_bed,minecraft:recipes/decorations/pink_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_bed,null
+minecraft:recipes/decorations/pink_bed_from_white_bed,minecraft:recipes/decorations/pink_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_bed_from_white_bed,null
+minecraft:recipes/decorations/pink_carpet,minecraft:recipes/decorations/pink_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_carpet,null
+minecraft:recipes/decorations/pink_stained_glass_pane,minecraft:recipes/decorations/pink_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_stained_glass_pane,null
+minecraft:recipes/decorations/purple_banner,minecraft:recipes/decorations/purple_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_banner,null
+minecraft:recipes/decorations/purple_bed,minecraft:recipes/decorations/purple_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_bed,null
+minecraft:recipes/decorations/purple_bed_from_white_bed,minecraft:recipes/decorations/purple_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_bed_from_white_bed,null
+minecraft:recipes/decorations/purple_carpet,minecraft:recipes/decorations/purple_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_carpet,null
+minecraft:recipes/decorations/purple_shulker_box,minecraft:recipes/decorations/purple_shulker_box§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_shulker_box,null
+minecraft:recipes/decorations/purple_stained_glass_pane,minecraft:recipes/decorations/purple_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_stained_glass_pane,null
+minecraft:recipes/decorations/red_banner,minecraft:recipes/decorations/red_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_banner,null
+minecraft:recipes/decorations/red_bed,minecraft:recipes/decorations/red_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_bed,null
+minecraft:recipes/decorations/red_bed_from_white_bed,minecraft:recipes/decorations/red_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_bed_from_white_bed,null
+minecraft:recipes/decorations/red_carpet,minecraft:recipes/decorations/red_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_carpet,null
+minecraft:recipes/decorations/red_stained_glass_pane,minecraft:recipes/decorations/red_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_stained_glass_pane,null
+minecraft:recipes/decorations/sign,minecraft:recipes/decorations/sign§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sign,null
+minecraft:recipes/decorations/slime,minecraft:recipes/decorations/slime§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:slime_ball
+minecraft:slime",null
+minecraft:recipes/decorations/snow_layer,minecraft:recipes/decorations/snow_layer§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:snow_layer,null
+minecraft:recipes/decorations/spruce_fence,minecraft:recipes/decorations/spruce_fence§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_fence,null
+minecraft:recipes/decorations/torch,minecraft:recipes/decorations/torch§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:torch,null
+minecraft:recipes/decorations/white_banner,minecraft:recipes/decorations/white_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_banner,null
+minecraft:recipes/decorations/white_bed,minecraft:recipes/decorations/white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_bed,null
+minecraft:recipes/decorations/white_carpet,minecraft:recipes/decorations/white_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_carpet,null
+minecraft:recipes/decorations/white_stained_glass_pane,minecraft:recipes/decorations/white_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:white_stained_glass_pane,null
+minecraft:recipes/decorations/yellow_banner,minecraft:recipes/decorations/yellow_banner§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_banner,null
+minecraft:recipes/decorations/yellow_bed,minecraft:recipes/decorations/yellow_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_bed,null
+minecraft:recipes/decorations/yellow_bed_from_white_bed,minecraft:recipes/decorations/yellow_bed_from_white_bed§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_bed_from_white_bed,null
+minecraft:recipes/decorations/yellow_carpet,minecraft:recipes/decorations/yellow_carpet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_carpet,null
+minecraft:recipes/decorations/yellow_stained_glass_pane,minecraft:recipes/decorations/yellow_stained_glass_pane§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_stained_glass_pane,null
+minecraft:recipes/food/beetroot_soup,minecraft:recipes/food/beetroot_soup§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:beetroot_soup,null
+minecraft:recipes/food/bread,minecraft:recipes/food/bread§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bread,null
+minecraft:recipes/food/cake,minecraft:recipes/food/cake§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cake,null
+minecraft:recipes/food/cookie,minecraft:recipes/food/cookie§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cookie,null
+minecraft:recipes/food/golden_apple,minecraft:recipes/food/golden_apple§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_apple,null
+minecraft:recipes/food/mushroom_stew,minecraft:recipes/food/mushroom_stew§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:mushroom_stew,null
+minecraft:recipes/food/pumpkin_pie,minecraft:recipes/food/pumpkin_pie§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pumpkin_pie,null
+minecraft:recipes/food/rabbit_stew_from_brown_mushroom,minecraft:recipes/food/rabbit_stew_from_brown_mushroom§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:rabbit_stew_from_brown_mushroom,null
+minecraft:recipes/food/rabbit_stew_from_red_mushroom,minecraft:recipes/food/rabbit_stew_from_red_mushroom§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:rabbit_stew_from_red_mushroom,null
+minecraft:recipes/misc/beacon,minecraft:recipes/misc/beacon§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:beacon,null
+minecraft:recipes/misc/bone_meal_from_block,minecraft:recipes/misc/bone_meal_from_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bone_meal_from_block,null
+minecraft:recipes/misc/bone_meal_from_bone,minecraft:recipes/misc/bone_meal_from_bone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bone_meal_from_bone,null
+minecraft:recipes/misc/book,minecraft:recipes/misc/book§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:book,null
+minecraft:recipes/misc/bowl,minecraft:recipes/misc/bowl§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bowl,null
+minecraft:recipes/misc/bucket,minecraft:recipes/misc/bucket§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:bucket,null
+minecraft:recipes/misc/coal,minecraft:recipes/misc/coal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:coal,null
+minecraft:recipes/misc/cyan_dye,minecraft:recipes/misc/cyan_dye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:cyan_dye,null
+minecraft:recipes/misc/diamond,minecraft:recipes/misc/diamond§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond,null
+minecraft:recipes/misc/emerald,minecraft:recipes/misc/emerald§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:emerald,null
+minecraft:recipes/misc/ender_eye,minecraft:recipes/misc/ender_eye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:ender_eye,null
+minecraft:recipes/misc/fire_charge,minecraft:recipes/misc/fire_charge§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:fire_charge,null
+minecraft:recipes/misc/gold_ingot_from_block,minecraft:recipes/misc/gold_ingot_from_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gold_ingot_from_block,null
+minecraft:recipes/misc/gold_ingot_from_nuggets,minecraft:recipes/misc/gold_ingot_from_nuggets§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:gold_nugget
+minecraft:gold_ingot_from_nuggets",null
+minecraft:recipes/misc/gold_nugget,minecraft:recipes/misc/gold_nugget§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gold_nugget,null
+minecraft:recipes/misc/gray_dye,minecraft:recipes/misc/gray_dye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:gray_dye,null
+minecraft:recipes/misc/iron_ingot_from_block,minecraft:recipes/misc/iron_ingot_from_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_ingot_from_block,null
+minecraft:recipes/misc/iron_ingot_from_nuggets,minecraft:recipes/misc/iron_ingot_from_nuggets§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:iron_nugget
+minecraft:iron_ingot_from_nuggets",null
+minecraft:recipes/misc/iron_nugget,minecraft:recipes/misc/iron_nugget§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_nugget,null
+minecraft:recipes/misc/lapis_lazuli,minecraft:recipes/misc/lapis_lazuli§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lapis_lazuli,null
+minecraft:recipes/misc/leather,minecraft:recipes/misc/leather§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:leather,null
+minecraft:recipes/misc/light_blue_dye_from_blue_orchid,minecraft:recipes/misc/light_blue_dye_from_blue_orchid§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_dye_from_blue_orchid,null
+minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal,minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_blue_dye_from_lapis_bonemeal,null
+minecraft:recipes/misc/light_gray_dye_from_azure_bluet,minecraft:recipes/misc/light_gray_dye_from_azure_bluet§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_dye_from_azure_bluet,null
+minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal,minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_dye_from_gray_bonemeal,null
+minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal,minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_dye_from_ink_bonemeal,null
+minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy,minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_dye_from_oxeye_daisy,null
+minecraft:recipes/misc/light_gray_dye_from_white_tulip,minecraft:recipes/misc/light_gray_dye_from_white_tulip§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_gray_dye_from_white_tulip,null
+minecraft:recipes/misc/lime_dye,minecraft:recipes/misc/lime_dye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lime_dye,null
+minecraft:recipes/misc/magenta_dye_from_allium,minecraft:recipes/misc/magenta_dye_from_allium§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_dye_from_allium,null
+minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal,minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_dye_from_lapis_ink_bonemeal,null
+minecraft:recipes/misc/magenta_dye_from_lapis_red_pink,minecraft:recipes/misc/magenta_dye_from_lapis_red_pink§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_dye_from_lapis_red_pink,null
+minecraft:recipes/misc/magenta_dye_from_lilac,minecraft:recipes/misc/magenta_dye_from_lilac§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_dye_from_lilac,null
+minecraft:recipes/misc/magenta_dye_from_purple_and_pink,minecraft:recipes/misc/magenta_dye_from_purple_and_pink§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:magenta_dye_from_purple_and_pink,null
+minecraft:recipes/misc/map,minecraft:recipes/misc/map§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:map,null
+minecraft:recipes/misc/melon_seeds,minecraft:recipes/misc/melon_seeds§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:melon_seeds,null
+minecraft:recipes/misc/orange_dye_from_orange_tulip,minecraft:recipes/misc/orange_dye_from_orange_tulip§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_dye_from_orange_tulip,null
+minecraft:recipes/misc/orange_dye_from_red_yellow,minecraft:recipes/misc/orange_dye_from_red_yellow§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:orange_dye_from_red_yellow,null
+minecraft:recipes/misc/paper,minecraft:recipes/misc/paper§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:paper,null
+minecraft:recipes/misc/pink_dye_from_peony,minecraft:recipes/misc/pink_dye_from_peony§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_dye_from_peony,null
+minecraft:recipes/misc/pink_dye_from_pink_tulip,minecraft:recipes/misc/pink_dye_from_pink_tulip§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_dye_from_pink_tulip,null
+minecraft:recipes/misc/pink_dye_from_red_bonemeal,minecraft:recipes/misc/pink_dye_from_red_bonemeal§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pink_dye_from_red_bonemeal,null
+minecraft:recipes/misc/pumpkin_seeds,minecraft:recipes/misc/pumpkin_seeds§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:pumpkin_seeds,null
+minecraft:recipes/misc/purple_dye,minecraft:recipes/misc/purple_dye§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:purple_dye,null
+minecraft:recipes/misc/red_dye_from_beetroot,minecraft:recipes/misc/red_dye_from_beetroot§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_dye_from_beetroot,null
+minecraft:recipes/misc/red_dye_from_poppy,minecraft:recipes/misc/red_dye_from_poppy§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_dye_from_poppy,null
+minecraft:recipes/misc/red_dye_from_rose_bush,minecraft:recipes/misc/red_dye_from_rose_bush§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_dye_from_rose_bush,null
+minecraft:recipes/misc/red_dye_from_tulip,minecraft:recipes/misc/red_dye_from_tulip§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:red_dye_from_tulip,null
+minecraft:recipes/misc/slime_ball,minecraft:recipes/misc/slime_ball§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:slime_ball,null
+minecraft:recipes/misc/stick,minecraft:recipes/misc/stick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stick,null
+minecraft:recipes/misc/sugar,minecraft:recipes/misc/sugar§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sugar,null
+minecraft:recipes/misc/wheat,minecraft:recipes/misc/wheat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wheat,null
+minecraft:recipes/misc/writable_book,minecraft:recipes/misc/writable_book§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:writable_book,null
+minecraft:recipes/misc/yellow_dye_from_dandelion,minecraft:recipes/misc/yellow_dye_from_dandelion§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_dye_from_dandelion,null
+minecraft:recipes/misc/yellow_dye_from_sunflower,minecraft:recipes/misc/yellow_dye_from_sunflower§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:yellow_dye_from_sunflower,null
+minecraft:recipes/redstone/acacia_door,minecraft:recipes/redstone/acacia_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_door,null
+minecraft:recipes/redstone/acacia_fence_gate,minecraft:recipes/redstone/acacia_fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_fence_gate,null
+minecraft:recipes/redstone/birch_door,minecraft:recipes/redstone/birch_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_door,null
+minecraft:recipes/redstone/birch_fence_gate,minecraft:recipes/redstone/birch_fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_fence_gate,null
+minecraft:recipes/redstone/comparator,minecraft:recipes/redstone/comparator§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:comparator,null
+minecraft:recipes/redstone/dark_oak_door,minecraft:recipes/redstone/dark_oak_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_door,null
+minecraft:recipes/redstone/dark_oak_fence_gate,minecraft:recipes/redstone/dark_oak_fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_fence_gate,null
+minecraft:recipes/redstone/daylight_detector,minecraft:recipes/redstone/daylight_detector§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:daylight_detector,null
+minecraft:recipes/redstone/dispenser,minecraft:recipes/redstone/dispenser§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dispenser,null
+minecraft:recipes/redstone/dropper,minecraft:recipes/redstone/dropper§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dropper,null
+minecraft:recipes/redstone/fence_gate,minecraft:recipes/redstone/fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:fence_gate,null
+minecraft:recipes/redstone/heavy_weighted_pressure_plate,minecraft:recipes/redstone/heavy_weighted_pressure_plate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:heavy_weighted_pressure_plate,null
+minecraft:recipes/redstone/hopper,minecraft:recipes/redstone/hopper§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:hopper,null
+minecraft:recipes/redstone/iron_door,minecraft:recipes/redstone/iron_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_door,null
+minecraft:recipes/redstone/iron_trapdoor,minecraft:recipes/redstone/iron_trapdoor§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_trapdoor,null
+minecraft:recipes/redstone/jungle_door,minecraft:recipes/redstone/jungle_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_door,null
+minecraft:recipes/redstone/jungle_fence_gate,minecraft:recipes/redstone/jungle_fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_fence_gate,null
+minecraft:recipes/redstone/lever,minecraft:recipes/redstone/lever§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lever,null
+minecraft:recipes/redstone/light_weighted_pressure_plate,minecraft:recipes/redstone/light_weighted_pressure_plate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:light_weighted_pressure_plate,null
+minecraft:recipes/redstone/noteblock,minecraft:recipes/redstone/noteblock§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:noteblock,null
+minecraft:recipes/redstone/observer,minecraft:recipes/redstone/observer§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:observer,null
+minecraft:recipes/redstone/piston,minecraft:recipes/redstone/piston§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:piston,null
+minecraft:recipes/redstone/redstone,minecraft:recipes/redstone/redstone§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:redstone,null
+minecraft:recipes/redstone/redstone_block,minecraft:recipes/redstone/redstone_block§r,,,,,,,,,,,minecraft:recipes/root,,0,,"minecraft:redstone_block
+minecraft:redstone",null
+minecraft:recipes/redstone/redstone_lamp,minecraft:recipes/redstone/redstone_lamp§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:redstone_lamp,null
+minecraft:recipes/redstone/redstone_torch,minecraft:recipes/redstone/redstone_torch§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:redstone_torch,null
+minecraft:recipes/redstone/repeater,minecraft:recipes/redstone/repeater§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:repeater,null
+minecraft:recipes/redstone/spruce_door,minecraft:recipes/redstone/spruce_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_door,null
+minecraft:recipes/redstone/spruce_fence_gate,minecraft:recipes/redstone/spruce_fence_gate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_fence_gate,null
+minecraft:recipes/redstone/sticky_piston,minecraft:recipes/redstone/sticky_piston§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:sticky_piston,null
+minecraft:recipes/redstone/stone_button,minecraft:recipes/redstone/stone_button§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_button,null
+minecraft:recipes/redstone/stone_pressure_plate,minecraft:recipes/redstone/stone_pressure_plate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_pressure_plate,null
+minecraft:recipes/redstone/tnt,minecraft:recipes/redstone/tnt§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:tnt,null
+minecraft:recipes/redstone/trapdoor,minecraft:recipes/redstone/trapdoor§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:trapdoor,null
+minecraft:recipes/redstone/trapped_chest,minecraft:recipes/redstone/trapped_chest§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:trapped_chest,null
+minecraft:recipes/redstone/tripwire_hook,minecraft:recipes/redstone/tripwire_hook§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:tripwire_hook,null
+minecraft:recipes/redstone/wooden_button,minecraft:recipes/redstone/wooden_button§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_button,null
+minecraft:recipes/redstone/wooden_door,minecraft:recipes/redstone/wooden_door§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_door,null
+minecraft:recipes/redstone/wooden_pressure_plate,minecraft:recipes/redstone/wooden_pressure_plate§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_pressure_plate,null
+minecraft:recipes/root,minecraft:recipes/root§r,,,,,,,,,,,,"minecraft:recipes/building_blocks/string_to_wool
+minecraft:recipes/combat/leather_chestplate
+minecraft:recipes/building_blocks/acacia_planks
+minecraft:recipes/tools/compass
+minecraft:recipes/redstone/repeater
+minecraft:recipes/building_blocks/quartz_block
+minecraft:recipes/building_blocks/polished_andesite
+minecraft:recipes/redstone/iron_door
+minecraft:recipes/building_blocks/purpur_block
+minecraft:recipes/building_blocks/pink_stained_hardened_clay
+minecraft:recipes/decorations/nether_brick_fence
+minecraft:recipes/misc/magenta_dye_from_allium
+minecraft:recipes/decorations/red_bed
+minecraft:recipes/misc/iron_ingot_from_nuggets
+minecraft:recipes/decorations/cyan_bed
+minecraft:recipes/transportation/jungle_boat
+minecraft:recipes/building_blocks/magenta_stained_hardened_clay
+minecraft:recipes/building_blocks/birch_stairs
+minecraft:recipes/building_blocks/jungle_stairs
+minecraft:recipes/redstone/heavy_weighted_pressure_plate
+minecraft:recipes/transportation/dark_oak_boat
+minecraft:recipes/transportation/carrot_on_a_stick
+minecraft:recipes/redstone/daylight_detector
+minecraft:recipes/food/pumpkin_pie
+minecraft:recipes/building_blocks/purpur_pillar
+minecraft:recipes/decorations/end_rod
+minecraft:recipes/building_blocks/pink_wool
+minecraft:recipes/redstone/jungle_door
+minecraft:recipes/building_blocks/nether_brick_stairs
+minecraft:recipes/decorations/brown_bed_from_white_bed
+minecraft:recipes/building_blocks/lit_pumpkin
+minecraft:recipes/redstone/jungle_fence_gate
+minecraft:recipes/building_blocks/polished_granite
+minecraft:recipes/building_blocks/stonebrick
+minecraft:recipes/redstone/piston
+minecraft:recipes/combat/golden_leggings
+minecraft:recipes/building_blocks/stone_stairs
+minecraft:recipes/building_blocks/chiseled_red_sandstone
+minecraft:recipes/transportation/rail
+minecraft:recipes/decorations/brown_stained_glass_pane
+minecraft:recipes/building_blocks/light_gray_stained_hardened_clay
+minecraft:recipes/decorations/dark_oak_fence
+minecraft:recipes/combat/diamond_boots
+minecraft:recipes/building_blocks/nether_brick
+minecraft:recipes/redstone/wooden_door
+minecraft:recipes/decorations/light_blue_bed
+minecraft:recipes/building_blocks/chiseled_stonebrick
+minecraft:recipes/building_blocks/pink_stained_glass
+minecraft:recipes/decorations/light_gray_stained_glass_pane
+minecraft:recipes/decorations/light_gray_bed_from_white_bed
+minecraft:recipes/building_blocks/bone_block
+minecraft:recipes/tools/fishing_rod
+minecraft:recipes/decorations/purple_stained_glass_pane
+minecraft:recipes/building_blocks/black_stained_glass
+minecraft:recipes/building_blocks/red_stained_hardened_clay
+minecraft:recipes/redstone/lever
+minecraft:recipes/building_blocks/acacia_wooden_slab
+minecraft:recipes/misc/magenta_dye_from_lilac
+minecraft:recipes/misc/light_blue_dye_from_blue_orchid
+minecraft:recipes/combat/iron_sword
+minecraft:recipes/redstone/observer
+minecraft:recipes/redstone/spruce_door
+minecraft:recipes/building_blocks/mossy_cobblestone
+minecraft:recipes/building_blocks/snow
+minecraft:recipes/misc/light_gray_dye_from_white_tulip
+minecraft:recipes/building_blocks/lime_concrete_powder
+minecraft:recipes/building_blocks/nether_brick_slab
+minecraft:recipes/tools/iron_pickaxe
+minecraft:recipes/building_blocks/gray_stained_glass
+signals:recipes/rail_link
+minecraft:recipes/redstone/spruce_fence_gate
+minecraft:recipes/building_blocks/yellow_concrete_powder
+minecraft:recipes/misc/pumpkin_seeds
+minecraft:recipes/combat/leather_helmet
+minecraft:recipes/decorations/crafting_table
+minecraft:recipes/building_blocks/mossy_stonebrick
+minecraft:recipes/building_blocks/magenta_wool
+minecraft:recipes/building_blocks/purple_stained_glass
+signals:recipes/cart_engine
+minecraft:recipes/misc/melon_seeds
+minecraft:recipes/misc/map
+minecraft:recipes/decorations/ladder
+minecraft:recipes/building_blocks/black_stained_hardened_clay
+minecraft:recipes/decorations/chest
+minecraft:recipes/combat/golden_sword
+minecraft:recipes/building_blocks/white_stained_hardened_clay
+minecraft:recipes/decorations/magenta_stained_glass_pane
+minecraft:recipes/building_blocks/red_sandstone
+minecraft:recipes/tools/wooden_shovel
+minecraft:recipes/decorations/torch
+minecraft:recipes/building_blocks/purpur_stairs
+minecraft:recipes/tools/shears
+minecraft:recipes/building_blocks/lime_stained_hardened_clay
+minecraft:recipes/misc/stick
+minecraft:recipes/redstone/redstone_lamp
+minecraft:recipes/decorations/blue_carpet
+minecraft:recipes/redstone/dispenser
+minecraft:recipes/misc/pink_dye_from_red_bonemeal
+minecraft:recipes/building_blocks/emerald_block
+minecraft:recipes/transportation/detector_rail
+minecraft:recipes/food/cake
+minecraft:recipes/building_blocks/dark_oak_planks
+signals:recipes/block_signal_unlocks
+minecraft:recipes/combat/iron_leggings
+minecraft:recipes/redstone/dark_oak_door
+minecraft:recipes/building_blocks/sandstone_stairs
+minecraft:recipes/building_blocks/nether_wart_block
+minecraft:recipes/brewing/golden_carrot
+minecraft:recipes/decorations/brown_banner
+minecraft:recipes/combat/shield
+minecraft:recipes/building_blocks/cobblestone_slab
+minecraft:recipes/building_blocks/red_sandstone_stairs
+minecraft:recipes/brewing/speckled_melon
+minecraft:recipes/redstone/trapped_chest
+minecraft:recipes/misc/iron_ingot_from_block
+minecraft:recipes/decorations/gray_bed
+minecraft:recipes/redstone/hopper
+minecraft:recipes/building_blocks/coarse_dirt
+minecraft:recipes/redstone/fence_gate
+minecraft:recipes/building_blocks/light_gray_concrete_powder
+minecraft:recipes/decorations/magenta_carpet
+minecraft:recipes/misc/lime_dye
+minecraft:recipes/combat/leather_leggings
+minecraft:recipes/building_blocks/pink_concrete_powder
+minecraft:recipes/building_blocks/sandstone_slab
+minecraft:recipes/misc/emerald
+minecraft:recipes/building_blocks/yellow_stained_glass
+minecraft:recipes/decorations/acacia_fence
+minecraft:recipes/decorations/magenta_bed_from_white_bed
+minecraft:recipes/decorations/iron_bars
+minecraft:recipes/misc/sugar
+minecraft:recipes/misc/red_dye_from_rose_bush
+minecraft:recipes/building_blocks/brick_stairs
+minecraft:recipes/misc/magenta_dye_from_purple_and_pink
+minecraft:recipes/building_blocks/gold_block
+minecraft:recipes/building_blocks/blue_wool
+minecraft:recipes/redstone/comparator
+minecraft:recipes/misc/yellow_dye_from_sunflower
+minecraft:recipes/brewing/cauldron
+minecraft:recipes/transportation/chest_minecart
+minecraft:recipes/decorations/gray_stained_glass_pane
+minecraft:recipes/decorations/armor_stand
+minecraft:recipes/combat/diamond_leggings
+minecraft:recipes/building_blocks/sandstone
+minecraft:recipes/building_blocks/red_stained_glass
+minecraft:recipes/building_blocks/spruce_planks
+minecraft:recipes/building_blocks/quartz_stairs
+minecraft:recipes/building_blocks/oak_stairs
+minecraft:recipes/decorations/red_carpet
+signals:recipes/rail_unlocks
+minecraft:recipes/transportation/acacia_boat
+minecraft:recipes/redstone/iron_trapdoor
+minecraft:recipes/decorations/black_bed
+minecraft:recipes/decorations/gray_bed_from_white_bed
+minecraft:recipes/building_blocks/white_concrete_powder
+minecraft:recipes/decorations/jungle_fence
+minecraft:recipes/tools/diamond_pickaxe
+minecraft:recipes/building_blocks/red_nether_brick
+minecraft:recipes/misc/ender_eye
+minecraft:recipes/decorations/orange_bed
+minecraft:recipes/redstone/redstone_block
+minecraft:recipes/decorations/yellow_banner
+minecraft:recipes/decorations/pink_bed_from_white_bed
+minecraft:recipes/building_blocks/lime_stained_glass
+minecraft:recipes/decorations/pink_stained_glass_pane
+minecraft:recipes/misc/light_gray_dye_from_azure_bluet
+minecraft:recipes/redstone/dark_oak_fence_gate
+minecraft:recipes/decorations/brown_bed
+minecraft:recipes/building_blocks/green_stained_hardened_clay
+minecraft:recipes/building_blocks/gray_stained_hardened_clay
+minecraft:recipes/decorations/yellow_bed
+minecraft:recipes/building_blocks/light_blue_stained_glass
+minecraft:recipes/building_blocks/brick_block
+minecraft:recipes/building_blocks/orange_concrete_powder
+minecraft:recipes/decorations/blue_stained_glass_pane
+minecraft:recipes/misc/cyan_dye
+minecraft:recipes/brewing/blaze_powder
+minecraft:recipes/decorations/purple_bed
+minecraft:recipes/building_blocks/black_wool
+minecraft:recipes/combat/golden_chestplate
+minecraft:recipes/building_blocks/yellow_stained_hardened_clay
+minecraft:recipes/misc/magenta_dye_from_lapis_red_pink
+minecraft:recipes/brewing/glass_bottle
+minecraft:recipes/decorations/light_blue_stained_glass_pane
+minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal
+minecraft:recipes/misc/leather
+minecraft:recipes/decorations/light_gray_bed
+minecraft:recipes/building_blocks/iron_block
+minecraft:recipes/building_blocks/quartz_slab
+minecraft:recipes/misc/red_dye_from_poppy
+minecraft:recipes/redstone/wooden_pressure_plate
+minecraft:recipes/misc/yellow_dye_from_dandelion
+minecraft:recipes/building_blocks/clay
+minecraft:recipes/building_blocks/green_stained_glass
+minecraft:recipes/building_blocks/light_blue_wool
+minecraft:recipes/redstone/wooden_button
+minecraft:recipes/combat/wooden_sword
+minecraft:recipes/decorations/gray_banner
+minecraft:recipes/building_blocks/oak_planks
+minecraft:recipes/decorations/light_gray_banner
+minecraft:recipes/decorations/light_blue_carpet
+minecraft:recipes/building_blocks/gray_concrete_powder
+minecraft:recipes/transportation/golden_rail
+minecraft:recipes/decorations/cyan_banner
+minecraft:recipes/building_blocks/bookshelf
+minecraft:recipes/tools/golden_axe
+minecraft:recipes/decorations/fence
+minecraft:recipes/tools/iron_axe
+minecraft:recipes/building_blocks/glowstone
+minecraft:recipes/building_blocks/sea_lantern
+minecraft:recipes/building_blocks/jungle_planks
+minecraft:recipes/decorations/black_banner
+minecraft:recipes/decorations/red_banner
+minecraft:recipes/decorations/gray_carpet
+minecraft:recipes/redstone/tripwire_hook
+minecraft:recipes/building_blocks/dark_oak_wooden_slab
+minecraft:recipes/combat/iron_boots
+minecraft:recipes/building_blocks/chiseled_quartz_block
+minecraft:recipes/building_blocks/blue_stained_hardened_clay
+minecraft:recipes/building_blocks/birch_planks
+minecraft:recipes/misc/bone_meal_from_bone
+minecraft:recipes/building_blocks/black_concrete_powder
+minecraft:recipes/decorations/orange_banner
+minecraft:recipes/building_blocks/spruce_wooden_slab
+minecraft:recipes/redstone/birch_fence_gate
+minecraft:recipes/redstone/stone_button
+minecraft:recipes/combat/iron_chestplate
+minecraft:recipes/building_blocks/yellow_wool
+minecraft:recipes/building_blocks/prismarine_bricks
+minecraft:recipes/redstone/noteblock
+minecraft:recipes/decorations/light_blue_bed_from_white_bed
+minecraft:recipes/building_blocks/red_concrete_powder
+minecraft:recipes/tools/golden_pickaxe
+minecraft:recipes/redstone/sticky_piston
+minecraft:recipes/decorations/green_carpet
+minecraft:recipes/brewing/magma_cream
+minecraft:recipes/misc/gray_dye
+minecraft:recipes/misc/book
+minecraft:recipes/decorations/purple_bed_from_white_bed
+minecraft:recipes/building_blocks/birch_wooden_slab
+minecraft:recipes/building_blocks/purpur_slab
+minecraft:recipes/decorations/light_gray_carpet
+minecraft:recipes/combat/stone_sword
+minecraft:recipes/decorations/cobblestone_wall
+minecraft:recipes/decorations/magenta_banner
+minecraft:recipes/decorations/light_blue_banner
+minecraft:recipes/decorations/purple_carpet
+minecraft:recipes/brewing/fermented_spider_eye
+minecraft:recipes/tools/stone_pickaxe
+minecraft:recipes/building_blocks/orange_stained_hardened_clay
+minecraft:recipes/redstone/stone_pressure_plate
+minecraft:recipes/building_blocks/brown_stained_glass
+minecraft:recipes/transportation/boat
+minecraft:recipes/misc/purple_dye
+minecraft:recipes/combat/leather_boots
+minecraft:recipes/misc/red_dye_from_tulip
+minecraft:recipes/building_blocks/brown_stained_hardened_clay
+minecraft:recipes/misc/orange_dye_from_orange_tulip
+minecraft:recipes/decorations/brown_carpet
+minecraft:recipes/building_blocks/light_gray_stained_glass
+minecraft:recipes/building_blocks/diamond_block
+minecraft:recipes/decorations/red_stained_glass_pane
+minecraft:recipes/decorations/purple_shulker_box
+minecraft:recipes/decorations/flower_pot
+minecraft:recipes/building_blocks/lapis_block
+minecraft:recipes/decorations/yellow_carpet
+minecraft:recipes/building_blocks/brick_slab
+minecraft:recipes/transportation/tnt_minecart
+minecraft:recipes/building_blocks/melon_block
+minecraft:recipes/food/cookie
+minecraft:recipes/building_blocks/prismarine
+minecraft:recipes/misc/diamond
+minecraft:recipes/misc/bone_meal_from_block
+minecraft:recipes/building_blocks/polished_diorite
+minecraft:recipes/building_blocks/light_gray_wool
+minecraft:recipes/decorations/red_bed_from_white_bed
+minecraft:recipes/building_blocks/purple_stained_hardened_clay
+minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy
+minecraft:recipes/building_blocks/red_wool
+minecraft:recipes/building_blocks/acacia_stairs
+minecraft:recipes/misc/orange_dye_from_red_yellow
+minecraft:recipes/tools/stone_axe
+minecraft:recipes/misc/fire_charge
+minecraft:recipes/decorations/blue_banner
+minecraft:recipes/decorations/slime
+minecraft:recipes/building_blocks/purple_wool
+minecraft:recipes/food/rabbit_stew_from_brown_mushroom
+minecraft:recipes/decorations/blue_bed
+minecraft:recipes/building_blocks/magenta_concrete_powder
+minecraft:recipes/building_blocks/pillar_quartz_block
+minecraft:recipes/decorations/lime_carpet
+minecraft:recipes/decorations/green_bed
+minecraft:recipes/misc/writable_book
+minecraft:recipes/building_blocks/oak_wooden_slab
+minecraft:recipes/misc/wheat
+minecraft:recipes/decorations/white_bed
+minecraft:recipes/decorations/lime_banner
+minecraft:recipes/transportation/furnace_minecart
+minecraft:recipes/decorations/magenta_bed
+minecraft:recipes/food/rabbit_stew_from_red_mushroom
+minecraft:recipes/building_blocks/dark_prismarine
+minecraft:recipes/redstone/redstone
+minecraft:recipes/tools/golden_hoe
+minecraft:recipes/food/bread
+minecraft:recipes/redstone/trapdoor
+minecraft:recipes/decorations/lime_stained_glass_pane
+minecraft:recipes/misc/iron_nugget
+minecraft:recipes/transportation/hopper_minecart
+minecraft:recipes/building_blocks/brown_concrete_powder
+minecraft:recipes/decorations/black_bed_from_white_bed
+minecraft:recipes/decorations/pink_carpet
+minecraft:recipes/decorations/cyan_stained_glass_pane
+minecraft:recipes/combat/diamond_sword
+minecraft:recipes/building_blocks/blue_stained_glass
+minecraft:recipes/building_blocks/cyan_wool
+minecraft:recipes/decorations/sign
+minecraft:recipes/transportation/spruce_boat
+minecraft:recipes/decorations/jukebox
+minecraft:recipes/building_blocks/diorite
+minecraft:recipes/tools/flint_and_steel
+minecraft:recipes/misc/red_dye_from_beetroot
+minecraft:recipes/food/mushroom_stew
+minecraft:recipes/building_blocks/gray_wool
+minecraft:recipes/misc/gold_nugget
+minecraft:recipes/tools/wooden_hoe
+minecraft:recipes/misc/bucket
+minecraft:recipes/decorations/yellow_bed_from_white_bed
+minecraft:recipes/decorations/orange_stained_glass_pane
+minecraft:recipes/decorations/white_banner
+minecraft:recipes/building_blocks/light_blue_concrete_powder
+minecraft:recipes/decorations/pink_banner
+minecraft:recipes/decorations/mossy_cobblestone_wall
+minecraft:recipes/building_blocks/hay_block
+minecraft:recipes/decorations/lime_bed
+minecraft:recipes/tools/golden_shovel
+minecraft:recipes/combat/iron_helmet
+minecraft:recipes/combat/bow
+minecraft:recipes/redstone/tnt
+minecraft:recipes/decorations/black_stained_glass_pane
+minecraft:recipes/building_blocks/smooth_sandstone
+minecraft:recipes/building_blocks/granite
+minecraft:recipes/building_blocks/purple_concrete_powder
+minecraft:recipes/decorations/orange_bed_from_white_bed
+minecraft:recipes/decorations/orange_carpet
+minecraft:recipes/combat/diamond_chestplate
+minecraft:recipes/transportation/minecart
+minecraft:recipes/decorations/furnace
+minecraft:recipes/misc/beacon
+minecraft:recipes/food/beetroot_soup
+minecraft:recipes/decorations/green_stained_glass_pane
+minecraft:recipes/building_blocks/orange_wool
+minecraft:recipes/tools/wooden_pickaxe
+minecraft:recipes/tools/iron_hoe
+minecraft:recipes/decorations/cyan_carpet
+minecraft:recipes/redstone/redstone_torch
+minecraft:recipes/building_blocks/stone_brick_slab
+minecraft:recipes/transportation/birch_boat
+minecraft:recipes/food/golden_apple
+minecraft:recipes/decorations/enchanting_table
+minecraft:recipes/building_blocks/green_concrete_powder
+minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal
+minecraft:recipes/tools/iron_shovel
+minecraft:recipes/redstone/acacia_door
+minecraft:recipes/building_blocks/orange_stained_glass
+minecraft:recipes/decorations/cyan_bed_from_white_bed
+minecraft:recipes/misc/bowl
+minecraft:recipes/decorations/item_frame
+minecraft:recipes/decorations/lime_bed_from_white_bed
+minecraft:recipes/tools/stone_hoe
+minecraft:recipes/tools/clock
+minecraft:recipes/decorations/spruce_fence
+minecraft:recipes/tools/diamond_hoe
+minecraft:recipes/transportation/activator_rail
+minecraft:recipes/combat/spectral_arrow
+minecraft:recipes/decorations/white_stained_glass_pane
+minecraft:recipes/tools/diamond_shovel
+minecraft:recipes/building_blocks/dark_oak_stairs
+minecraft:recipes/decorations/end_crystal
+minecraft:recipes/decorations/green_bed_from_white_bed
+minecraft:recipes/decorations/white_carpet
+minecraft:recipes/decorations/ender_chest
+minecraft:recipes/building_blocks/spruce_stairs
+minecraft:recipes/building_blocks/red_sandstone_slab
+minecraft:recipes/redstone/birch_door
+minecraft:recipes/decorations/green_banner
+minecraft:recipes/decorations/glass_pane
+minecraft:recipes/misc/gold_ingot_from_nuggets
+minecraft:recipes/decorations/purple_banner
+minecraft:recipes/misc/lapis_lazuli
+minecraft:recipes/building_blocks/magenta_stained_glass
+minecraft:recipes/combat/diamond_helmet
+minecraft:recipes/decorations/anvil
+minecraft:recipes/misc/pink_dye_from_pink_tulip
+minecraft:recipes/decorations/blue_bed_from_white_bed
+minecraft:recipes/decorations/birch_fence
+minecraft:recipes/misc/gold_ingot_from_block
+minecraft:recipes/building_blocks/cyan_concrete_powder
+minecraft:recipes/building_blocks/stone_brick_stairs
+minecraft:recipes/combat/golden_boots
+minecraft:recipes/tools/wooden_axe
+minecraft:recipes/building_blocks/lime_wool
+minecraft:recipes/misc/paper
+minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal
+minecraft:recipes/misc/pink_dye_from_peony
+minecraft:recipes/building_blocks/chiseled_sandstone
+minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal
+minecraft:recipes/building_blocks/green_wool
+minecraft:recipes/tools/diamond_axe
+minecraft:recipes/building_blocks/brown_wool
+signals:recipes/cart_hopper
+minecraft:recipes/building_blocks/end_bricks
+minecraft:recipes/decorations/painting
+minecraft:recipes/decorations/pink_bed
+minecraft:recipes/building_blocks/white_stained_glass
+minecraft:recipes/redstone/acacia_fence_gate
+minecraft:recipes/decorations/black_carpet
+minecraft:recipes/combat/arrow
+minecraft:recipes/building_blocks/stone_slab
+minecraft:recipes/building_blocks/coal_block
+minecraft:recipes/redstone/light_weighted_pressure_plate
+minecraft:recipes/decorations/snow_layer
+minecraft:recipes/tools/stone_shovel
+minecraft:recipes/decorations/yellow_stained_glass_pane
+minecraft:recipes/building_blocks/blue_concrete_powder
+minecraft:recipes/building_blocks/cyan_stained_glass
+minecraft:recipes/building_blocks/light_blue_stained_hardened_clay
+minecraft:recipes/building_blocks/cyan_stained_hardened_clay
+minecraft:recipes/building_blocks/andesite
+minecraft:recipes/combat/golden_helmet
+minecraft:recipes/tools/lead
+minecraft:recipes/building_blocks/jungle_wooden_slab
+minecraft:recipes/building_blocks/smooth_red_sandstone
+minecraft:recipes/misc/slime_ball
+minecraft:recipes/redstone/dropper
+minecraft:recipes/misc/coal
+minecraft:recipes/building_blocks/magma
+minecraft:recipes/brewing/brewing_stand",0,,,null
+minecraft:recipes/tools/clock,minecraft:recipes/tools/clock§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:clock,null
+minecraft:recipes/tools/compass,minecraft:recipes/tools/compass§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:compass,null
+minecraft:recipes/tools/diamond_axe,minecraft:recipes/tools/diamond_axe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_axe,null
+minecraft:recipes/tools/diamond_hoe,minecraft:recipes/tools/diamond_hoe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_hoe,null
+minecraft:recipes/tools/diamond_pickaxe,minecraft:recipes/tools/diamond_pickaxe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_pickaxe,null
+minecraft:recipes/tools/diamond_shovel,minecraft:recipes/tools/diamond_shovel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:diamond_shovel,null
+minecraft:recipes/tools/fishing_rod,minecraft:recipes/tools/fishing_rod§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:fishing_rod,null
+minecraft:recipes/tools/flint_and_steel,minecraft:recipes/tools/flint_and_steel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:flint_and_steel,null
+minecraft:recipes/tools/golden_axe,minecraft:recipes/tools/golden_axe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_axe,null
+minecraft:recipes/tools/golden_hoe,minecraft:recipes/tools/golden_hoe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_hoe,null
+minecraft:recipes/tools/golden_pickaxe,minecraft:recipes/tools/golden_pickaxe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_pickaxe,null
+minecraft:recipes/tools/golden_shovel,minecraft:recipes/tools/golden_shovel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_shovel,null
+minecraft:recipes/tools/iron_axe,minecraft:recipes/tools/iron_axe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_axe,null
+minecraft:recipes/tools/iron_hoe,minecraft:recipes/tools/iron_hoe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_hoe,null
+minecraft:recipes/tools/iron_pickaxe,minecraft:recipes/tools/iron_pickaxe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_pickaxe,null
+minecraft:recipes/tools/iron_shovel,minecraft:recipes/tools/iron_shovel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:iron_shovel,null
+minecraft:recipes/tools/lead,minecraft:recipes/tools/lead§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:lead,null
+minecraft:recipes/tools/shears,minecraft:recipes/tools/shears§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:shears,null
+minecraft:recipes/tools/stone_axe,minecraft:recipes/tools/stone_axe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_axe,null
+minecraft:recipes/tools/stone_hoe,minecraft:recipes/tools/stone_hoe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_hoe,null
+minecraft:recipes/tools/stone_pickaxe,minecraft:recipes/tools/stone_pickaxe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_pickaxe,null
+minecraft:recipes/tools/stone_shovel,minecraft:recipes/tools/stone_shovel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:stone_shovel,null
+minecraft:recipes/tools/wooden_axe,minecraft:recipes/tools/wooden_axe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_axe,null
+minecraft:recipes/tools/wooden_hoe,minecraft:recipes/tools/wooden_hoe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_hoe,null
+minecraft:recipes/tools/wooden_pickaxe,minecraft:recipes/tools/wooden_pickaxe§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_pickaxe,null
+minecraft:recipes/tools/wooden_shovel,minecraft:recipes/tools/wooden_shovel§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:wooden_shovel,null
+minecraft:recipes/transportation/acacia_boat,minecraft:recipes/transportation/acacia_boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:acacia_boat,null
+minecraft:recipes/transportation/activator_rail,minecraft:recipes/transportation/activator_rail§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:activator_rail,null
+minecraft:recipes/transportation/birch_boat,minecraft:recipes/transportation/birch_boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:birch_boat,null
+minecraft:recipes/transportation/boat,minecraft:recipes/transportation/boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:boat,null
+minecraft:recipes/transportation/carrot_on_a_stick,minecraft:recipes/transportation/carrot_on_a_stick§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:carrot_on_a_stick,null
+minecraft:recipes/transportation/chest_minecart,minecraft:recipes/transportation/chest_minecart§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:chest_minecart,null
+minecraft:recipes/transportation/dark_oak_boat,minecraft:recipes/transportation/dark_oak_boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:dark_oak_boat,null
+minecraft:recipes/transportation/detector_rail,minecraft:recipes/transportation/detector_rail§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:detector_rail,null
+minecraft:recipes/transportation/furnace_minecart,minecraft:recipes/transportation/furnace_minecart§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:furnace_minecart,null
+minecraft:recipes/transportation/golden_rail,minecraft:recipes/transportation/golden_rail§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:golden_rail,null
+minecraft:recipes/transportation/hopper_minecart,minecraft:recipes/transportation/hopper_minecart§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:hopper_minecart,null
+minecraft:recipes/transportation/jungle_boat,minecraft:recipes/transportation/jungle_boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:jungle_boat,null
+minecraft:recipes/transportation/minecart,minecraft:recipes/transportation/minecart§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:minecart,null
+minecraft:recipes/transportation/rail,minecraft:recipes/transportation/rail§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:rail,null
+minecraft:recipes/transportation/spruce_boat,minecraft:recipes/transportation/spruce_boat§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:spruce_boat,null
+minecraft:recipes/transportation/tnt_minecart,minecraft:recipes/transportation/tnt_minecart§r,,,,,,,,,,,minecraft:recipes/root,,0,,minecraft:tnt_minecart,null
+minecraft:story/cure_zombie_villager,§a[§r§aZombie Doctor§r§a]§r,Zombie Doctor§r,Weaken and then cure a zombie villager§r,minecraft:golden_apple,7.0,0.5,,GOAL,-,+,+,minecraft:story/enter_the_nether,,0,,,null
+minecraft:story/deflect_arrow,"§a[§r§aNot Today, Thank You§r§a]§r","Not Today, Thank You§r",Deflect an arrow with a shield§r,minecraft:shield,5.0,0.0,,TASK,-,+,+,minecraft:story/obtain_armor,,0,,,null
+minecraft:story/enchant_item,§a[§r§aEnchanter§r§a]§r,Enchanter§r,Enchant an item at an Enchanting Table§r,minecraft:enchanted_book,6.0,3.0,,TASK,-,+,+,minecraft:story/mine_diamond,,0,,,null
+minecraft:story/enter_the_end,§a[§r§aThe End?§r§a]§r,The End?§r,Enter the End Portal§r,minecraft:end_stone,8.0,1.5,,TASK,-,+,+,minecraft:story/follow_ender_eye,,0,,,null
+minecraft:story/enter_the_nether,§a[§r§aWe Need to Go Deeper§r§a]§r,We Need to Go Deeper§r,"Build, light and enter a Nether Portal§r",minecraft:flint_and_steel,6.0,1.0,,TASK,-,+,+,minecraft:story/form_obsidian,"minecraft:story/cure_zombie_villager
+minecraft:story/follow_ender_eye",0,,,null
+minecraft:story/follow_ender_eye,§a[§r§aEye Spy§r§a]§r,Eye Spy§r,Follow an Ender Eye§r,minecraft:ender_eye,7.0,1.5,,TASK,-,+,+,minecraft:story/enter_the_nether,minecraft:story/enter_the_end,0,,,null
+minecraft:story/form_obsidian,§a[§r§aIce Bucket Challenge§r§a]§r,Ice Bucket Challenge§r,Form and mine a block of Obsidian§r,minecraft:obsidian,5.0,1.0,,TASK,-,+,+,minecraft:story/lava_bucket,minecraft:story/enter_the_nether,0,,,null
+minecraft:story/iron_tools,§a[§r§aIsn't It Iron Pick§r§a]§r,Isn't It Iron Pick§r,Upgrade your pickaxe§r,minecraft:iron_pickaxe,4.0,2.5,,TASK,-,+,+,minecraft:story/smelt_iron,minecraft:story/mine_diamond,0,,,null
+minecraft:story/lava_bucket,§a[§r§aHot Stuff§r§a]§r,Hot Stuff§r,Fill a bucket with lava§r,minecraft:lava_bucket,4.0,1.0,,TASK,-,+,+,minecraft:story/smelt_iron,minecraft:story/form_obsidian,0,,,null
+minecraft:story/mine_diamond,§a[§r§aDiamonds!§r§a]§r,Diamonds!§r,Acquire diamonds§r,minecraft:diamond,5.0,2.5,,TASK,-,+,+,minecraft:story/iron_tools,"minecraft:story/shiny_gear
+minecraft:story/enchant_item",0,,,null
+minecraft:story/mine_stone,§a[§r§aStone Age§r§a]§r,Stone Age§r,Mine stone with your new pickaxe§r,minecraft:wooden_pickaxe,1.0,1.25,,TASK,-,+,+,minecraft:story/root,minecraft:story/upgrade_tools,0,,,null
+minecraft:story/obtain_armor,§a[§r§aSuit Up§r§a]§r,Suit Up§r,Protect yourself with a piece of iron armor§r,minecraft:iron_chestplate,4.0,0.0,,TASK,-,+,+,minecraft:story/smelt_iron,minecraft:story/deflect_arrow,0,,,null
+minecraft:story/root,§a[§r§aMinecraft§r§a]§r,Minecraft§r,The heart and story of the game§r,minecraft:grass,0.0,1.25,assets/minecraft/textures/gui/advancements/backgrounds/stone.png,TASK,-,-,-,,minecraft:story/mine_stone,0,,,null
+minecraft:story/shiny_gear,§a[§r§aCover Me With Diamonds§r§a]§r,Cover Me With Diamonds§r,Diamond armor saves lives§r,minecraft:diamond_chestplate,6.0,2.0,,TASK,-,+,+,minecraft:story/mine_diamond,,0,,,null
+minecraft:story/smelt_iron,§a[§r§aAcquire Hardware§r§a]§r,Acquire Hardware§r,Smelt an iron ingot§r,minecraft:iron_ingot,3.0,1.25,,TASK,-,+,+,minecraft:story/upgrade_tools,"minecraft:story/obtain_armor
+minecraft:story/lava_bucket
+minecraft:story/iron_tools",0,,,null
+minecraft:story/upgrade_tools,§a[§r§aGetting an Upgrade§r§a]§r,Getting an Upgrade§r,Construct a better pickaxe§r,minecraft:stone_pickaxe,2.0,1.25,,TASK,-,+,+,minecraft:story/mine_stone,minecraft:story/smelt_iron,0,,,null
+nuclearcraft:devices/bin,§a[§r§aMr. Dilkington§r§a]§r,Mr. Dilkington§r,Craft a Universal Bin§r,nuclearcraft:bin,1.0,15.75,,TASK,-,+,+,nuclearcraft:root,,0,,,null
+nuclearcraft:devices/lithium_ion_battery_basic,§a[§r§aElon's Footsteps§r§a]§r,Elon's Footsteps§r,Craft a Basic Lithium Ion Battery§r,nuclearcraft:lithium_ion_battery_basic,2.0,8.25,,GOAL,-,+,+,nuclearcraft:devices/voltaic_pile_basic,,0,,,null
+nuclearcraft:devices/solar_panel_basic,§a[§r§aEco-Friendly§r§a]§r,Eco-Friendly§r,Craft a Basic Solar Panel§r,nuclearcraft:solar_panel_basic,2.0,14.25,,TASK,-,+,+,nuclearcraft:fission/decay_generator,,0,,,null
+nuclearcraft:devices/voltaic_pile_basic,§a[§r§aElectric Avenue§r§a]§r,Electric Avenue§r,Craft a Basic Voltaic Pile§r,nuclearcraft:voltaic_pile_basic,1.0,8.25,,TASK,-,+,+,nuclearcraft:root,nuclearcraft:devices/lithium_ion_battery_basic,0,,,null
+nuclearcraft:fission/americium,§a[§r§aIn Physics We Trust§r§a]§r,In Physics We Trust§r,Obtain some Americium§r,nuclearcraft:americium:4,4.0,6.75,,TASK,-,+,+,nuclearcraft:fission/plutonium,nuclearcraft:fission/rtg_americium,0,,,null
+nuclearcraft:fission/berkelium,§a[§r§aMade in Alameda§r§a]§r,Made in Alameda§r,Obtain some Berkelium§r,nuclearcraft:berkelium:4,5.0,8.25,,TASK,-,+,+,nuclearcraft:fission/curium,,0,,,null
+nuclearcraft:fission/californium,§a[§r§aCalifornia Dreamin'§r§a]§r,California Dreamin'§r,Obtain some Californium§r,nuclearcraft:californium,5.0,9.25,,TASK,-,+,+,nuclearcraft:fission/curium,nuclearcraft:fission/rtg_californium,0,,,null
+nuclearcraft:fission/curium,§a[§r§aCurious Marie§r§a]§r,Curious Marie§r,Obtain some Curium§r,nuclearcraft:curium:4,4.0,8.75,,TASK,-,+,+,nuclearcraft:fission/plutonium,"nuclearcraft:fission/berkelium
+nuclearcraft:fission/californium",0,,,null
+nuclearcraft:fission/decay_generator,§a[§r§aAlpha Power§r§a]§r,Alpha Power§r,Craft a Decay Generator§r,nuclearcraft:decay_generator,1.0,14.75,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:devices/solar_panel_basic
+nuclearcraft:fission/rtg_uranium",0,,,null
+nuclearcraft:fission/fission_controller,§a[§r§aSplitting the Atom§r§a]§r,Splitting the Atom§r,Craft a Fission Controller§r,nuclearcraft:fission_controller_new_active,2.0,7.25,,GOAL,-,+,+,nuclearcraft:processors/isotope_separator,"nuclearcraft:fission/neptunium
+nuclearcraft:fission/plutonium",0,,,null
+nuclearcraft:fission/neptunium,§a[§r§aSweet Neptune§r§a]§r,Sweet Neptune§r,Obtain some Neptunium§r,nuclearcraft:neptunium,3.0,6.75,,TASK,-,+,+,nuclearcraft:fission/fission_controller,,0,,,null
+nuclearcraft:fission/plutonium,§a[§r§aCriticality§r§a]§r,Criticality§r,Obtain some Plutonium§r,nuclearcraft:plutonium:4,3.0,7.75,,TASK,-,+,+,nuclearcraft:fission/fission_controller,"nuclearcraft:fission/americium
+nuclearcraft:fission/rtg_plutonium
+nuclearcraft:fission/curium",0,,,null
+nuclearcraft:fission/rtg_americium,§a[§r§aRad-Spangled Power§r§a]§r,Rad-Spangled Power§r,Craft an Americium RTG§r,nuclearcraft:rtg_americium,5.0,6.75,,TASK,-,+,+,nuclearcraft:fission/americium,,0,,,null
+nuclearcraft:fission/rtg_californium,§5[§r§5End of the Line§r§5]§r,End of the Line§r,Craft a Californium RTG§r,nuclearcraft:rtg_californium,6.0,9.25,,CHALLENGE,-,+,+,nuclearcraft:fission/californium,,0,,,null
+nuclearcraft:fission/rtg_plutonium,§a[§r§aDemon Core§r§a]§r,Demon Core§r,Craft a Plutonium RTG§r,nuclearcraft:rtg_plutonium,4.0,7.75,,GOAL,-,+,+,nuclearcraft:fission/plutonium,,0,,,null
+nuclearcraft:fission/rtg_uranium,§a[§r§aWarm Green Glow§r§a]§r,Warm Green Glow§r,Craft a Uranium RTG§r,nuclearcraft:rtg_uranium,2.0,15.25,,TASK,-,+,+,nuclearcraft:fission/decay_generator,,0,,,null
+nuclearcraft:food/marshmallow,§a[§r§aThe Lansdell Manoeuvre§r§a]§r,The Lansdell Manoeuvre§r,Make a Marshmallow§r,nuclearcraft:marshmallow,1.0,16.75,,TASK,-,+,+,nuclearcraft:root,nuclearcraft:food/smore,0,,,null
+nuclearcraft:food/moresmore,§a[§r§aS'more of the Same§r§a]§r,S'more of the Same§r,Make a MoreS'more DoubleS'mingot§r,nuclearcraft:moresmore,3.0,16.75,,TASK,-,+,+,nuclearcraft:food/smore,,0,,,null
+nuclearcraft:food/smore,§a[§r§aGather Round the Campfire§r§a]§r,Gather Round the Campfire§r,Make a S'more S'mingot§r,nuclearcraft:smore,2.0,16.75,,TASK,-,+,+,nuclearcraft:food/marshmallow,nuclearcraft:food/moresmore,0,,,null
+nuclearcraft:fusion/active_cooler,§a[§r§aTemperature Control§r§a]§r,Temperature Control§r,Craft an Active Cooler§r,nuclearcraft:active_cooler,2.0,13.25,,TASK,-,+,+,nuclearcraft:processors/electrolyser,,0,,,null
+nuclearcraft:fusion/fusion_core,§a[§r§aStar in a Box§r§a]§r,Star in a Box§r,Craft a Fusion Core§r,nuclearcraft:fusion_core,2.0,11.25,,GOAL,-,+,+,nuclearcraft:processors/electrolyser,,0,,,null
+nuclearcraft:multiblock/heat_exchanger_controller,§a[§r§aThermal Contact§r§a]§r,Thermal Contact§r,Craft a Heat Exchanger Controller§r,nuclearcraft:heat_exchanger_controller,3.0,9.75,,TASK,-,+,+,nuclearcraft:processors/salt_mixer,nuclearcraft:multiblock/turbine_controller,0,,,null
+nuclearcraft:multiblock/salt_fission_controller,§a[§r§aNext Gen Nuclear§r§a]§r,Next Gen Nuclear§r,Craft a Molten Salt Fission Controller§r,nuclearcraft:salt_fission_controller,3.0,10.75,,TASK,-,+,+,nuclearcraft:processors/salt_mixer,,0,,,null
+nuclearcraft:multiblock/turbine_controller,§a[§r§aRespecting Rankine§r§a]§r,Respecting Rankine§r,Craft a Turbine Controller§r,nuclearcraft:turbine_controller,4.0,9.75,,TASK,-,+,+,nuclearcraft:multiblock/heat_exchanger_controller,,0,,,null
+nuclearcraft:portable_ender_chest,§a[§r§aMary Poppins§r§a]§r,Mary Poppins§r,Craft a Portable Ender Chest§r,nuclearcraft:portable_ender_chest,1.0,17.75,,TASK,-,+,+,nuclearcraft:root,,0,,,null
+nuclearcraft:processors/alloy_furnace,§a[§r§aSmelting up a Storm§r§a]§r,Smelting up a Storm§r,Craft an Alloy Furnace§r,nuclearcraft:alloy_furnace_active,2.0,3.0,,TASK,-,+,+,nuclearcraft:processors/manufactory,"nuclearcraft:processors/infuser
+nuclearcraft:processors/melter
+nuclearcraft:processors/chemical_reactor
+nuclearcraft:processors/supercooler
+nuclearcraft:processors/extractor
+nuclearcraft:processors/nuclear_furnace",0,,,null
+nuclearcraft:processors/centrifuge,§a[§r§aJames Bond§r§a]§r,James Bond§r,Craft a Centrifuge§r,nuclearcraft:centrifuge_active,2.0,9.25,,TASK,-,+,+,nuclearcraft:processors/rock_crusher,,0,,,null
+nuclearcraft:processors/chemical_reactor,§a[§r§aThe Full Poliakoff§r§a]§r,The Full Poliakoff§r,Craft a Chemical Reactor§r,nuclearcraft:chemical_reactor_active,3.0,2.75,,GOAL,-,+,+,nuclearcraft:processors/alloy_furnace,"nuclearcraft:processors/crystallizer
+nuclearcraft:processors/dissolver",0,,,null
+nuclearcraft:processors/crystallizer,§a[§r§aBreaking Bad§r§a]§r,Breaking Bad§r,Craft a Crystallizer§r,nuclearcraft:crystallizer_active,4.0,2.25,,TASK,-,+,+,nuclearcraft:processors/chemical_reactor,nuclearcraft:processors/pressurizer,0,,,null
+nuclearcraft:processors/decay_hastener,§a[§r§aExtreme Radiation§r§a]§r,Extreme Radiation§r,Craft a Decay Hastener§r,nuclearcraft:decay_hastener_active,2.0,6.25,,TASK,-,+,+,nuclearcraft:processors/isotope_separator,,0,,,null
+nuclearcraft:processors/dissolver,§a[§r§aChemical Brewery§r§a]§r,Chemical Brewery§r,Craft a Fluid Enricher§r,nuclearcraft:dissolver_active,4.0,3.25,,TASK,-,+,+,nuclearcraft:processors/chemical_reactor,,0,,,null
+nuclearcraft:processors/electrolyser,§a[§r§aFizzing Electrodes§r§a]§r,Fizzing Electrodes§r,Craft an Electrolyzer§r,nuclearcraft:electrolyser_active,1.0,12.25,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:fusion/fusion_core
+nuclearcraft:processors/irradiator
+nuclearcraft:fusion/active_cooler",0,,,null
+nuclearcraft:processors/energy_upgrade,§a[§r§aPolynomial Quenching§r§a]§r,Polynomial Quenching§r,Craft an Energy Upgrade§r,nuclearcraft:upgrade:1,2.0,0.0,,TASK,-,+,+,nuclearcraft:processors/manufactory,,0,,,null
+nuclearcraft:processors/extractor,§a[§r§aSqueezing the Sponge§r§a]§r,Squeezing the Sponge§r,Craft a Fluid Extractor§r,nuclearcraft:extractor_active,3.0,4.75,,TASK,-,+,+,nuclearcraft:processors/alloy_furnace,,0,,,null
+nuclearcraft:processors/fuel_reprocessor,§a[§r§aPicking up the Pieces§r§a]§r,Picking up the Pieces§r,Craft a Fuel Reprocessor§r,nuclearcraft:fuel_reprocessor_active,2.0,5.25,,TASK,-,+,+,nuclearcraft:processors/isotope_separator,,0,,,null
+nuclearcraft:processors/infuser,§a[§r§aSoaking it Up§r§a]§r,Soaking it Up§r,Craft a Fluid Infuser§r,nuclearcraft:infuser_active,3.0,0.25,,TASK,-,+,+,nuclearcraft:processors/alloy_furnace,,0,,,null
+nuclearcraft:processors/ingot_former,§a[§r§aCeramic Mold§r§a]§r,Ceramic Mold§r,Craft an Ingot Former§r,nuclearcraft:ingot_former_active,4.0,1.25,,TASK,-,+,+,nuclearcraft:processors/melter,,0,,,null
+nuclearcraft:processors/irradiator,§a[§r§aNeutron Bombardment§r§a]§r,Neutron Bombardment§r,Craft a Neutron Irradiator§r,nuclearcraft:irradiator_active,2.0,12.25,,TASK,-,+,+,nuclearcraft:processors/electrolyser,,0,,,null
+nuclearcraft:processors/isotope_separator,§a[§r§aNuclear Refinement§r§a]§r,Nuclear Refinement§r,Craft an Isotope Separator§r,nuclearcraft:isotope_separator_active,1.0,6.25,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:processors/fuel_reprocessor
+nuclearcraft:processors/decay_hastener
+nuclearcraft:fission/fission_controller",0,,,null
+nuclearcraft:processors/machine_interface,§a[§r§aCubic Extension§r§a]§r,Cubic Extension§r,Craft a Machine Interface§r,nuclearcraft:machine_interface,2.0,2.0,,TASK,-,+,+,nuclearcraft:processors/manufactory,,0,,,null
+nuclearcraft:processors/manufactory,§a[§r§aIndustrializing§r§a]§r,Industrializing§r,Craft a Manufactory§r,nuclearcraft:manufactory_active,1.0,1.5,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:processors/energy_upgrade
+nuclearcraft:processors/speed_upgrade
+nuclearcraft:processors/machine_interface
+nuclearcraft:processors/alloy_furnace",0,,,null
+nuclearcraft:processors/melter,§a[§r§aHot and Spicy§r§a]§r,Hot and Spicy§r,Craft a Melter§r,nuclearcraft:melter_active,3.0,1.25,,TASK,-,+,+,nuclearcraft:processors/alloy_furnace,nuclearcraft:processors/ingot_former,0,,,null
+nuclearcraft:processors/nuclear_furnace,§a[§r§aKitchen Nightmare§r§a]§r,Kitchen Nightmare§r,Craft a Nuclear Furnace§r,nuclearcraft:nuclear_furnace_active,3.0,5.75,,TASK,-,+,+,nuclearcraft:processors/alloy_furnace,,0,,,null
+nuclearcraft:processors/pressurizer,§a[§r§aThe Terror of Knowing§r§a]§r,The Terror of Knowing§r,Craft a Pressurizer§r,nuclearcraft:pressurizer_active,5.0,2.25,,TASK,-,+,+,nuclearcraft:processors/crystallizer,,0,,,null
+nuclearcraft:processors/rock_crusher,§a[§r§aRolling Stones§r§a]§r,Rolling Stones§r,Craft a Rock Crusher§r,nuclearcraft:rock_crusher_active,1.0,9.75,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:processors/centrifuge
+nuclearcraft:processors/salt_mixer",0,,,null
+nuclearcraft:processors/salt_mixer,§a[§r§aBlend and Fold§r§a]§r,Blend and Fold§r,Craft a Salt Mixer§r,nuclearcraft:salt_mixer_active,2.0,10.25,,TASK,-,+,+,nuclearcraft:processors/rock_crusher,"nuclearcraft:multiblock/heat_exchanger_controller
+nuclearcraft:multiblock/salt_fission_controller",0,,,null
+nuclearcraft:processors/speed_upgrade,§a[§r§aOverclocking§r§a]§r,Overclocking§r,Craft a Speed Upgrade§r,nuclearcraft:upgrade,2.0,1.0,,TASK,-,+,+,nuclearcraft:processors/manufactory,,0,,,null
+nuclearcraft:processors/supercooler,§a[§r§aHoth Machine§r§a]§r,Hoth Machine§r,Craft a Supercooler§r,nuclearcraft:supercooler_active,3.0,3.75,,TASK,-,+,+,nuclearcraft:processors/alloy_furnace,,0,,,null
+nuclearcraft:radiation/geiger_counter,§a[§r§aPripyat Preparations§r§a]§r,Pripyat Preparations§r,Craft a Geiger Counter§r,nuclearcraft:geiger_counter,1.0,18.75,,TASK,-,+,+,nuclearcraft:root,"nuclearcraft:radiation/radiation_scrubber
+nuclearcraft:radiation/radaway
+nuclearcraft:radiation/rad_shielding",0,,,null
+nuclearcraft:radiation/rad_shielding,§a[§r§aBrave Sir Robin§r§a]§r,Brave Sir Robin§r,Craft some Heavy Radiation Shielding§r,nuclearcraft:rad_shielding:2,2.0,19.75,,TASK,-,+,+,nuclearcraft:radiation/geiger_counter,,0,,,null
+nuclearcraft:radiation/rad_x,§a[§r§aImitative Immunity§r§a]§r,Imitative Immunity§r,Make some Rad-X§r,nuclearcraft:rad_x,3.0,18.75,,TASK,-,+,+,nuclearcraft:radiation/radaway,,0,,,null
+nuclearcraft:radiation/radaway,§a[§r§aRidding the Rads§r§a]§r,Ridding the Rads§r,Make some RadAway§r,nuclearcraft:radaway,2.0,18.75,,TASK,-,+,+,nuclearcraft:radiation/geiger_counter,nuclearcraft:radiation/rad_x,0,,,null
+nuclearcraft:radiation/radiation_scrubber,§a[§r§aPollution Control§r§a]§r,Pollution Control§r,Craft a Radiation Scrubber§r,nuclearcraft:radiation_scrubber,2.0,17.75,,GOAL,-,+,+,nuclearcraft:radiation/geiger_counter,,0,,,null
+nuclearcraft:root,§a[§r§aNuclearCraft§r§a]§r,NuclearCraft§r,"Nuclear Physics, Minecraft Style§r",nuclearcraft:fuel_rod,0.0,10.125,assets/nuclearcraft/textures/blocks/dry_earth.png,TASK,-,-,-,,"nuclearcraft:processors/manufactory
+nuclearcraft:processors/isotope_separator
+nuclearcraft:devices/voltaic_pile_basic
+nuclearcraft:processors/rock_crusher
+nuclearcraft:processors/electrolyser
+nuclearcraft:fission/decay_generator
+nuclearcraft:devices/bin
+nuclearcraft:food/marshmallow
+nuclearcraft:portable_ender_chest
+nuclearcraft:radiation/geiger_counter",0,,,null
+openblocks:oops,§a[§r§aZoinks!§r§a]§r,Zoinks!§r,"Sorry, it just happened...§r",minecraft:brick,1.0,3.0,,TASK,-,+,+,minecraft:adventure/root,,0,,,null
+openblocks:tma2,§a[§r§aStack Overflow§r§a]§r,Stack Overflow§r,It's full of stars!§r,minecraft:nether_star,1.0,2.0,,TASK,-,+,+,minecraft:adventure/root,,0,,,null
+railcraft:carts/bed_cart,§a[§r§aDreams on the wheels§r§a]§r,Dreams on the wheels§r,Sleeping while riding the bed cart§r,railcraft:cart_bed,1.0,1.0,,TASK,-,+,+,railcraft:carts/root,,0,,,null
+railcraft:carts/jukebox_cart,§a[§r§aMoving Music§r§a]§r,Moving Music§r,Play a record in a jukebox cart§r,railcraft:cart_jukebox,1.0,2.0,,TASK,-,+,+,railcraft:carts/root,,0,,,null
+railcraft:carts/link_carts,§a[§r§aLinking Carts§r§a]§r,Linking Carts§r,Never forget to sneak!§r,railcraft:tool_crowbar_iron,1.0,0.0,,TASK,-,+,+,railcraft:carts/root,railcraft:carts/locomotive,0,,,null
+railcraft:carts/locomotive,§a[§r§aRolling Through§r§a]§r,Rolling Through§r,Power your train with locomotives§r,railcraft:locomotive_steam_solid,2.0,0.0,,TASK,-,+,+,railcraft:carts/link_carts,railcraft:carts/struck_by_locomotive,0,,,null
+railcraft:carts/root,§a[§r§aCarts§r§a]§r,Carts§r,Vehicles and magic from Railcraft§r,minecraft:minecart,0.0,1.5,assets/railcraft/textures/blocks/brick_quarried_1.png,TASK,-,-,-,,"railcraft:carts/link_carts
+railcraft:carts/bed_cart
+railcraft:carts/jukebox_cart
+railcraft:carts/surprise",0,,,null
+railcraft:carts/seasons,§a[§r§aAnachronism§r§a]§r,Anachronism§r,Tweak with a seasons crowbar the season of a cart§r,railcraft:tool_crowbar_seasons,2.0,3.0,,GOAL,+,+,+,railcraft:carts/surprise,,0,,,null
+railcraft:carts/struck_by_locomotive,§a[§r§aadvancements.railcraft.carts.struck.by.locomotive.name§r§a]§r,advancements.railcraft.carts.struck.by.locomotive.name§r,advancements.railcraft.carts.struck.by.locomotive.desc§r,railcraft:armor_overalls,3.0,0.0,,TASK,-,+,+,railcraft:carts/locomotive,,0,,,null
+railcraft:carts/surprise,§a[§r§aOpportune Kaboom§r§a]§r,Opportune Kaboom§r,Explode a seasonal cart and collect (really?) gifts§r,railcraft:cart_gift,1.0,3.0,,TASK,-,+,+,railcraft:carts/root,railcraft:carts/seasons,0,,,null
+railcraft:tracks/blast_furnace,§a[§r§aSteel Mill§r§a]§r,Steel Mill§r,Build a blast furnace§r,railcraft:blast_furnace,2.0,4.0,,GOAL,-,+,+,railcraft:tracks/coke_oven,"railcraft:tracks/rock_crusher
+railcraft:tracks/powered_rolling_machine
+railcraft:tracks/high_speed_track",0,,,null
+railcraft:tracks/coke_oven,§a[§r§aCoke Head§r§a]§r,Coke Head§r,Read a coke oven brick's tooltip and build a complete one§r,railcraft:coke_oven,1.0,2.0,,TASK,-,+,+,railcraft:tracks/root,"railcraft:tracks/wooden_track
+railcraft:tracks/manual_rolling_machine
+railcraft:tracks/blast_furnace",0,,,null
+railcraft:tracks/firestone,§5[§r§5Intractable Energy§r§5]§r,Intractable Energy§r,Find a firestone ore on the floor of nether lava ocean and crush it with a rock crusher§r,railcraft:firestone_raw,4.0,3.0,,CHALLENGE,-,+,+,railcraft:tracks/rock_crusher,,100,,,null
+railcraft:tracks/high_speed_track,§a[§r§aFired up Carts§r§a]§r,Fired up Carts§r,Get some high speed tracks and ride your carts on them§r,railcraft:track_flex_high_speed,3.0,5.0,,TASK,-,+,+,railcraft:tracks/blast_furnace,,0,,,null
+railcraft:tracks/junctions,§a[§r§aBetter Forks§r§a]§r,Better Forks§r,"Turn a regular track into turnouts, wyes, and intersections with a spike maul§r","railcraft:track_outfitted {railcraft:{rail:""railcraft_iron"",kit:""railcraft_turnout""}}",4.0,1.0,,TASK,-,+,+,railcraft:tracks/regular_track,,0,,,null
+railcraft:tracks/manual_rolling_machine,§a[§r§aTireless Rolling§r§a]§r,Tireless Rolling§r,Build a manual rolling machine out of alloys§r,railcraft:equipment,2.0,1.0,,TASK,-,+,+,railcraft:tracks/coke_oven,"railcraft:tracks/track_kit
+railcraft:tracks/regular_track",0,,,null
+railcraft:tracks/powered_rolling_machine,§a[§r§aadvancements.railcraft.tracks.powered_rolling_machine.name§r§a]§r,advancements.railcraft.tracks.powered_rolling_machine.name§r,advancements.railcraft.tracks.powered_rolling_machine.desc§r,railcraft:equipment:1,3.0,4.0,,TASK,-,+,+,railcraft:tracks/blast_furnace,,0,,,null
+railcraft:tracks/regular_track,§a[§r§aReasonably Priced§r§a]§r,Reasonably Priced§r,Manufacture tracks made of regular rails§r,minecraft:rail,3.0,1.5,,TASK,-,+,+,railcraft:tracks/manual_rolling_machine,"railcraft:tracks/junctions
+railcraft:tracks/signals",0,,,null
+railcraft:tracks/rock_crusher,§a[§r§aHeavy Machinery§r§a]§r,Heavy Machinery§r,Build a rock crusher§r,railcraft:rock_crusher,3.0,3.0,,TASK,-,+,+,railcraft:tracks/blast_furnace,railcraft:tracks/firestone,0,,,null
+railcraft:tracks/root,§a[§r§aTracks§r§a]§r,Tracks§r,Railcraft Inc.'s dedication§r,railcraft:track_flex_reinforced,0.0,2.0,assets/railcraft/textures/blocks/brick_sandy_1.png,TASK,-,-,-,,railcraft:tracks/coke_oven,0,,,null
+railcraft:tracks/signals,§a[§r§aadvancements.railcraft.tracks.signals.name§r§a]§r,advancements.railcraft.tracks.signals.name§r,advancements.railcraft.tracks.signals.desc§r,railcraft:signal,4.0,2.0,,TASK,-,+,+,railcraft:tracks/regular_track,,0,,,null
+railcraft:tracks/track_kit,§a[§r§aMultifunctional Rails§r§a]§r,Multifunctional Rails§r,Make and place track kits on your flex tracks to empower them like this buffer stop one§r,"railcraft:track_kit:3 {railcraft:{kit:""railcraft_buffer""}}",3.0,0.5,,TASK,-,+,+,railcraft:tracks/manual_rolling_machine,,0,,,null
+railcraft:tracks/wooden_track,§a[§r§aWood Age§r§a]§r,Wood Age§r,Get some strap iron tracks that require very few iron§r,railcraft:track_flex_strap_iron,2.0,0.0,,TASK,-,+,+,railcraft:tracks/coke_oven,,0,,,null
+realfilingcabinet:main/folder_craft,"§a[§r§aFile it away, boys§r§a]§r","File it away, boys§r",Craft some empty filing folders§r,realfilingcabinet:folder,1.0,1.0,,TASK,-,+,+,realfilingcabinet:main/root,,0,,,null
+realfilingcabinet:main/limit_reach,§a[§r§aLimit Break!§r§a]§r,Limit Break!§r,Reach the storage limit on the dyed folders.§r,realfilingcabinet:dyedfolder:3,1.0,0.0,,TASK,-,+,+,realfilingcabinet:main/root,,0,,,null
+realfilingcabinet:main/root,§a[§r§aReal Filing Cabinet§r§a]§r,Real Filing Cabinet§r,(Exactly what it says on the tin)§r,realfilingcabinet:modelcabinet,0.0,0.5,assets/realfilingcabinet/textures/blocks/side.png,TASK,-,-,-,,"realfilingcabinet:main/limit_reach
+realfilingcabinet:main/folder_craft",0,,,null
+refinedstorage:autocrafting,§a[§r§aAutocrafting§r§a]§r,Autocrafting§r,Craft a Crafter§r,refinedstorage:crafter,2.0,10.0,,TASK,-,+,+,refinedstorage:binding,"refinedstorage:monitoring
+refinedstorage:managing_patterns
+refinedstorage:pattern_creation",0,,,null
+refinedstorage:better_than_a_barrel,§a[§r§aBetter than a barrel§r§a]§r,Better than a barrel§r,"Craft a Storage Monitor to view, insert or extract items of a network§r",refinedstorage:storage_monitor,2.0,3.0,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:binding,§a[§r§aBinding§r§a]§r,Binding§r,Craft Processor Binding to craft the various processors§r,refinedstorage:processor_binding,1.0,7.75,,TASK,-,+,+,refinedstorage:root,"refinedstorage:upgrading
+refinedstorage:detecting
+refinedstorage:connecting
+refinedstorage:better_than_a_barrel
+refinedstorage:importing
+refinedstorage:drives
+refinedstorage:storing_externally
+refinedstorage:exporting
+refinedstorage:security
+refinedstorage:autocrafting
+refinedstorage:wireless
+refinedstorage:interface_to_the_world
+refinedstorage:more_than_just_storage",0,,,null
+refinedstorage:conditional_connecting,§a[§r§aConditional connecting§r§a]§r,Conditional connecting§r,Craft a Relay to control if a network signal can pass with redstone§r,refinedstorage:relay,3.0,1.5,,TASK,-,+,+,refinedstorage:connecting,,0,,,null
+refinedstorage:connecting,§a[§r§aConnecting§r§a]§r,Connecting§r,"You can place all the devices next to each other to connect them up, or, use Cable§r",refinedstorage:cable,2.0,2.0,,TASK,-,+,+,refinedstorage:binding,"refinedstorage:conditional_connecting
+refinedstorage:covering",0,,,null
+refinedstorage:construction,§a[§r§aConstruction§r§a]§r,Construction§r,Get blocks or fluids out of the storage network with a Constructor§r,refinedstorage:constructor,3.0,8.0,,TASK,-,+,+,refinedstorage:exporting,,0,,,null
+refinedstorage:covering,§a[§r§aCovering§r§a]§r,Covering§r,Craft a Cover to hide cables§r,"refinedstorage:cover {Item:{id:""minecraft:stonebrick"",Count:1b,Damage:0s}}",3.0,2.5,,TASK,-,+,+,refinedstorage:connecting,refinedstorage:hollow_covering,0,,,null
+refinedstorage:crafting_on_demand,§a[§r§aCrafting on demand§r§a]§r,Crafting on demand§r,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand§r",refinedstorage:upgrade:3,4.0,11.0,,TASK,-,+,+,refinedstorage:pattern_creation,,0,,,null
+refinedstorage:destruction,§a[§r§aDestruction§r§a]§r,Destruction§r,Get blocks or fluids into the storage network with a Destructor§r,refinedstorage:destructor,3.0,4.0,,TASK,-,+,+,refinedstorage:importing,,0,,,null
+refinedstorage:detecting,§a[§r§aDetecting§r§a]§r,Detecting§r,Detect items or fluids in the network with the Detector§r,refinedstorage:detector,2.0,1.0,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:drives,§a[§r§aDrives§r§a]§r,Drives§r,Craft a Disk Drive to be able to store your disks§r,refinedstorage:disk_drive,2.0,6.0,,TASK,-,+,+,refinedstorage:binding,"refinedstorage:storing_fluids
+refinedstorage:storing_items
+refinedstorage:manipulating_disks",0,,,null
+refinedstorage:exporting,§a[§r§aExporting§r§a]§r,Exporting§r,Get items or fluids out of the storage network with an Exporter§r,refinedstorage:exporter,2.0,8.0,,TASK,-,+,+,refinedstorage:binding,refinedstorage:construction,0,,,null
+refinedstorage:hollow_covering,§a[§r§aHollow covering§r§a]§r,Hollow covering§r,"Craft a Hollow Cover to hide cables, but still let cable through§r","refinedstorage:hollow_cover {Item:{id:""minecraft:stonebrick"",Count:1b,Damage:0s}}",4.0,2.5,,TASK,-,+,+,refinedstorage:covering,,0,,,null
+refinedstorage:importing,§a[§r§aImporting§r§a]§r,Importing§r,Get items or fluids into the storage network with an Importer§r,refinedstorage:importer,2.0,4.0,,TASK,-,+,+,refinedstorage:binding,refinedstorage:destruction,0,,,null
+refinedstorage:interface_to_the_world,§a[§r§aInterface to the world§r§a]§r,Interface to the world§r,Export and import items at the same time with an Interface§r,refinedstorage:interface,2.0,14.5,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:managing_patterns,§a[§r§aManaging patterns§r§a]§r,Managing patterns§r,Craft a Crafter Manager to manage your patterns in a better way§r,refinedstorage:crafter_manager,3.0,10.0,,TASK,-,+,+,refinedstorage:autocrafting,,0,,,null
+refinedstorage:manipulating_disks,§a[§r§aManipulating disks§r§a]§r,Manipulating disks§r,Use a Disk Manipulator to easily modify contents of disks§r,refinedstorage:disk_manipulator,3.0,7.0,,TASK,-,+,+,refinedstorage:drives,,0,,,null
+refinedstorage:monitoring,§a[§r§aMonitoring§r§a]§r,Monitoring§r,Check the status of your crafting tasks with a Crafting Monitor§r,refinedstorage:crafting_monitor,3.0,9.0,,TASK,-,+,+,refinedstorage:autocrafting,,0,,,null
+refinedstorage:more_than_just_storage,§a[§r§aMore than just storage§r§a]§r,More than just storage§r,"Transfer items, fluids, energy and redstone from a Reader to a Writer§r",refinedstorage:reader,2.0,15.5,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:no_cables_required,§a[§r§aNo cables required§r§a]§r,No cables required§r,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card§r",refinedstorage:network_transmitter,3.0,15.0,,TASK,-,+,+,refinedstorage:wireless,,0,,,null
+refinedstorage:pattern_creation,§a[§r§aPattern creation§r§a]§r,Pattern creation§r,Create patterns with a Pattern Grid and a Pattern§r,refinedstorage:pattern,3.0,11.0,,TASK,-,+,+,refinedstorage:autocrafting,refinedstorage:crafting_on_demand,0,,,null
+refinedstorage:portable_storage,§a[§r§aPortable storage§r§a]§r,Portable storage§r,Craft a Portable Grid to access items and fluids in disks without being in a network§r,refinedstorage:portable_grid:1,5.0,6.5,,TASK,-,+,+,refinedstorage:viewing_items,,0,,,null
+refinedstorage:root,§a[§r§aRefined Storage§r§a]§r,Refined Storage§r,Craft a Controller§r,refinedstorage:controller:1,0.0,7.75,assets/refinedstorage/textures/gui/advancements.png,TASK,-,-,-,,refinedstorage:binding,0,,,null
+refinedstorage:security,§a[§r§aSecurity§r§a]§r,Security§r,Secure your network with a Security Manager and a Security Card§r,refinedstorage:security_manager,2.0,9.0,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:storing_externally,§a[§r§aStoring externally§r§a]§r,Storing externally§r,Use an External Storage to provide the network with storage from an external block like a chest§r,refinedstorage:external_storage,2.0,7.0,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:storing_fluids,§a[§r§aStoring fluids§r§a]§r,Storing fluids§r,Craft a Fluid Storage Disk and put it in your Disk Drive§r,refinedstorage:fluid_storage_disk,3.0,5.0,,TASK,-,+,+,refinedstorage:drives,refinedstorage:viewing_fluids,0,,,null
+refinedstorage:storing_items,§a[§r§aStoring items§r§a]§r,Storing items§r,Craft a Storage Disk and put it in your Disk Drive§r,refinedstorage:storage_disk,3.0,6.0,,TASK,-,+,+,refinedstorage:drives,refinedstorage:viewing_items,0,,,null
+refinedstorage:upgrading,§a[§r§aUpgrading§r§a]§r,Upgrading§r,Craft an Upgrade to improve various devices§r,refinedstorage:upgrade,2.0,0.0,,TASK,-,+,+,refinedstorage:binding,,0,,,null
+refinedstorage:upgrading_your_grid,§a[§r§aUpgrading your Grid§r§a]§r,Upgrading your Grid§r,Upgrade your Grid to a Crafting Grid to get crafting abilities in your Grid§r,refinedstorage:grid:1,5.0,5.5,,TASK,-,+,+,refinedstorage:viewing_items,,0,,,null
+refinedstorage:viewing_fluids,§a[§r§aViewing fluids§r§a]§r,Viewing fluids§r,Craft a Fluid Grid to interact with your fluid storage§r,refinedstorage:grid:3,4.0,5.0,,TASK,-,+,+,refinedstorage:storing_fluids,,0,,,null
+refinedstorage:viewing_items,§a[§r§aViewing items§r§a]§r,Viewing items§r,Craft a Grid to interact with your item storage§r,refinedstorage:grid,4.0,6.0,,TASK,-,+,+,refinedstorage:storing_items,"refinedstorage:upgrading_your_grid
+refinedstorage:portable_storage",0,,,null
+refinedstorage:wireless,§a[§r§aWireless§r§a]§r,Wireless§r,Transmit a network signal with a Wireless Transmitter§r,refinedstorage:wireless_transmitter,2.0,13.5,,TASK,-,+,+,refinedstorage:binding,"refinedstorage:wireless_monitoring
+refinedstorage:wireless_items
+refinedstorage:wireless_fluids
+refinedstorage:no_cables_required",0,,,null
+refinedstorage:wireless_fluids,§a[§r§aWireless fluids§r§a]§r,Wireless fluids§r,Interact with your fluid storage wirelessly with a Wireless Fluid Grid§r,refinedstorage:wireless_fluid_grid:1,3.0,14.0,,TASK,-,+,+,refinedstorage:wireless,,0,,,null
+refinedstorage:wireless_items,§a[§r§aWireless items§r§a]§r,Wireless items§r,Interact with your item storage wirelessly with a Wireless Grid§r,refinedstorage:wireless_grid:1,3.0,13.0,,TASK,-,+,+,refinedstorage:wireless,,0,,,null
+refinedstorage:wireless_monitoring,§a[§r§aWireless monitoring§r§a]§r,Wireless monitoring§r,Check the status of your crafting tasks wirelessly with a Wireless Crafting Monitor§r,refinedstorage:wireless_crafting_monitor:1,3.0,12.0,,TASK,-,+,+,refinedstorage:wireless,,0,,,null
+rftools:alltheitems,§a[§r§aStoring the stuff!§r§a]§r,Storing the stuff!§r,Place down a modular storage block§r,rftools:modular_storage,1.0,4.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:builder,§a[§r§aBuilder§r§a]§r,Builder§r,Bob The Builder!§r,rftools:builder,1.0,2.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:clearvision,§a[§r§aYour Vision Clears!§r§a]§r,Your Vision Clears!§r,Place a modular screen§r,rftools:screen,1.0,7.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:elevator,§a[§r§aGoing Up!§r§a]§r,Going Up!§r,Make an elevator and go up (or down?)§r,rftools:elevator,1.0,0.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:hardpower,§a[§r§aAdvanced Power!§r§a]§r,Advanced Power!§r,Build an Endergenic Generator§r,rftools:endergenic,1.0,5.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:root,§a[§r§aRFTools§r§a]§r,RFTools§r,Starting RFTools!§r,rftools:rftools_manual,0.0,3.5,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,,"rftools:elevator
+rftools:shieldsafety
+rftools:builder
+rftools:specialores
+rftools:alltheitems
+rftools:hardpower
+rftools:storepower
+rftools:clearvision",0,,,null
+rftools:shieldsafety,§a[§r§aFeeling safe now?§r§a]§r,Feeling safe now?§r,Activate a shield§r,rftools:powercell,1.0,1.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:specialores,§a[§r§aExotic Miner!§r§a]§r,Exotic Miner!§r,Mine dimensional shards§r,rftools:dimensional_shard,1.0,3.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+rftools:storepower,§a[§r§aStore all the Power!§r§a]§r,Store all the Power!§r,Put down a powercell§r,rftools:powercell,1.0,6.0,assets/rftools/textures/gui/advancements/rftools_background.png,TASK,-,+,-,rftools:root,,0,,,null
+sereneseasons:recipes/buildingblocks/greenhouse_glass,sereneseasons:recipes/buildingblocks/greenhouse_glass§r,,,,,,,,,,,,,0,,sereneseasons:greenhouse_glass,null
+sereneseasons:recipes/redstone/season_sensor,sereneseasons:recipes/redstone/season_sensor§r,,,,,,,,,,,,,0,,sereneseasons:season_sensor,null
+sereneseasons:recipes/tools/season_clock,sereneseasons:recipes/tools/season_clock§r,,,,,,,,,,,,,0,,sereneseasons:season_clock,null
+signals:recipes/block_signal_unlocks,signals:recipes/block_signal_unlocks§r,,,,,,,,,,,minecraft:recipes/root,,0,,"signals:chain_signal_from_red_dye
+signals:chain_signal_from_redstone
+signals:rail_network_controller",null
+signals:recipes/cart_engine,signals:recipes/cart_engine§r,,,,,,,,,,,minecraft:recipes/root,,0,,signals:cart_engine,null
+signals:recipes/cart_hopper,signals:recipes/cart_hopper§r,,,,,,,,,,,minecraft:recipes/root,,0,,signals:cart_hopper,null
+signals:recipes/rail_link,signals:recipes/rail_link§r,,,,,,,,,,,minecraft:recipes/root,,0,,"signals:rail_link
+signals:ticket
+signals:ticket_clearing",null
+signals:recipes/rail_unlocks,signals:recipes/rail_unlocks§r,,,,,,,,,,,minecraft:recipes/root,,0,,"signals:block_signal_from_red_dye
+signals:block_signal_from_redstone
+signals:limiter_rail
+signals:rail_configurator
+signals:station_marker",null
+techreborn:root,§a[§r§aTech Reborn§r§a]§r,Tech Reborn§r,"Now that you have acquired Tech Reborn ore, you might find a tree tap usefull.§r",techreborn:ore,0.0,0.0,assets/techreborn/textures/blocks/storage/lead_block.png,TASK,-,+,+,,techreborn:tree_tap,0,,,null
+techreborn:sap,§a[§r§aRubber Sap§r§a]§r,Rubber Sap§r,"Well done, you now have rubber sap. You will want to smelt it in a furnace to create rubber next.§r",techreborn:part:31,2.0,0.0,,TASK,-,+,+,techreborn:tree_tap,,0,,,null
+techreborn:tree_tap,§a[§r§aTreeTap§r§a]§r,TreeTap§r,Now that you have crafted a tree tap you will want to use it on a sap spot on a rubber tree.§r,techreborn:treetap,1.0,0.0,,TASK,-,+,+,techreborn:root,techreborn:sap,0,,,null

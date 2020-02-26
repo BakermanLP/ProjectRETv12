@@ -1,0 +1,43 @@
+ID,Display Name,Name,Class Name,Is Bad Effect,Is Instant,Is Beneficial,Status Icon Index,Liquid Color,Curative Items,Attribute Modifiers
+conarm:superhotpotion,potion.superhotpotion,potion.superhotpotion,c4.conarm.common.armor.traits.TraitSuperhot$SuperhotPotion,-,-,-,-1,#FFFFFF,minecraft:milk_bucket,"generic.movementSpeed: AttributeModifier{amount=0.15, operation=2, name='potion.superhotpotion', id=da1c3163-029c-4b7f-974b-de9a6dcf3c00, serialize=true}"
+minecraft:absorption,Absorption,effect.absorption,net.minecraft.potion.PotionAbsorption,-,-,+,18,#2552A5,minecraft:milk_bucket,
+minecraft:blindness,Blindness,effect.blindness,net.minecraft.potion.Potion,+,-,-,13,#1F1F23,minecraft:milk_bucket,
+minecraft:fire_resistance,Fire Resistance,effect.fireResistance,net.minecraft.potion.Potion,-,-,+,15,#E49A3A,minecraft:milk_bucket,
+minecraft:glowing,Glowing,effect.glowing,net.minecraft.potion.Potion,-,-,-,20,#94A061,minecraft:milk_bucket,
+minecraft:haste,Haste,effect.digSpeed,net.minecraft.potion.Potion,-,-,+,2,#D9C043,minecraft:milk_bucket,"generic.attackSpeed: AttributeModifier{amount=0.10000000149011612, operation=2, name='effect.digSpeed', id=af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3, serialize=true}"
+minecraft:health_boost,Health Boost,effect.healthBoost,net.minecraft.potion.PotionHealthBoost,-,-,+,23,#F87D23,minecraft:milk_bucket,"generic.maxHealth: AttributeModifier{amount=4.0, operation=0, name='effect.healthBoost', id=5d6f0ba2-1186-46ac-b896-c61c5cee99cc, serialize=true}"
+minecraft:hunger,Hunger,effect.hunger,net.minecraft.potion.Potion,+,-,-,9,#587653,minecraft:milk_bucket,
+minecraft:instant_damage,Instant Damage,effect.harm,net.minecraft.potion.PotionHealth,+,+,+,-1,#430A09,minecraft:milk_bucket,
+minecraft:instant_health,Instant Health,effect.heal,net.minecraft.potion.PotionHealth,-,+,+,-1,#F82423,minecraft:milk_bucket,
+minecraft:invisibility,Invisibility,effect.invisibility,net.minecraft.potion.Potion,-,-,+,8,#7F8392,minecraft:milk_bucket,
+minecraft:jump_boost,Jump Boost,effect.jump,net.minecraft.potion.Potion,-,-,+,10,#22FF4C,minecraft:milk_bucket,
+minecraft:levitation,Levitation,effect.levitation,net.minecraft.potion.Potion,+,-,-,19,#CEFFFF,minecraft:milk_bucket,
+minecraft:luck,Luck,effect.luck,net.minecraft.potion.Potion,-,-,+,21,#339900,minecraft:milk_bucket,"generic.luck: AttributeModifier{amount=1.0, operation=0, name='effect.luck', id=03c3c89d-7037-4b42-869f-b146bcb64d2e, serialize=true}"
+minecraft:mining_fatigue,Mining Fatigue,effect.digSlowDown,net.minecraft.potion.Potion,+,-,-,3,#4A4217,minecraft:milk_bucket,"generic.attackSpeed: AttributeModifier{amount=-0.10000000149011612, operation=2, name='effect.digSlowDown', id=55fced67-e92a-486e-9800-b47f202c4386, serialize=true}"
+minecraft:nausea,Nausea,effect.confusion,net.minecraft.potion.Potion,+,-,-,11,#551D4A,minecraft:milk_bucket,
+minecraft:night_vision,Night Vision,effect.nightVision,net.minecraft.potion.Potion,-,-,+,12,#1F1FA1,minecraft:milk_bucket,
+minecraft:poison,Poison,effect.poison,net.minecraft.potion.Potion,+,-,-,6,#4E9331,minecraft:milk_bucket,
+minecraft:regeneration,Regeneration,effect.regeneration,net.minecraft.potion.Potion,-,-,+,7,#CD5CAB,minecraft:milk_bucket,
+minecraft:resistance,Resistance,effect.resistance,net.minecraft.potion.Potion,-,-,+,14,#99453A,minecraft:milk_bucket,
+minecraft:saturation,Saturation,effect.saturation,net.minecraft.potion.PotionHealth,-,+,+,-1,#F82423,minecraft:milk_bucket,
+minecraft:slowness,Slowness,effect.moveSlowdown,net.minecraft.potion.Potion,+,-,-,1,#5A6C81,minecraft:milk_bucket,"generic.movementSpeed: AttributeModifier{amount=-0.15000000596046448, operation=2, name='effect.moveSlowdown', id=7107de5e-7ce8-4030-940e-514c1f160890, serialize=true}"
+minecraft:speed,Speed,effect.moveSpeed,net.minecraft.potion.Potion,-,-,+,0,#7CAFC6,minecraft:milk_bucket,"generic.movementSpeed: AttributeModifier{amount=0.20000000298023224, operation=2, name='effect.moveSpeed', id=91aeaa56-376b-4498-935b-2f7f68070635, serialize=true}"
+minecraft:strength,Strength,effect.damageBoost,net.minecraft.potion.PotionAttackDamage,-,-,+,4,#932423,minecraft:milk_bucket,"generic.attackDamage: AttributeModifier{amount=0.0, operation=0, name='effect.damageBoost', id=648d7064-6a60-4f59-8abe-c2c23a6dd7a9, serialize=true}"
+minecraft:unluck,Bad Luck,effect.unluck,net.minecraft.potion.Potion,+,-,-,22,#C0A44D,minecraft:milk_bucket,"generic.luck: AttributeModifier{amount=-1.0, operation=0, name='effect.unluck', id=cc5af142-2bd2-4215-b636-2605aed11727, serialize=true}"
+minecraft:water_breathing,Water Breathing,effect.waterBreathing,net.minecraft.potion.Potion,-,-,+,16,#2E5299,minecraft:milk_bucket,
+minecraft:weakness,Weakness,effect.weakness,net.minecraft.potion.PotionAttackDamage,+,-,-,5,#484D48,minecraft:milk_bucket,"generic.attackDamage: AttributeModifier{amount=0.0, operation=0, name='effect.weakness', id=22653b89-116e-49dc-9b6b-9971489b5be5, serialize=true}"
+minecraft:wither,Wither,effect.wither,net.minecraft.potion.Potion,+,-,-,17,#352A27,minecraft:milk_bucket,
+quark:black,Darkening,quark.potion.black.name,vazkii.quark.world.effects.PotionColorizer,+,-,-,-1,#303030,minecraft:milk_bucket,
+quark:blue,Blueberry,quark.potion.blue.name,vazkii.quark.world.effects.PotionColorizer,+,-,-,-1,#0000FF,minecraft:milk_bucket,
+quark:curse,Curse,quark.potion.curse.name,vazkii.quark.base.potion.PotionMod,+,-,-,-1,#000000,minecraft:milk_bucket,
+quark:danger_sight,Danger Sight,quark.potion.danger_sight.name,vazkii.quark.base.potion.PotionMod,-,-,+,-1,#08C8E3,minecraft:milk_bucket,
+quark:resilience,Resilience,quark.potion.resilience.name,vazkii.quark.base.potion.PotionMod,-,-,-,-1,#5B1A04,minecraft:milk_bucket,"generic.knockbackResistance: AttributeModifier{amount=0.5, operation=0, name='quark.potion.resilience.name', id=0cb68666-1b17-42b3-82c0-28412d6c0b22, serialize=true}"
+quark:white,Whitening,quark.potion.white.name,vazkii.quark.world.effects.PotionColorizer,+,-,-,-1,#CCCCCC,minecraft:milk_bucket,
+railcraft:creosote,Creosote,potion.railcraft.creosote,mods.railcraft.common.items.potion.PotionCreosote,-,-,-,*error*,#CCA300,minecraft:milk_bucket,
+tconstruct:carry,Piggybacking,potion.carry,slimeknights.tconstruct.gadgets.item.ItemPiggybackPack$CarryPotionEffect,-,-,-,-1,#FFFFFF,minecraft:milk_bucket,"generic.movementSpeed: AttributeModifier{amount=-0.05, operation=2, name='potion.carry', id=ff4de63a-2b24-11e6-b67b-9e71128cae77, serialize=true}"
+tconstruct:dot,potion.dot,potion.dot,slimeknights.tconstruct.tools.traits.TraitSharp$DoT,+,-,-,-1,#FFFFFF,minecraft:milk_bucket,
+tconstruct:enderference,potion.enderference,potion.enderference,slimeknights.tconstruct.library.potion.TinkerPotion,+,-,-,-1,#21985F,minecraft:milk_bucket,
+tconstruct:insatiable,potion.insatiable,potion.insatiable,slimeknights.tconstruct.library.potion.TinkerPotion,+,-,-,-1,#FFFFFF,minecraft:milk_bucket,
+tconstruct:magnetic,potion.magnetic,potion.magnetic,slimeknights.tconstruct.tools.traits.TraitMagnetic$MagneticPotion,-,-,-,-1,#FFFFFF,minecraft:milk_bucket,
+tconstruct:momentum,potion.momentum,potion.momentum,slimeknights.tconstruct.library.potion.TinkerPotion,-,-,-,-1,#FFFFFF,minecraft:milk_bucket,
+tconstruct:splinter,potion.splinter,potion.splinter,slimeknights.tconstruct.library.potion.TinkerPotion,+,-,-,-1,#FFFFFF,minecraft:milk_bucket,
