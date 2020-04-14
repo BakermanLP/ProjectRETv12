@@ -5,7 +5,7 @@
 | [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) | The Book of Books. Store every documentation book in one. | Vazkii |
 | [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | Adds some useful information about food/hunger to the HUD | squeek502 |
 | [AutoRegLib](https://www.curseforge.com/minecraft/mc-mods/autoreglib) | A library to ease menial tasks in mod development. | Vazkii |
-| [Avaritia 1.1x](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-10) | A parody mod to end all mods | brandon3055, Morpheus11011, covers1624, TheRealp455w0rd |
+| [Avaritia 1.1x](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-10) | A parody mod to end all mods | brandon3055, Morpheus11011, TheRealp455w0rd, covers1624 |
 | [Barrels, Drums, Storage & More](https://www.curseforge.com/minecraft/mc-mods/barrels-drums-storage-more) | Upgradeable storage options from early game to industrial sized factories | Funwayguy, darkosto |
 | [Bedrock Ores](https://www.curseforge.com/minecraft/mc-mods/bedrockores) | Adds ore embedded in bedrock, each block yielding a large number of ore, and a machine to harvest them automatically. | Sangar_ |
 | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | Bookcases, armor stands, shelves and so much more! | Nuchaz |
@@ -28,10 +28,10 @@
 | [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. Also allows local options from any mod .cfg file. | BlayTheNinth |
 | [EnderCore](https://www.curseforge.com/minecraft/mc-mods/endercore) | Library mod for Ender* projects and others | tterrag1098, CrazyPants_MC, HenryLoenwind |
 | [Ender IO Base](https://www.curseforge.com/minecraft/mc-mods/ender-io-base) | Base module for a modular Ender IO installation | HenryLoenwind, EpicSquid319, tterrag1098, CrazyPants_MC |
-| [Ender IO Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-conduits) | Conduit module for a modular Ender IO installation | HenryLoenwind, CrazyPants_MC, tterrag1098, EpicSquid319 |
-| [Ender IO OC Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-oc-conduits) | Open Computers integration module for a modular Ender IO installation | HenryLoenwind, CrazyPants_MC, tterrag1098, EpicSquid319 |
+| [Ender IO Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-conduits) | Conduit module for a modular Ender IO installation | HenryLoenwind, tterrag1098, CrazyPants_MC, EpicSquid319 |
+| [Ender IO OC Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-oc-conduits) | Open Computers integration module for a modular Ender IO installation | HenryLoenwind, CrazyPants_MC, EpicSquid319, tterrag1098 |
 | [Ender IO RS Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-rs-conduits) | Refined Storage integration module for a modular Ender IO installation | HenryLoenwind, tterrag1098, CrazyPants_MC, EpicSquid319 |
-| [Ender IO Endergy](https://www.curseforge.com/minecraft/mc-mods/ender-io-endergy) | Balanced because it takes effort to install | tterrag1098, EpicSquid319, CrazyPants_MC, HenryLoenwind |
+| [Ender IO Endergy](https://www.curseforge.com/minecraft/mc-mods/ender-io-endergy) | Balanced because it takes effort to install | tterrag1098, CrazyPants_MC, EpicSquid319, HenryLoenwind |
 | [Ender IO TiC](https://www.curseforge.com/minecraft/mc-mods/ender-io-tic) | Tinkers Construct integration module for a modular Ender IO installation | HenryLoenwind, tterrag1098, CrazyPants_MC, EpicSquid319 |
 | [Ender IO Machines](https://www.curseforge.com/minecraft/mc-mods/ender-io-machines) | Machine module for a modular Ender IO installation | HenryLoenwind, tterrag1098, EpicSquid319, CrazyPants_MC |
 | [Engineers Workshop Reborn](https://www.curseforge.com/minecraft/mc-mods/engineers-workshop-reborn) | Adds an engineering table to help with your crafting needs. | modmuss50 |
@@ -40,6 +40,7 @@
 | [Forge MultiPart CBE](https://www.curseforge.com/minecraft/mc-mods/forge-multipart-cbe) | An opensource library for having multiple things in the one block space | covers1624, MrTJP |
 | [Shadowfacts' Forgelin](https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin) | My fork of Emberwalker's Forgelin, with some sprinkles on top. | ShadowfactsDev |
 | [Gas Conduits](https://www.curseforge.com/minecraft/mc-mods/gas-conduits) | EnderIO Conduits for Mekanism Gases | pupnewfster |
+| [GunpowderLib](https://www.curseforge.com/minecraft/mc-mods/gunpowderlib) | A support library for Jackyy's mods. | Jackyy |
 | [In-Game Wiki Mod](https://www.curseforge.com/minecraft/mc-mods/in-game-wiki-mod) | A utility mod that allows for other mods to easily include in-game documentation | minemaarten2 |
 | [Integration Foregoing](https://www.curseforge.com/minecraft/mc-mods/integration-foregoing) | The official addon for Industrial Foregoing that adds mods compatibility! | Jackyy, Buuz135 |
 | [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks) | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. | JimeoWan, Kobata |
@@ -48,10 +49,10 @@
 | [MCMultiPart](https://www.curseforge.com/minecraft/mc-mods/mcmultipart) | A universal multipart API for modern Minecraft | amadornes |
 | [MTLib](https://www.curseforge.com/minecraft/mc-mods/mtlib) | Library files for Minetweaker Addons | Jaredlll08 |
 | [Main Menu Scale](https://www.curseforge.com/minecraft/mc-mods/main-menu-scale) | A mod that forces the main menu to have a constant gui scale | modmuss50 |
-| [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle) | Shared code for Forge mods | mDiyo, ProgWML6, bonusboni |
+| [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle) | Shared code for Forge mods | mDiyo, bonusboni, ProgWML6 |
 | [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) | High-tech machinery, powerful energy generation, fancy gadgets and more. Now on Curse! | bradyaidanc, thommy101, Thiakil, pupnewfster |
 | [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators) | Advanced energy generation for Mekanism. | bradyaidanc, pupnewfster, thommy101, Thiakil |
-| [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools) | Powerful tools and armor for Mekanism. | bradyaidanc, pupnewfster, Thiakil, thommy101 |
+| [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools) | Powerful tools and armor for Mekanism. | bradyaidanc, Thiakil, pupnewfster, thommy101 |
 | [Metallurgy 4: Reforged](https://www.curseforge.com/minecraft/mc-mods/metallurgy-4-reforged) | The unofficial port to 1.12.2 of Metallurgy 4 | ItHurtsLikeHell_, Davoleo_K |
 | [Moo Fluids](https://www.curseforge.com/minecraft/mc-mods/moo-fluids) | Dynamically adds different Cows that when bucketed give you different fluids. | TheRoBrit |
 | [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. | YaLTeR |
@@ -96,6 +97,7 @@
 | [Traverse: Legacy Continued](https://www.curseforge.com/minecraft/mc-mods/traverse-legacy-continued) | Adds some cool biomes and stuff | ProspectorDev, EpicSquid319 |
 | [Tree Growing Simulator](https://www.curseforge.com/minecraft/mc-mods/tree-growing-simulator) | Make your skyblock more interesting! | tterrag1098 |
 | [UniDict](https://www.curseforge.com/minecraft/mc-mods/unidict) | a mod to unify all ingots/ores/etc; with: AE2, Immersive Engineering, Mekanism, IC2, Thermal Expansion, and a lot more Integrations. | WanionCane |
+| [VanillaFix](https://www.curseforge.com/minecraft/mc-mods/vanillafix) | Keep playing after a crash | Triple your FPS, reduce memory usage by 60%, and reduce load time by 50% | Make world creation faster | Fix vanilla bugs | Runemoro, ZombieHDGaming |
 | [Vials](https://www.curseforge.com/minecraft/mc-mods/vials) | This mod adds Tinker's Construct sized fluid containers, called Vials.  | LordJoda |
 | [WanionLib](https://www.curseforge.com/minecraft/mc-mods/wanionlib) | Shared code library used by (not)all WanionCane mods! | WanionCane |
 | [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) | Teleport back to activated waystones. For Survival, Adventure or Servers. | BlayTheNinth |
@@ -122,7 +124,7 @@
 | [More Charcoal](https://www.curseforge.com/minecraft/mc-mods/more-charcoal) | Adds a few more charcoal blocks and items (& tiny coal/charcoal!) | al132 |
 | [More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays) | Brings back the NEI Overlays | FeldiM245 |
 | [Not Enough Wands](https://www.curseforge.com/minecraft/mc-mods/not-enough-wands) | Adds various very configurable utility wands to Minecraft | romelo333, McJty |
-| [PlusTiC](https://www.curseforge.com/minecraft/mc-mods/plustic) | Successor to ExtraTiC, adds new tools to and integrates various mods with Tinkers Construct and Constructs' Armory | landmaster_phuong0429 |
+| [Plus TiC](https://www.curseforge.com/minecraft/mc-mods/plus-tic) | Successor to ExtraTiC for newer MC versions | landmaster_phuong0429 |
 | [Railcraft](https://www.curseforge.com/minecraft/mc-mods/railcraft) | Redefine your rails! | Covert_Jaguar |
 | [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) | Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range | raoulvdberge |
 | [Real Filing Cabinet](https://www.curseforge.com/minecraft/mc-mods/real-filing-cabinet) | A strangely resourceful storage system. | BlueNeenja |
