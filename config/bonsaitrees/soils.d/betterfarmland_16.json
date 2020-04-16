@@ -1,0 +1,14 @@
+{
+	"name": "betterfarmland:farmland_16",
+	"mod": "betterfarmland",
+	"soil": {
+		"name": "betterfarmland:farmland_16",
+		"data": 0,
+		"ignoreMeta": false
+	},
+	"modifiers": {
+		"growTime": 0.55,
+		"dropChance": 1.45
+	},
+	"providedTags": [ "dirt", "grass" ]
+}
