@@ -85,6 +85,7 @@ function init() {
     tinkers.addCastingBasin(<minecraft:end_stone>, <minecraft:glowstone>, <liquid:lava>, 1000, true, 200);
     // tinkers.addCastingBasin(<tp:reinforced_obsidian>, null, <liquid:reinforced_obsidian>, 1296, false, 200);
 
+    tinkers.addCastingTable(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 250, false);
     tinkers.addCastingBasin(<minecraft:glowstone>, null, <liquid:glowstone>, 1000, true, 160);
 
     //Casting liquid redstone into dust and blocks

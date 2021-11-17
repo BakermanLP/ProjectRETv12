@@ -3,6 +3,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.liquid.ILiquidDefinition;
 
 /**
  * Creates a surrounded recipe.
@@ -88,4 +89,15 @@ function createSkyOrchardTier3(singleIngredient as IIngredient) as IIngredient[]
         [<thermalfoundation:fertilizer:1>, <ore:treeSapling>, <thermalfoundation:fertilizer:1>],
         [<techreborn:part:46>, <mekanism:substrate>, <techreborn:part:46>],
     ];
+}
+
+function getLiquid(name as string) as ILiquidDefinition{
+    for liquidDefinition in game.liquids {
+        if(liquidDefinition.name == name) {
+            print("FOUND LIQUID: " + liquidDefinition.name);
+            return liquidDefinition;
+        }
+    }
+    logger.logError("Could not find liquid " + name);
+    return null;
 }

@@ -1,11 +1,13 @@
 #
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemDefinition;
 
+import scripts.crafttweaker.utils;
 import scripts.crafttweaker.craftingUtils;
 
 //
@@ -29,24 +31,103 @@ function skyOrchardIngots(metallName as string, myIngotName as IItemStack, resou
     var resourceAcorn as IItemStack = itemUtils.getItem(resourceNameAcorn,resourceMeta);
     var resourceResin as IItemStack = itemUtils.getItem(resourceNameResin,resourceMeta);
 
+    // Metall Dust
+    var oreDustDict as IOreDictEntry = utils.getResourcePartOreDict("dust" , metallName);
+    print("OreDictLength : " + oreDustDict.name + "=" + oreDustDict.items.length );
+    
+    if ( oreDustDict.items.length > 0 ) {
+        var resourceDust = unifier.getPreferredItem(oreDustDict);
+        print("Prefered Dust : " + resourceDust.name);
 
+        // Pulverisieren des Ambers in ThermalExpansion
+        mods.thermalexpansion.Pulverizer.addRecipe(resourceDust * 2, resourceAmber, 1000, resourceResin, 50);
+        // Crushen des Ambers in Mekanism
+        mods.mekanism.enrichment.addRecipe(resourceAmber, resourceDust * 2);
+    }
 
+    // Metall Ingot Furnace Smelting
+    var oreIngotDict as IOreDictEntry = utils.getResourcePartOreDict("ingot" , metallName);
+    print("OreDictLength : " + oreIngotDict.name + "=" + oreIngotDict.items.length );
+
+    if ( oreIngotDict.items.length > 0 ) {
+        var resourceIngot = unifier.getPreferredItem(oreIngotDict);
+        print("Prefered Ingot : " + resourceIngot.name);
+        furnace.addRecipe(resourceIngot, resourceAmber, 0.7);
+    }
+
+    // Metall Nugget Furnace Smelting
+    var oreNuggetDict as IOreDictEntry = utils.getResourcePartOreDict("nugget" , metallName);
+    print("OreDictLength : " + oreNuggetDict.name + "=" + oreNuggetDict.items.length );
+
+    if ( oreNuggetDict.items.length > 0 ) {
+        var resourceNugget = unifier.getPreferredItem(oreNuggetDict);
+        print("Prefered Nugget : " + resourceNugget.name);
+        furnace.addRecipe(resourceNugget, resourceAcorn, 0.7);
+        furnace.addRecipe(resourceNugget, resourceResin, 0.7);
+    }
+
+    // Rezept für Amber
     recipes.addShaped(resourceAmber,
         craftingUtils.createCheckerboardRecipe(resourceAcorn, resourceResin)
     );
 
-    // Furnace Smelting
-    furnace.addRecipe(myIngotName, resourceAmber, 0.7);
+    // Metall Liquid suchen
+//    var myResourceLiquid = craftingUtils.getLiquid(metallName);
+    var myResourceLiquid = resourceLiquid;
 
-    // Tinkers Construct Smelting
-    tinkers.addMelting(resourceLiquid * 288, resourceAmber);
-    tinkers.addMelting(resourceLiquid * 16,  resourceAcorn);
-    tinkers.addMelting(resourceLiquid * 16,  resourceResin);
+    // Mekanism Purification Chamber - Clump Handling
+    var oreClumpDict as IOreDictEntry = utils.getResourcePartOreDict("clump" , metallName);
+    print("OreDictLength : " + oreClumpDict.name + "=" + oreClumpDict.items.length );
+
+    if ( oreClumpDict.items.length > 0 ) {
+        var resourceClump = unifier.getPreferredItem(oreClumpDict);
+        mods.mekanism.purification.addRecipe(resourceAmber, <gas:oxygen>, resourceClump * 3);
+    }
+
+    // Mekanism Chemical Injection Chamber - Shard Handling
+    var oreShardDict as IOreDictEntry = utils.getResourcePartOreDict("shard" , metallName);
+    print("OreDictLength : " + oreShardDict.name + "=" + oreShardDict.items.length );
+
+    if ( oreShardDict.items.length > 0 ) {
+        var resourceShard = unifier.getPreferredItem(oreShardDict);
+        mods.mekanism.chemical.injection.addRecipe(resourceAmber, <gas:hydrogenchloride>, resourceShard * 4);
+    }
+
+    // Dissolution Chamber
+    print("getGas for " + metallName);
+    var gasName as string = metallName; 
+    var myGas = mods.mekanism.MekanismHelper.getGas(gasName);
+    if ( isNull(myGas)) {
+        print("getGas for slurry" + utils.capitalize(metallName) );
+        var gasName as string = "slurry" + utils.capitalize(metallName) ; 
+        var myGas = mods.mekanism.MekanismHelper.getGas(gasName);
+    }
+    if ( ! isNull(myGas)) {
+        print("Adding to Mekanism Chemical Dissolution : " + metallName);
+        mods.mekanism.chemical.dissolution.addRecipe(resourceAmber, myGas * 1000);
+    }
+
+    // Smelting to Liquid Metal
+    if ( ! isNull(myResourceLiquid) ) {
+        print("Adding Smelting for " + metallName);
+        tinkers.addMelting(myResourceLiquid * 288, resourceAmber);
+        tinkers.addMelting(myResourceLiquid * 32,  resourceAcorn);
+        tinkers.addMelting(myResourceLiquid * 32,  resourceResin);
+
+        mods.thermalexpansion.Crucible.addRecipe(myResourceLiquid * 288, resourceAmber, 8000);
+        mods.thermalexpansion.Crucible.addRecipe(myResourceLiquid * 32, resourceAcorn, 500);
+        mods.thermalexpansion.Crucible.addRecipe(myResourceLiquid * 32, resourceResin, 500);
+
+        nuclearCraft.addMelter(resourceAmber, myResourceLiquid * 288);
+        nuclearCraft.addMelter(resourceAcorn, myResourceLiquid * 32);
+        nuclearCraft.addMelter(resourceResin, myResourceLiquid * 32);
+    }
 
 }
 
 function skyOrchardIngotsTier1(metallName as string, myIngotName as IItemStack, resourceLiquid as ILiquidStack) {
     // Sky Orchards zu Metall Ingots für Tier 1
+    print("DEBUG: CONSTRUCTOR Ingot Tier 1 START "+metallName);
     var resourceMeta as int = 0;
     var resourceNameSapling as string = "sky_orchards:sapling_"+metallName;
     var resourceSapling as IItemStack = itemUtils.getItem(resourceNameSapling,resourceMeta);
@@ -193,8 +274,8 @@ skyOrchardIngotsTier1("copper", <thermalfoundation:material:128>, <liquid:copper
 skyOrchardIngotsTier1("lead", <thermalfoundation:material:131>, <liquid:lead>);
 skyOrchardIngotsTier1("tin", <thermalfoundation:material:129>, <liquid:tin>);
 skyOrchardIngotsTier1("nickel", <thermalfoundation:material:133>, <liquid:nickel>);
-skyOrchardIngotsTier1("manganese", <metallurgy:manganese_ingot>, <liquid:manganese>);
-skyOrchardIngotsTier1("osmium", <metallurgy:osmium_ingot>, <liquid:osmium>);
+skyOrchardIngotsTier1("manganese", <nuclearcraft:ingot:11>, <liquid:manganese>);
+skyOrchardIngotsTier1("osmium", <mekanism:ingot:1>, <liquid:osmium>);
 skyOrchardIngotsTier1("zinc", <techreborn:ingot:24>, <liquid:zinc>);
 //
 // Metalle Tier 2
@@ -208,7 +289,7 @@ skyOrchardIngotsTier2("infuscolium", <metallurgy:infuscolium_ingot>, <liquid:inf
 skyOrchardIngotsTier2("lemurite", <metallurgy:lemurite_ingot>, <liquid:lemurite>);
 skyOrchardIngotsTier2("midasium", <metallurgy:midasium_ingot>, <liquid:midasium>);
 skyOrchardIngotsTier2("oureclase", <metallurgy:oureclase_ingot>, <liquid:oureclase>);
-skyOrchardIngotsTier2("platinum", <metallurgy:platinum_ingot>, <liquid:platinum>);
+skyOrchardIngotsTier2("platinum", <thermalfoundation:material:134>, <liquid:platinum>);
 skyOrchardIngotsTier2("prometheum", <metallurgy:prometheum_ingot>, <liquid:prometheum>);
 skyOrchardIngotsTier2("shadowiron", <metallurgy:shadow_iron_ingot>, <liquid:shadow_iron>);
 skyOrchardIngotsTier2("vyroxeres", <metallurgy:vyroxeres_ingot>, <liquid:vyroxeres>);
