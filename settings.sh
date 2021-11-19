@@ -1,6 +1,6 @@
 # Don't edit these values unless you know what you are doing.
 export INSTALL_JAR="forge-1.12.2-14.23.5.2855-installer.jar*"
-export SERVER_JAR="forge-1.12.2-14.23.5.2855-universal.jar*"
+export SERVER_JAR="forge-1.12.2-14.23.5.2855.jar*"
 
 # You can edit these values if you wish.
 export MIN_RAM="4G"
