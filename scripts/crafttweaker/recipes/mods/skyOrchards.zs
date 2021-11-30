@@ -259,6 +259,7 @@ skyOrchardGems("diamond", <minecraft:diamond>);
 skyOrchardGems("emerald", <minecraft:emerald>);
 skyOrchardGems("quartz", <minecraft:quartz>);
 skyOrchardGems("glowstone", <minecraft:glowstone_dust>);
+skyOrchardGems("apatite", <forestry:apatite>);
 
 // Warum diese nicht gehen, verstehe ich nicht
 skyOrchardGems("ruby", <techreborn:gem:0>);
