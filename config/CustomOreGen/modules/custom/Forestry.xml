@@ -1,0 +1,93 @@
+<!-- =================================================================
+     Custom Ore Generation "Vanilla" Module: This configuration covers
+     clay, coal, iron, mountain iron, gold, mountain gold, redstone,
+     mountain redstone, diamond, lapis lazuli, mountain lapis lazuli,
+     emerald, and nether quartz.
+     ================================================================= -->
+<ConfigSection>
+
+    <IfCondition condition=':= dimension = "overworld"'>
+      <!-- Adding blocks -->
+
+      <!-- Begin Apatite Generation -->
+
+      <!-- Starting VerticalVeins Preset for Apatite. -->
+      <ConfigSection>
+          <Veins name='frstApatiteVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Description>
+              Single vertical veins that occur with  no motherlodes.
+            </Description>
+            <OreBlock block='forestry:resources' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * 1 ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize' avg=':= 0 * _default_ * 1 ' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
+            <Setting name='BranchLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 1.551 * _default_ * 1 ' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+          </Veins>
+      </ConfigSection>
+      <!-- VerticalVeins Preset for Redstone is complete. -->
+
+      <!-- End Redstone Generation -->
+
+
+      <!-- Begin Mountain Apatite Generation -->
+
+      <!-- Starting VerticalVeins Preset for Mountain Apatite. -->
+      <ConfigSection>
+          <Veins name='frstMountainApatiteVeins'  inherits='PresetVerticalVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+            <Description>
+              Single vertical veins that occur with  no motherlodes.
+            </Description>
+            <OreBlock block='forestry:resources' weight='1.0' />
+            <ReplacesOre block='stone' weight='1.0' />
+            <BiomeType name='Mountain'  />
+            <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * 1 ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeSize' avg=':= 0 * _default_ * 1 ' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 88 ' range=':= 24 ' type='normal' scaleTo='base' />
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
+            <Setting name='BranchLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_ * 1 ' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 1.551 * _default_ * 1 ' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+          </Veins>
+      </ConfigSection>
+      <!-- VerticalVeins Preset for Mountain Redstone is  complete. -->
+
+      <!-- End Mountain Redstone Generation -->
+
+      <!-- Finished adding blocks -->
+
+    </IfCondition>
+    <!-- Overworld Setup Complete -->
+
+</ConfigSection>
+<!-- Configuration for Custom Ore Generation Complete! -->
+
+<!-- =================================================================
+     This file was made using the Sprocket Advanced Configuration
+     Generator.  If you wish to make your own configurations for a mod
+     not currently supported by Custom Ore Generation, and you don't
+     want the hassle of writing XML, you can find the generator script
+     at its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->
