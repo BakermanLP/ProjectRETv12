@@ -7,8 +7,8 @@ $manifestarray=json_decode($manifestfile);
 // Hier muss eine Leerzeile kommen, sonst funktionier die Modliste nicht
 print "### Modlist\n";
 print "\n";
-print "| Modname | Summary | Author | \n";
-print "| ------- | ------- | ------ | \n";
+print "| ProjectID | fileid | Modname | Summary | Author | \n";
+print "| --------- | ------ | ------- | ------- | ------ | \n";
 # print_r($manifestarray);
 foreach ($manifestarray->files as $k => $v)
 {
@@ -25,6 +25,7 @@ foreach ($manifestarray->files as $k => $v)
     $modname=$projectjson->name;
     $websiteUrl=$projectjson->websiteUrl;
     $summary=$projectjson->summary;
+    print "| [".$projectid."](".$fileid.") | ";
     print "| [".$modname."](".$websiteUrl.") | ";
     print $summary." | ";
     print implode(", ", $thisauthor);
