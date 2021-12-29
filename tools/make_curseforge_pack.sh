@@ -21,6 +21,9 @@ mkdir -p modtemp.$$
 [ -f mods/world_generation_profiler-* ] && mv -v mods/world_generation_profiler-* modtemp.$$
 [ -f mods/avaritiarecipemaker-* ] && mv -v mods/avaritiarecipemaker-* modtemp.$$
 
+# Modlist im Markdown Format
+php ${MODPACKDIR}/tools/make_modlist.php > modlist.md
+
 # Curseforge Client Pack zusammenbauen
 [ -f ~/Downloads/$PROJECTNAME-$VERSION.zip ] && rm ~/Downloads/$PROJECTNAME-$VERSION.zip
 BUILDDIR=$( mktemp -d )
@@ -28,7 +31,7 @@ mkdir ${BUILDDIR}/overrides
 cd ${MODPACKDIR}
 
 echo "Packe Client Modpack unter ${BUILDDIR} zusammen"
-cp manifest.json modlist.html ${BUILDDIR}/
+cp manifest.json modlist.html modlist.md ${BUILDDIR}/
 rsync -a config resources scripts ${BUILDDIR}/overrides/
 cd ${BUILDDIR}
 zip -r ~/Downloads/$PROJECTNAME-$VERSION.zip *
@@ -42,7 +45,7 @@ BUILDDIR=$( mktemp -d )
 cd ${MODPACKDIR}
 
 echo "Packe Server Modpack unter ${BUILDDIR} zusammen"
-cp manifest.json modlist.html ${BUILDDIR}/
+cp manifest.json modlist.html modlist.md ${BUILDDIR}/
 rsync -a config resources scripts mods ${BUILDDIR}/
 rsync -a serverfiles/ ${BUILDDIR}/
 cd ${BUILDDIR}
@@ -58,7 +61,6 @@ rm -r ${BUILDDIR}
 mv -v modtemp.$$/* mods/
 rmdir modtemp.$$
 
-php make_modlist.php > modlist.md
 
 OLDVERSION=$(jq .version ${MODPACKDIR}/old.json)
 
