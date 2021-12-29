@@ -1,0 +1,38 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"redstone_clathrate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "redstone"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_redstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 0,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"oil_sand": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "crude_oil_sand"
+						},
+						"weight": 80
+					},
+					{
+						"name": "minecraft:sand",
+						"weight": 20
+					}
+				],
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"minecraft:stone"
+				],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "minecraft:sandstone"
+			},
+			"cluster-count": 3,
+			"chunk-chance": 40,
+			"min-height": 30,
+			"max-height": 60,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

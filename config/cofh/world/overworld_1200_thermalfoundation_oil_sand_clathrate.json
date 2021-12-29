@@ -1,0 +1,38 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"oil_sand_clathrate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "crude_oil_sand"
+					}
+				},
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"minecraft:stone"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 10,
+			"min-height": 10,
+			"max-height": 80,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

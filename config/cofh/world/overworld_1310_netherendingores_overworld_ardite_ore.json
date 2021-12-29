@@ -1,0 +1,30 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"overworld-ardite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_other_1",
+					"properties": {
+						"blocks": "overworld_ardite_ore"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

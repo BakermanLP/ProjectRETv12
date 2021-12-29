@@ -1,0 +1,46 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"oil_shale": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "crude_oil_gravel"
+						},
+						"weight": 80
+					},
+					{
+						"name": "minecraft:gravel",
+						"weight": 20
+					}
+				],
+				"material": [
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone"
+				],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "minecraft:stone"
+			},
+			"cluster-count": 2,
+			"chunk-chance": 50,
+			"min-height": 20,
+			"max-height": 60,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
