@@ -100,7 +100,7 @@
     "groupOrder": "techreborn"
   },
   {
-    "enabled": false,
+    "enabled": true,
     "state": {
       "name": "techreborn:techreborn.ore",
       "properties": {
