@@ -1,7 +1,0 @@
-{
-    "packAuthor": "Bakerman_LP",
-    "minecraftVersion": "1.12.2",
-    "modLoader": "forge",
-    "modLoaderVersion": "14.23.5.2847",
-    "includes": ["config", "scripts", "resources"]
-}
