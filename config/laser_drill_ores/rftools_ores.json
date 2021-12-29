@@ -8,7 +8,7 @@
         "blacklist": "minecraft:hell, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
-        "weight": 1
+        "weight": 2
       }
     ]
   },
@@ -17,11 +17,11 @@
     "color" : 0,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
-        "blacklist": "",
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
-        "weight": 1
+        "weight": 2
       }
     ]
   },
@@ -30,11 +30,11 @@
     "color" : 0,
     "rarity" : [
       {
-        "whitelist": "minecraft:sky",
-        "blacklist": "",
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
-        "weight": 1
+        "weight": 2
       }
     ]
   }
