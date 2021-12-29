@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["Unity-1.6.4-1.12.zip"]
+resourcePacks:["Unity-1.6.4-1.12.zip","PRJE+Atmosphere+1.12.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
