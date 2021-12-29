@@ -10,6 +10,8 @@ import crafttweaker.item.IItemDefinition;
 import scripts.crafttweaker.utils;
 import scripts.crafttweaker.craftingUtils;
 
+import mods.industrialforegoing.BioReactor;
+
 //
 // SkyOrchard Setzlinge zu Ingots und Liquids
 //
@@ -24,12 +26,14 @@ function skyOrchardIngots(metallName as string, myIngotName as IItemStack, resou
     var resourceNameAmber as string = "sky_orchards:amber_"+metallName;
     var resourceNameAcorn as string = "sky_orchards:acorn_"+metallName;
     var resourceNameResin as string = "sky_orchards:resin_"+metallName;
+    var resourceNameLeaves as string = "sky_orchards:leaves_"+metallName;
 
     // Resource Items
     var resourceSapling as IItemStack = itemUtils.getItem(resourceNameSapling,resourceMeta);
     var resourceAmber as IItemStack = itemUtils.getItem(resourceNameAmber,resourceMeta);
     var resourceAcorn as IItemStack = itemUtils.getItem(resourceNameAcorn,resourceMeta);
     var resourceResin as IItemStack = itemUtils.getItem(resourceNameResin,resourceMeta);
+    var resourceLeaves as IItemStack = itemUtils.getItem(resourceNameLeaves,resourceMeta);
 
     // Metall Dust
     var oreDustDict as IOreDictEntry = utils.getResourcePartOreDict("dust" , metallName);
@@ -123,6 +127,9 @@ function skyOrchardIngots(metallName as string, myIngotName as IItemStack, resou
         nuclearCraft.addMelter(resourceResin, myResourceLiquid * 32);
     }
 
+    // Leaves to BioReactor
+    BioReactor.add(resourceLeaves);
+    BioReactor.add(resourceSapling);
 }
 
 function skyOrchardIngotsTier1(metallName as string, myIngotName as IItemStack, resourceLiquid as ILiquidStack) {
