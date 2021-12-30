@@ -73,7 +73,7 @@
 | [243883](2755785) | | [Chicken Chunks 1.8.+](https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8) | Chunk load all the chunks with the power of chicken! | covers1624, Chicken_Bones |
 | [318737](2893259) | | [More Charcoal](https://www.curseforge.com/minecraft/mc-mods/more-charcoal) | Adds a few more charcoal blocks and items (& tiny coal/charcoal!) | al132 |
 | [239431](2615930) | | [MCMultiPart](https://www.curseforge.com/minecraft/mc-mods/mcmultipart) | A universal multipart API for modern Minecraft | amadornes |
-| [223794](2747063) | | [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | A Mod about Matter, Energy and using them to conquer the world.. | AlgorithmX2, thatsIch, thetechnici4n, Gimpanse, TeamAppliedEnergistics, _ForgeUser651564 |
+| [223794](2747063) | | [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | A Mod about Matter, Energy and using them to conquer the world.. | AlgorithmX2, thatsIch, thetechnici4n, Gimpanse, TeamAppliedEnergistics |
 | [230497](2450900) | | [Chameleon](https://www.curseforge.com/minecraft/mc-mods/chameleon) | A shared code and render library. | Texelsaur |
 | [248370](2490058) | | [JEI Bees](https://www.curseforge.com/minecraft/mc-mods/jei-bees) | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. | bdew |
 | [258426](2755790) | | [CB Multipart](https://www.curseforge.com/minecraft/mc-mods/cb-multipart) | An opensource library for having multiple things in the one block space | covers1624, MrTJP |
