@@ -16,4 +16,9 @@ function init() {
 
     // add Molten Thermite as Magmatic Dynamo fuel
     mods.thermalexpansion.MagmaticDynamo.addFuel(<liquid:molten_thermite>, 295440);
+    
+    //Getting the "deep" out of the deep iron
+    val ironDust = <techreborn:smalldust:27>;
+    val deepDust = <metallurgy:deep_iron_dust>;
+    mods.thermalexpansion.Centrifuge.addRecipe( [ ironDust % 40, ironDust % 80, ironDust % 95, ironDust % 100 ], deepDust, <liquid:coal> * 10, 25000 );    
 }
