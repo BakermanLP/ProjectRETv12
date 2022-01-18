@@ -13,3 +13,6 @@ scripts.crafttweaker.recipes.mods.metallurgytweaks.init();
 scripts.crafttweaker.recipes.mods.morecharcoal.init();
 scripts.crafttweaker.recipes.mods.enderio.init();
 scripts.crafttweaker.recipes.mods.tinkers.init();
+scripts.crafttweaker.recipes.mods.tinyprogression.init();
+scripts.crafttweaker.recipes.mods.extrautilities.init();
+scripts.crafttweaker.recipes.mods.industrialforegoing.init();

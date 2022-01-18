@@ -10,7 +10,7 @@ import crafttweaker.item.IItemDefinition;
 import scripts.crafttweaker.utils;
 import scripts.crafttweaker.craftingUtils;
 
-import mods.industrialforegoing.BioReactor;
+// import mods.industrialforegoing.BioReactor;
 
 //
 // SkyOrchard Setzlinge zu Ingots und Liquids
@@ -128,8 +128,8 @@ function skyOrchardIngots(metallName as string, myIngotName as IItemStack, resou
     }
 
     // Leaves to BioReactor
-    BioReactor.add(resourceLeaves);
-    BioReactor.add(resourceSapling);
+    // BioReactor.add(resourceLeaves);
+    // BioReactor.add(resourceSapling);
 }
 
 function skyOrchardIngotsTier1(metallName as string, myIngotName as IItemStack, resourceLiquid as ILiquidStack) {
@@ -179,6 +179,7 @@ function skyOrchardIngotsTier3(metallName as string, myIngotName as IItemStack, 
 // skyOrchardBlocks("cottonwood", <minecraft:wool:0>, <minecraft:string>)
 //
 function skyOrchardBlocks(materialName as string, myBlockName as IItemStack, myItemName as IItemStack) {
+    print("DEBUG: CONSTRUCTOR skyOrchardBlock START "+materialName);
     var resourceMeta as int = 0;
 
     // Resource Namen
@@ -213,6 +214,7 @@ function skyOrchardBlocks(materialName as string, myBlockName as IItemStack, myI
 // skyOrchardGems("redstone", <minecraft:redstone>)
 //
 function skyOrchardGems(materialName as string, myItemName as IItemStack) {
+    print("DEBUG: CONSTRUCTOR skyOrchardGems START "+materialName);
     var resourceMeta as int = 0;
 
     // Resource Namen
@@ -220,12 +222,14 @@ function skyOrchardGems(materialName as string, myItemName as IItemStack) {
     var resourceNameAmber as string = "sky_orchards:amber_"+materialName;
     var resourceNameAcorn as string = "sky_orchards:acorn_"+materialName;
     var resourceNameResin as string = "sky_orchards:resin_"+materialName;
+    var resourceNameLeaves as string = "sky_orchards:leaves_"+materialName;
 
     // Resource Items
     var resourceSapling as IItemStack = itemUtils.getItem(resourceNameSapling,resourceMeta);
     var resourceAmber as IItemStack = itemUtils.getItem(resourceNameAmber,resourceMeta);
     var resourceAcorn as IItemStack = itemUtils.getItem(resourceNameAcorn,resourceMeta);
     var resourceResin as IItemStack = itemUtils.getItem(resourceNameResin,resourceMeta);
+    var resourceLeaves as IItemStack = itemUtils.getItem(resourceNameLeaves,resourceMeta);
 
     recipes.addShaped(resourceSapling,
         craftingUtils.createSkyOrchardTier2(myItemName)
@@ -237,6 +241,10 @@ function skyOrchardGems(materialName as string, myItemName as IItemStack) {
 
     // Furnace Smelting
     furnace.addRecipe(myItemName, resourceAmber, 0.7);
+
+    // Leaves to BioReactor
+    // BioReactor.add(resourceLeaves);
+    // BioReactor.add(resourceSapling);
 
     print("DEBUG: CONSTRUCTOR Gems ENDE "+materialName);
 }
@@ -254,7 +262,9 @@ skyOrchardBlocks("cottonwood", <minecraft:wool:0>, <minecraft:string>);
 skyOrchardBlocks("dirt", <minecraft:dirt>, <minecraft:dirt>);
 skyOrchardBlocks("clay", <minecraft:clay>, <minecraft:clay>);
 skyOrchardBlocks("sand", <minecraft:sand>, <minecraft:sand>);
+skyOrchardBlocks("cookie", <minecraft:cookie>, <minecraft:cookie>);
 skyOrchardBlocks("gravel", <minecraft:gravel>, <minecraft:gravel>);
+skyOrchardBlocks("obsidian", <minecraft:obsidian>, <minecraft:obsidian>);
 skyOrchardBlocks("netherrack", <minecraft:netherrack>, <minecraft:netherrack>);
 skyOrchardBlocks("bone", <minecraft:bone_block>, <minecraft:bone>);
 skyOrchardBlocks("niter", <jaopca:block_blockniter>, <thermalfoundation:material:772>);
