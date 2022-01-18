@@ -61,18 +61,23 @@ rm -r ${BUILDDIR}
 mv -v modtemp.$$/* mods/
 rmdir modtemp.$$
 
+# Changelog Generierung
+OLDVERSION=$(jq -r .version ${MODPACKDIR}/old.json)
 
-OLDVERSION=$(jq .version ${MODPACKDIR}/old.json)
+# Mod Changelog
+java -jar ${MODPACKDIR}/tools/ChangelogGenerator-2.0.0-pre10.jar -m --new=manifest.json --old=old.json --output=mod_changelog.md
+# Github Changelog
+${MODPACKDIR}/tools/git-log-to-markdown --since=${OLDVERSION}
 
-java -jar ${MODPACKDIR}/tools/ChangelogGenerator-2.0.0-pre10.jar -m --new=manifest.json --old=old.json --output=${MODPACKDIR}/mod_changelog.md
-
-github_changelog_generator -u BakermanLP -p ProjectRETv12 --since-tag ${OLDVERSION} --output ${MODPACKDIR}/github_changelog.md
-
-head -n -1 CHANGELOG.md | sed 's/# Changelog/# Changelog Configs, Scripts and so on/' >> changelog.md
+head -n 1 mod_changelog.md > changelog.md
+sed 's/^##.*$/## Config and Repository Changes since '${OLDVERSION}'/' gitlog.md >> changelog.md
+tail -n +2 mod_changelog.md | head -n -1 >> changelog.md
 
 # mv old.json old.json.old
 # mv new.json old.json
 
 echo "# Abschliessende Kommandos"
+echo "# Versionsfiles kopieren"
 echo "cp old.json old.json.old ; cp manifest.json old.json"
-echo "gh release create 2.0.0 --notes-file build/changelog --title 2.0.0"
+echo "# Github Release einpflegen"
+echo "gh release create ${VERSION} --notes-file build/changelog --title ${VERSION}"
