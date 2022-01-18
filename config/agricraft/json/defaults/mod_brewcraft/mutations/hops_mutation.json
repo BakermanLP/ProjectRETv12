@@ -1,0 +1,8 @@
+{
+  "path": "mod_brewcraft/mutations/hops_mutation.json",
+  "enabled": true,
+  "chance": 0.42,
+  "child": "brewcraft:hops_plant",
+  "parent1": "vanilla:allium_plant",
+  "parent2": "harvestcraft:brusselsprout_plant"
+}

@@ -1,0 +1,78 @@
+{
+  "path": "mod_betterfarmland/soils/betterfarmland_soil.json",
+  "enabled": true,
+  "id": "betterfarmland_soil",
+  "name": "betterfarmland_soil",
+  "varients": [
+    {
+      "item": "betterfarmland:farmland_2",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_8",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_16",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_32",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_64",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_128",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterfarmland:farmland_256",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}
