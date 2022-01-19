@@ -26,6 +26,7 @@
 | [297201](3328803) | | [Ender IO RS Conduits](https://www.curseforge.com/minecraft/mc-mods/ender-io-rs-conduits) | Refined Storage integration module for a modular Ender IO installation | HenryLoenwind, tterrag1098, idontwantthisaccount4, EpicSquid315 |
 | [297202](3328804) | | [Ender IO Forestry](https://www.curseforge.com/minecraft/mc-mods/ender-io-forestry) | Forestry integration module for a modular Ender IO installation | HenryLoenwind, EpicSquid315, idontwantthisaccount4, tterrag1098 |
 | [297203](3328805) | | [Ender IO TiC](https://www.curseforge.com/minecraft/mc-mods/ender-io-tic) | Tinkers Construct integration module for a modular Ender IO installation | HenryLoenwind, idontwantthisaccount4, tterrag1098, EpicSquid315 |
+| [460287](3246975) | | [Nora's ProjectE Textures](https://www.curseforge.com/minecraft/texture-packs/noras-projecte-textures) | A Texture pack for ProjectE | UnicorNora |
 | [245824](2651595) | | [Signals](https://www.curseforge.com/minecraft/mc-mods/signals) | Mod that adds OpenTTD/Factorio style signaling and more! | Forge_User_59359881 |
 | [74924](2713386) | | [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle) | Shared code for Forge mods | mDiyo, fuj1n, Alexbegt, ProgWML6, KnightMiner, bonusboni |
 | [250297](2649421) | | [PM Dumper 3](https://www.curseforge.com/minecraft/mc-mods/pm-dumper) | A Minecraft Forge mod that allows you to dump game information such as blocks, items and many more. | mrapplexz |
@@ -38,7 +39,7 @@
 | [223525](2916129) | | [Binnie's Mods](https://www.curseforge.com/minecraft/mc-mods/binnies-mods) | Various expansions for Forestry adding new bees and trees | _ForgeUser9116757, mezz |
 | [292785](2915154) | | [VanillaFix](https://www.curseforge.com/minecraft/mc-mods/vanillafix) | Keep playing after a crash | Increase your FPS by up to 3x | Runemoro, ZombieHDGaming |
 | [250363](2746011) | | [AutoRegLib](https://www.curseforge.com/minecraft/mc-mods/autoreglib) | A library to ease menial tasks in mod development. | Vazkii |
-| [239197](3583032) | | [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker) | CraftTweaker allows modpacks and servers to customize the game. With CraftTweaker you can change recipes, script events, add new commands and even change item properties! | Jaredlll08, TheSilkMiner, kindlich |
+| [239197](3587830) | | [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker) | CraftTweaker allows modpacks and servers to customize the game. With CraftTweaker you can change recipes, script events, add new commands and even change item properties! | Jaredlll08, TheSilkMiner, kindlich |
 | [228027](2574880) | | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | Bookcases, armor stands, shelves and so much more! | Nuchaz |
 | [244786](2616061) | | [Platforms](https://www.curseforge.com/minecraft/mc-mods/platforms) | Make decks, bridges, mineshafts or even wooden coasters | ShetiPhian |
 | [253735](2514705) | | [Custom Starter Gear](https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear) | Gives you full control over what items players start the game with.  | brandon3055 |
@@ -73,7 +74,7 @@
 | [243883](2755785) | | [Chicken Chunks 1.8.+](https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8) | Chunk load all the chunks with the power of chicken! | covers1624, Chicken_Bones |
 | [318737](2893259) | | [More Charcoal](https://www.curseforge.com/minecraft/mc-mods/more-charcoal) | Adds a few more charcoal blocks and items (& tiny coal/charcoal!) | al132 |
 | [239431](2615930) | | [MCMultiPart](https://www.curseforge.com/minecraft/mc-mods/mcmultipart) | A universal multipart API for modern Minecraft | amadornes |
-| [223794](2747063) | | [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | A Mod about Matter, Energy and using them to conquer the world.. | AlgorithmX2, thatsIch, thetechnici4n, Gimpanse, TeamAppliedEnergistics |
+| [223794](2747063) | | [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | A Mod about Matter, Energy and using them to conquer the world.. | AlgorithmX2, thetechnici4n, thatsIch, Gimpanse, TeamAppliedEnergistics |
 | [230497](2450900) | | [Chameleon](https://www.curseforge.com/minecraft/mc-mods/chameleon) | A shared code and render library. | Texelsaur |
 | [248370](2490058) | | [JEI Bees](https://www.curseforge.com/minecraft/mc-mods/jei-bees) | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. | bdew |
 | [258426](2755790) | | [CB Multipart](https://www.curseforge.com/minecraft/mc-mods/cb-multipart) | An opensource library for having multiple things in the one block space | covers1624, MrTJP |
@@ -81,7 +82,7 @@
 | [283013](2508393) | | [JEI Villagers](https://www.curseforge.com/minecraft/mc-mods/jei-villagers) | A JEI addon that helps you to see what villagers have to offer. | Buuz135 |
 | [59613](2664673) | | [EnderTanks](https://www.curseforge.com/minecraft/mc-mods/endertanks) | Public, Personal, and Team EnderTanks and EnderBuckets | ShetiPhian |
 | [223815](2551739) | | [In-Game Wiki Mod](https://www.curseforge.com/minecraft/mc-mods/in-game-wiki-mod) | A utility mod that allows for other mods to easily include in-game documentation | Forge_User_59359881 |
-| [300890](3501214) | | [Metallurgy 4: Reforged](https://www.curseforge.com/minecraft/mc-mods/metallurgy-4-reforged) | The unofficial port to 1.12.2 of Metallurgy 4 | Davoleo_K |
+| [300890](3592454) | | [Metallurgy 4: Reforged](https://www.curseforge.com/minecraft/mc-mods/metallurgy-4-reforged) | The unofficial port to 1.12.2 of Metallurgy 4 | Davoleo_K |
 | [232758](3159497) | | [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) | Library mod for EvilCraft, Integrated Dynamics and others. | kroeser |
 | [242818](2779848) | | [CodeChicken Lib 1.8.+](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8) | Contains various tools to make modding easier. | covers1624, Chicken_Bones |
 | [223852](2952606) | | [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers) | Interactive compartment storage for your workshops. | Texelsaur |
@@ -93,7 +94,7 @@
 | [268566](2835177) | | [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators) | Advanced energy generation for Mekanism. | bradyaidanc, pupnewfster, Thiakil, thommy101 |
 | [268567](2835178) | | [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools) | Powerful tools and armor for Mekanism. | bradyaidanc, Thiakil, pupnewfster, thommy101 |
 | [308807](2697676) | | [Sky Orchards](https://www.curseforge.com/minecraft/mc-mods/sky-orchards) | Dynamic Sky Island Resource Trees | vadis365 |
-| [304346](3328808) | | [Ender IO Endergy](https://www.curseforge.com/minecraft/mc-mods/ender-io-endergy) | Balanced because it takes effort to install | tterrag1098, EpicSquid315, HenryLoenwind, idontwantthisaccount4 |
+| [304346](3328808) | | [Ender IO Endergy](https://www.curseforge.com/minecraft/mc-mods/ender-io-endergy) | Balanced because it takes effort to install | tterrag1098, HenryLoenwind, EpicSquid315, idontwantthisaccount4 |
 | [268610](2649716) | | [JAOPCASingularities](https://www.curseforge.com/minecraft/mc-mods/jaopcasingularities) | Just A Ore Processing Compatibility Attempt: Singularities | TheLMiffy1111 |
 | [235107](2695044) | | [NotEnoughIDs](https://www.curseforge.com/minecraft/mc-mods/notenoughids) | Extends hardcoded block id limit | fewizz_, sfPlayer1 |
 | [247401](3493538) | | [Hammer Lib](https://www.curseforge.com/minecraft/mc-mods/hammer-lib) | Library used by all of DragonForge team's mods. | Zeitheron, DragonForgeMC |
@@ -104,7 +105,7 @@
 | [278717](2848862) | | [Sit](https://www.curseforge.com/minecraft/mc-mods/sit) | Allows you to sit on slabs and stairs. | bl4ckscor3 |
 | [245211](2667280) | | [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe) | More immersive alternative for WAILA | McJty |
 | [222880](2926428) | | [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) | The Foundation of a Thermally Expanding World! | TeamCoFH, KingLemmingCoFH |
-| [253043](3577911) | | [WanionLib](https://www.curseforge.com/minecraft/mc-mods/wanionlib) | Shared code library used by all WanionCane mods! | WanionCane |
+| [253043](3597087) | | [WanionLib](https://www.curseforge.com/minecraft/mc-mods/wanionlib) | Shared code library used by all WanionCane mods! | WanionCane |
 | [231821](3547981) | | [Dramatic Skys](https://www.curseforge.com/minecraft/texture-packs/dramatic-skys) | Dramatic HD Skies | thebaum64 |
 | [287683](3174535) | | [Construct's Armory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory) | A Tinkers' Construct add-on for those looking to enter the world of armor | TheIllusiveC4 |
 | [226254](3328174) | | [NuclearCraft](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-mod) | Brings complex nuclear engineering to Minecraft! | tomdodd4598 |
@@ -124,7 +125,7 @@
 | [233019](2450734) | | [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) | Performance and logic upgrades for mod AIs | QueenOfMissiles |
 | [243076](2940914) | | [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) | An elegant solution to your hoarding problem. | raoulvdberge |
 | [226321](2537917) | | [Bloodmoon](https://www.curseforge.com/minecraft/mc-mods/bloodmoon) | Adds the Bloodmoon event from Terraria to Minecraft | Lumien231 |
-| [250898](2897369) | | [Ore Excavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation) | A lightweight veinminer alternative | Funwayguy, darkosto |
+| [250898](2897369) | | []() |  |  |
 | [227441](2456007) | | [Fullscreen Windowed (Borderless) for Minecraft](https://www.curseforge.com/minecraft/mc-mods/fullscreen-windowed-borderless-for-minecraft) | Allows minecraft to run in fullscreen windowed mode | hancin |
 | [221857](2904825) | | [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft) | A farming mod that adds 60+ new crops, 36 new fruit trees, 17 new fish, simple beekeeping, and over 1100 new foods and items! | pamharvestcraft |
 | [227443](2920505) | | [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) | Thermal gets Dynamic! Adds ducts - transportation for Redstone Flux, Fluids, and Items! | TeamCoFH, Forge_User_06804776, KingLemmingCoFH |
@@ -138,10 +139,10 @@
 | [244258](3553627) | | [UniDict](https://www.curseforge.com/minecraft/mc-mods/unidict) | a mod to unify all ingots/ores/etc; with: AE2, Immersive Engineering, Mekanism, IC2, Thermal Expansion, and a lot more Integrations. | WanionCane |
 | [262137](2810142) | | [Stuff A Sock In It](https://www.curseforge.com/minecraft/mc-mods/stuff-a-sock-in-it) | Console filtering made easy! | DarkhaxDev |
 | [253211](3308160) | | [MTLib](https://www.curseforge.com/minecraft/mc-mods/mtlib) | Library files for Minetweaker Addons | Jaredlll08 |
-| [233105](2745846) | | [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) | Companion mod for all mods by McJty (RFTools, Deep Resonance) | McJty |
+| [233105](2745846) | | [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) | Companion mod for all mods by McJty (RFTools, XNet, Deep Resonance, Not Enough Wands, SignTastic, ...)) | McJty |
 | [226406](2857869) | | [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu) | Allows you to modify the main menu using a simple json file | Lumien231 |
 | [226410](2702991) | | [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte) | Equivalent Exchange 2 (EE2) for modern Minecraft versions. | SinKillerJ |
-| [240950](2707390) | | [RFTools Dimensions](https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions) | This is an addon mod for RFTools which handles creation of dimensions | McJty |
+| [240950](2707390) | | []() |  |  |
 | [267769](2613657) | | [Traverse Reforged](https://www.curseforge.com/minecraft/mc-mods/traverse-reforged) | Adds beautiful new biomes with a Vanilla feel. | Noobanidus, EpicSquid315 |
 | [319153](2697386) | | [Sky Bonsais](https://www.curseforge.com/minecraft/mc-mods/sky-bonsais) | Integrates SkyOrchards with Bonsai Trees | davenonymous |
 | [223094](2482481) | | [Inventory Tweaks [1.12 only] ](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks) | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. | JimeoWan, Forge_User_09631947 |
@@ -150,7 +151,7 @@
 | [228702](2745545) | | [Project Red - Core](https://www.curseforge.com/minecraft/mc-mods/project-red-core) | Core module for the Project Red series | MrTJP, covers1624 |
 | [525828](3454364) | | [Equivalent Energistics Patched](https://www.curseforge.com/minecraft/mc-mods/equivalent-energistics-patched) | Patches for the mod Equivalent Energistics | UnicorNora |
 | [311377](2859893) | | [BetterNether](https://www.curseforge.com/minecraft/mc-mods/betternether) | Improvements for the Nether (plants, biomes, structures, worldgen) | paulevs |
-| [278993](2846217) | | [Bonsai Trees 2](https://www.curseforge.com/minecraft/mc-mods/bonsai-trees) | Grow small trees! | davenonymous |
+| [278993](2846217) | | [Bonsai Trees 3](https://www.curseforge.com/minecraft/mc-mods/bonsai-trees) | Grow small trees! | davenonymous |
 | [237664](2738266) | | [Iron Furnaces [FORGE]](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) | A mod based on cpw's Iron Chests that adds new furnaces to the game. | XenoMustache, pizzaatime |
 | [256662](2833871) | | [Reborn Storage](https://www.curseforge.com/minecraft/mc-mods/rebornstorage) | Refined Storage add-on adding multi-block crafters and larger disks | modmuss50, GigaBit101 |
 | [282354](2641884) | | [Engineers Workshop Reborn](https://www.curseforge.com/minecraft/mc-mods/engineers-workshop-reborn) | Adds an engineering table to help with your crafting needs. | modmuss50 |
@@ -184,8 +185,8 @@
 | [69163](2926431) | | [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) | Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology! | TeamCoFH, KingLemmingCoFH |
 | [318255](2919497) | | [Phosphor (Forge)](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge) | Performance improvements for Minecraft's lighting engine | jellysquid3_ |
 | [254602](3438487) | | [Tesla Core Lib](https://www.curseforge.com/minecraft/mc-mods/tesla-core-lib) | Minecraft library useful in creating power hungry machines | face_of_cat |
-| [225561](2678374) | | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | Just a bunch of useful things | Forge_User_06804776 |
 | [407632](3213139) | | [Animania Farm](https://www.curseforge.com/minecraft/mc-mods/animania-farm) | Animania Farm adds farm animals to your game | Tschipp, Purplicious_Cow_, RazzleberryFox |
+| [225561](2678374) | | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | Just a bunch of useful things | Forge_User_06804776 |
 | [276951](2880613) | | [Comforts (Forge)](https://www.curseforge.com/minecraft/mc-mods/comforts) | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! | TheIllusiveC4 |
 | [350675](2997188) | | [Pam's BrewCraft](https://www.curseforge.com/minecraft/mc-mods/pams-brewcraft) | This is an official add-on for Pam's HarvestCraft that adds alcohol brewing using the Distiller along with a new hops crop. | pamharvestcraft |
 | [247921](3194743) | | [ZeroCore 2](https://www.curseforge.com/minecraft/mc-mods/zerocore) | Utility mod and multiblock API | ZeroNoRyouki |
@@ -200,5 +201,5 @@
 | [243478](2745657) | | [More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays) | Brings back the NEI Overlays | FeldiM245 |
 | [266936](3487112) | | [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca) | Just A Ore Processing Compatibility Attempt | TheLMiffy1111 |
 | [373051](3302641) | | [Moving Elevators](https://www.curseforge.com/minecraft/mc-mods/moving-elevators) | Moving Elevators adds real Elevators to Minecraft! | SuperMartijn642 |
-| [237903](3330308) | | [Reborn Core](https://www.curseforge.com/minecraft/mc-mods/reborncore) | Powering Team Reborn | modmuss50, ProspectorDev, GigaBit101 |
+| [237903](3330308) | | [Reborn Core](https://www.curseforge.com/minecraft/mc-mods/reborncore) | Powering Team Reborn | modmuss50, drcrazy777 |
 | [250207](2704416) | | [RF Lux](https://www.curseforge.com/minecraft/mc-mods/rf-lux) | A mod with RF powered and redstone controlled lights | romelo333, McJty |
