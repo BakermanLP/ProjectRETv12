@@ -296,6 +296,16 @@ function init() {
 	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null]
 	]);
 
+	// Philosophers Stone
+    recipes.remove(<projecte:item.pe_philosophers_stone>);
+    mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:item.pe_philosophers_stone>.withTag({}), [
+        [<mekanism:energycube>, <ore:listAllwater>, <industrialforegoing:laser_drill>, <ore:feather>, <enderio:block_cap_bank:2>],
+        [<ore:listAllwater>, <ore:listAllwater>, <minecraft:diamond>, <ore:feather>, <ore:feather>],
+        [<industrialforegoing:laser_drill>, <minecraft:diamond>, <industrialforegoing:laser_base>, <minecraft:diamond>, <industrialforegoing:laser_drill>],
+        [<ore:dirt>, <ore:dirt>, <minecraft:diamond>, <minecraft:lava_bucket>, <minecraft:lava_bucket>],
+        [<techreborn:high_voltage_su>, <ore:dirt>, <industrialforegoing:laser_drill>, <minecraft:lava_bucket>, <thermalexpansion:cell>]
+    ]);
+
 	// Coal Singularity als Fuel Source 1638400 = 1600 (BurnTime Coal) x 1024 Stueck
     furnace.setFuel(<extendedcrafting:singularity>, 1638400 );
 
